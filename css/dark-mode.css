@@ -1,0 +1,215 @@
+.darkmode body {
+    font-size: 1.25rem;
+    background-color: #393c3e !important;
+    color: #d0d0d0 !important;
+}
+
+.darkmode .badge {
+    color: #efefef !important;
+}
+
+.darkmode .mini-card .badge {
+    color: #fff !important;
+    background-color: #191c1e;
+}
+
+.darkmode .mini-card {
+    color: #d4d4d4 !important;
+    background-color: #292c2e !important;
+}
+
+.darkmode .header {
+    background: #393c3e !important;
+}
+
+.darkmode .header-shadow {
+    -webkit-box-shadow: 0 2px 15px rgba(0,0,0,.2);
+    box-shadow: 0 2px 15px rgba(0,0,0,.2);
+}
+
+.darkmode .header .container{
+	background: #393c3e !important;
+}
+
+.darkmode .form-control {
+    color: #fff !important;
+    background: #292c2e !important;
+}
+
+.darkmode .form-control:focus {
+    color: #fff !important;
+    background-color: #111 !important;
+    border-color: #80bdff;
+}
+
+.darkmode .btn-icon {
+    color: #ddd !important;
+}
+
+.darkmode .btn-icon:hover {
+    color: #fff !important;
+}
+ 
+
+.darkmode hr {
+    border-bottom: 1px solid #444 !important;
+}
+
+.darkmode .red {
+    color: #f77 !important;
+}
+
+.darkmode .green {
+    color: #81e296 !important;
+}
+
+.darkmode ._hint{
+    color: #9c9c9c !important;
+    border-bottom: 1px dotted #96999e;
+}
+
+.darkmode ._smalltext {
+    color: #a9a9a9;
+}
+
+.darkmode ._value {
+    color: #ffe4a5;
+}
+
+.darkmode .card {
+    color: #d4d4d4 !important;
+    background-color: #292c2e !important;
+}
+
+.darkmode .card a {
+    color: #50b6ff !important;
+}
+
+.darkmode #scrollTop {
+    background-color: rgb(41, 44, 46) !important;
+}
+
+.darkmode .flipkeywordsframe .flipkeywords {
+    color: #d4d4d4 !important;
+    background-color: #292c2e !important;
+}
+
+.darkmode .flipkeywords .text-grey {
+    color: #999 !important;
+}
+
+.darkmode .info_block__accent {
+    color: #ffe4a5;
+}
+
+.darkmode .control-label {
+    color: #9c9c9c !important;
+}
+
+.darkmode .bordered-col + .bordered-col {
+    border-left: 1px solid #444 !important;
+}
+
+.darkmode .text_block {
+    color: #fff !important;
+}
+
+.darkmode .section_main__title {
+    color: #f2f2f2 !important;
+}
+
+.darkmode #NextValidationDateTime {
+    color: #fff;
+}
+
+/** table **/
+
+.darkmode .table tr:hover {
+    background-color: #272727 !important;
+}
+
+.darkmode .table tr:first-child:hover {
+    background: transparent !important;
+}
+
+.darkmode .table tr th:first-child, .darkmode .table tr td:first-child {
+    padding-left: 10px;
+}
+
+.darkmode .table th {
+    background: transparent;
+    color: #a4a4a4 !important;
+}
+
+.darkmode .table td {
+    color: #e4e4e4 !important;
+    border-top: solid 1px #444 !important;   
+}
+
+.darkmode .nav-link.active {
+    color: #efefef !important;
+}
+
+.darkmode .table td a {
+    color: #50b6ff !important;
+}
+
+.darkmode .table th a {
+    color: #50b6ff !important;
+}
+
+/** image for robot **/
+.darkmode .section_main__image {
+    background: #292c2e;
+    color: #29a6ff !important;
+}
+
+.darkmode .verified_sign {
+    color: #50b6ff !important;
+    background-color: #292c2e !important;
+}
+
+/** for button on address page **/
+.darkmode .main .btn-secondary {
+    background-color: #292c2e !important;
+    color: #50b6ff !important;
+}
+
+.darkmode .main .btn-secondary:hover, .darkmode .main .btn-secondary:active {
+    color: #50b6ff !important;
+    background-color: #191c1e !important;
+}
+
+.darkmode #next-epoch-btn {
+    background-color: #292c2e !important;
+    color: #50b6ff !important;
+}
+
+.darkmode #next-epoch-btn:hover, .darkmode #next-epoch-btn:active {
+    color: #50b6ff !important;
+    background-color: #191c1e !important;
+}
+
+.darkmode .btn-secondary[disabled] {
+    opacity: .5;
+}
+
+.darkmode .main .btn-primary {
+    background-color: #292c2e !important;
+    color: #50b6ff !important;
+}
+
+.darkmode .main .btn-primary:active {
+    color: #50b6ff !important;
+    background-color: #191c1e !important;
+}
+
+.darkmode .main .btn-primary:hover {
+    color: #50b6ff !important;
+    background-color: #191c1e !important;
+}
+
+.darkmode .main .btn-primary:not(:disabled):not(.disabled):active, .darkmode .main .btn-primary:not(:disabled):not(.disabled).active, .darkmode .show > .darkmode .main .btn-primary.dropdown-toggle {
+    color: #50b6ff !important;
+    background-color: #191c1e !important;
+}
