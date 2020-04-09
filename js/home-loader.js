@@ -18,7 +18,7 @@ function ajax_get(url, callback) {
 }
 
 
-var parent3 = document.getElementById("videos-list");
+var videolist = document.getElementById("videos-list");
 var videocontent = '';
 
 
@@ -43,8 +43,12 @@ window.onload = (function(){
                         +'</div>'; 
     });
 
+    videolist.innerHTML = videocontent;
       
-  });
+  }); //fetching all the videos listed
+
+
+
 
 
 })();

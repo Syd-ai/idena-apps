@@ -5,7 +5,7 @@
 		"url": "https://youtu.be/QXE6rKkGm1A",
 		"image_url": "https://img.youtube.com/vi/QXE6rKkGm1A/sddefault.jpg",
 		"official": "no",
-		"short_description": "Community made explainer video in Korean - 한국어",
+		"short_description": "Community made explainer video in Korean 🇰🇷",
 		"created_by": "Sd Zerge",
 		"github": ""
 	},
@@ -14,7 +14,7 @@
 		"url": "https://youtu.be/Wxp6Kb3iVD0",
 		"image_url": "https://img.youtube.com/vi/Wxp6Kb3iVD0/sddefault.jpg",
 		"official": "no",
-		"short_description": "Community made explainer video in French",
+		"short_description": "Community made explainer video in French 🇫🇷",
 		"created_by": "Sd Zerge",
 		"github": ""
 	},
@@ -23,8 +23,35 @@
 		"url": "https://youtu.be/_gjlen39Dk0",
 		"image_url": "https://img.youtube.com/vi/_gjlen39Dk0/sddefault.jpg",
 		"official": "no",
-		"short_description": "Community made explainer video in Chinese",
+		"short_description": "Community made explainer video in Chinese 🇨🇳",
 		"created_by": "kiki liu",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=aNZfc15h43o&feature=youtu.be",
+		"image_url": "https://img.youtube.com/vi/aNZfc15h43o/sddefault.jpg",
+		"official": "no",
+		"short_description": "Validation session recording on windows",
+		"created_by": "Jilani",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://youtu.be/fJ0kSXBi_FQ",
+		"image_url": "https://img.youtube.com/vi/fJ0kSXBi_FQ/sddefault.jpg",
+		"official": "no",
+		"short_description": "Validation on a rc0.2.0 client on Mac",
+		"created_by": "Blindcrake",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=yUcfEWTdcdg&feature=youtu.be",
+		"image_url": "https://img.youtube.com/vi/yUcfEWTdcdg/sddefault.jpg",
+		"official": "no",
+		"short_description": "Community made explainer video in Indonesian 🇮🇩",
+		"created_by": "LetsTalkCrypto",
 		"github": ""
 	}
 ]
