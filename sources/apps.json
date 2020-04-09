@@ -88,7 +88,7 @@
 		"official": "no",
 		"short_description": "Tool used for easier installation, maintenance and update of idena nodes",
 		"created_by": "crackowich",
-		"github": ""
+		"github": "https://gitlab.com/crackowich/idena-manager"
 	}
 ]
 }
