@@ -63,7 +63,7 @@ window.onload = (function(){
                           +'</p>'
                           +'<p class="control">By '+obj.created_by+'</p>'
                           +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
-                            +'<span>See App</span>'
+                            +'<span>App Details</span>'
                             +'<i class="icon icon--thin_arrow_right"></i>'
                           +'</a>'
                           +git

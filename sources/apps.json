@@ -55,13 +55,22 @@
 		"github": "https://github.com/AngainorDev/DnaMask"
 	},
 	{
-		"type": "app",
-		"url": "https://angainordev.github.io/DnaMask/doc/",
-		"image_url": "./images/listing/walletpaper.png",
+		"type": "bot",
+		"url": "https://t.me/idenarobot",
+		"image_url": "./images/listing/idenarobot.png",
 		"official": "no",
-		"short_description": "Paper wallet for DNA crypto currency",
-		"created_by": "AngainorDev",
-		"github": "https://github.com/AngainorDev/DnaMask"
+		"short_description": "Telegram price bot for idena project",
+		"created_by": "Endogen",
+		"github": "https://github.com/Endogen/idena-tg-bot"
+	}
+	{
+		"type": "bot",
+		"url": "https://t.me/idenaAIObot",
+		"image_url": "./images/listing/idenaAIO.png",
+		"official": "no",
+		"short_description": "Telegram all-in-one bot for Idena project",
+		"created_by": "ProjXDev",
+		"github": ""
 	}
 ]
 }
