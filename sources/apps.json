@@ -80,6 +80,15 @@
 		"short_description": "Chinese Forum and announcements website for Idena",
 		"created_by": "Unknown",
 		"github": ""
+	},
+	{
+		"type": "app",
+		"url": "https://gitlab.com/crackowich/idena-manager",
+		"image_url": "./images/listing/idena-mgr.png",
+		"official": "no",
+		"short_description": "Tool used for easier installation, maintenance and update of idena nodes",
+		"created_by": "crackowich",
+		"github": ""
 	}
 ]
 }
