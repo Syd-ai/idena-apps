@@ -1,0 +1,13 @@
+{
+	"entries":[
+	{
+		"type": "explorer",
+		"url": "https://scan.idena.io/",
+		"image_url": "https://imgur.com/a/QYSOos9.jpg",
+		"official": "yes",
+		"short_description": "Main Blockchain explorer developed by Idena team",
+		"created_by": "Idena Core",
+		"github": "https://github.com/idena-network/idena-blockchain-explorer"
+	}
+]
+}
