@@ -8,6 +8,15 @@
 		"short_description": "Blockchain explorer developed by Idena team",
 		"created_by": "Idena Core",
 		"github": "https://github.com/idena-network/idena-blockchain-explorer"
+	},
+	{
+		"type": "explorer",
+		"url": "https://scan.idena.org/",
+		"image_url": "https://i.imgur.com/jz0ZWwO.png",
+		"official": "yes",
+		"short_description": "(Alt Link) Blockchain explorer developed by Idena team",
+		"created_by": "Idena Core",
+		"github": "https://github.com/idena-network/idena-blockchain-explorer"
 	}
 ]
 }
