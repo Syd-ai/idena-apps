@@ -35,7 +35,7 @@ window.onload = (function(){
 
 
   //load all apps
-  ajax_get('http://idena-apps.org/sources/apps.json', function(data) {
+  ajax_get('https://idena-apps.org/sources/apps.json', function(data) {
     //console.log(data);
 
     data["entries"].forEach(function(obj) { 
@@ -79,7 +79,7 @@ window.onload = (function(){
 
 
   //load all videos
-  ajax_get('http://idena-apps.org/sources/videos.json', function(data) {
+  ajax_get('https://idena-apps.org/sources/videos.json', function(data) {
     //console.log(data);
 
     data["entries"].forEach(function(obj) { 
@@ -119,7 +119,7 @@ window.onload = (function(){
 
 
 //load all communities
-  ajax_get('http://idena-apps.org/sources/communities.json', function(data) {
+  ajax_get('https://idena-apps.org/sources/communities.json', function(data) {
     //console.log(data);
 
     data["entries"].forEach(function(obj) { 
@@ -156,7 +156,7 @@ window.onload = (function(){
 
 
 //load all explorers
-  ajax_get('http://idena-apps.org/sources/explorer.json', function(data) {
+  ajax_get('https://idena-apps.org/sources/explorer.json', function(data) {
     //console.log(data);
 
     data["entries"].forEach(function(obj) { 
