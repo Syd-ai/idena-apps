@@ -44,10 +44,9 @@ window.onload = (function(){
     	}
     	videocontent = videocontent + '<div class="col-12 col-sm-3 entry">'
                           +'<div class="mini-card">'
-                          +'<div class="thumbnail" style="background-image: url('+obj.image_url+');"></div>'
+                          +'<div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+'</div>'
                           +'<p class="desc" style="padding-bottom: 0px;">'
-                           +obj.short_description
-                            +official
+                           +obj.short_description                          
                           +'</p>'
                           +'<p class="control">Made By '+obj.created_by+'</p>'
                           +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
@@ -123,10 +122,9 @@ window.onload = (function(){
     	} else { git = ''; }
     	excontent = excontent + '<div class="col-12 col-sm-3 entry">'
                           +'<div class="mini-card">'
-                          +'<div class="thumbnail" style="background-image: url('+obj.image_url+');"></div>'
+                          +'<div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+'</div>'
                           +'<p class="desc" style="padding-bottom: 0px;">'
                            +obj.short_description
-                            +official
                           +'</p>'
                           +'<p class="control"> Made By'+obj.created_by+'</p>'
                           +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'

@@ -30,7 +30,8 @@ body {
     }
 
     .mini-card .badge-secondary {
-    position: relative !important;
+    top: 0px !important;
+    position: absolute !important;
     }
 
     .mini-card {
@@ -120,8 +121,8 @@ body {
 }
 
 .mini-card .badge-secondary {
-    top: 22px;
-    right: 8px;
+    top: 20px;
+    right: 10px;
     background: rgba(225,225,225,0.8) !important;
     margin-top: 15px !important;
 }
