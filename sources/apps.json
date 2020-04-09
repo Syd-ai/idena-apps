@@ -62,7 +62,7 @@
 		"short_description": "Telegram price bot for idena project",
 		"created_by": "Endogen",
 		"github": "https://github.com/Endogen/idena-tg-bot"
-	}
+	},
 	{
 		"type": "bot",
 		"url": "https://t.me/idenaAIObot",
