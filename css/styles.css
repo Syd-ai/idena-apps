@@ -135,6 +135,8 @@ p.desc {
     font-size: 0.9rem;
     line-height: 1.5rem;
     padding: 15px;
+    width: 100%;
+    display: inline-block;
     margin-bottom: 0px;
 }
 

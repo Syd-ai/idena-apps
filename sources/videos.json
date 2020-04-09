@@ -41,7 +41,7 @@
 		"url": "https://youtu.be/8nsDJJzyth4",
 		"image_url": "https://img.youtube.com/vi/8nsDJJzyth4/sddefault.jpg",
 		"official": "no",
-		"short_description": "How To Create Good Flips",
+		"short_description": "Idena Network - How To Create Good Flips To Earn Rewards!",
 		"created_by": "Fomonaut",
 		"github": ""
 	},
@@ -56,8 +56,8 @@
 	},
 	{
 		"type": "video",
-		"url": "https://www.youtube.com/watch?v=UYEc3Ku3AC0",
-		"image_url": "https://img.youtube.com/vi/UYEc3Ku3AC0/sddefault.jpg",
+		"url": "https://youtu.be/fJ0kSXBi_FQ",
+		"image_url": "https://img.youtube.com/vi/fJ0kSXBi_FQ/sddefault.jpg",
 		"official": "no",
 		"short_description": "Validation on a rc0.2.0 client on Mac",
 		"created_by": "Blindcrake",
@@ -65,10 +65,10 @@
 	},
 	{
 		"type": "video",
-		"url": "https://www.youtube.com/watch?v=yUcfEWTdcdg&feature=youtu.be",
-		"image_url": "https://img.youtube.com/vi/yUcfEWTdcdg/sddefault.jpg",
+		"url": "https://www.youtube.com/watch?v=UYEc3Ku3AC0",
+		"image_url": "https://img.youtube.com/vi/UYEc3Ku3AC0/sddefault.jpg",
 		"official": "no",
-		"short_description": "Validation on a rc0.2.0 client on Mac",
+		"short_description": "Validation on a rc0.4.0 client on Mac",
 		"created_by": "Blindcrake",
 		"github": ""
 	},
@@ -111,7 +111,7 @@
 	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=bQ2qi8MbR3I",
-		"image_url": "https://www.youtube.com/watch?v=bQ2qi8MbR3I",
+		"image_url": "https://img.youtube.com/vi/bQ2qi8MbR3I/sddefault.jpg",
 		"official": "no",
 		"short_description": "Barebone temp version. Running Idena node using bat, setting lowpower, profile=server, running 2 nodes on one PC",
 		"created_by": "Rioda",
