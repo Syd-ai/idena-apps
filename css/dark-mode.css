@@ -10,7 +10,7 @@
 
 .darkmode .mini-card .badge {
     color: #fff !important;
-    background-color: #191c1e;
+    background-color: #191c1e !important;
 }
 
 .darkmode .mini-card {

@@ -55,21 +55,18 @@ if (mode =='dark') {
 
 
 
-if (window.location.href.indexOf("videos") > -1) {
-      document.getElementById('videos-tab').classList.add('active');
-      document.getElementById('videos').classList.add('active');
-} 
+
 if (window.location.href.indexOf("apps") > -1) {
-      document.getElementById('apps-tab').classList.add('active');
-      document.getElementById('apps').classList.add('active');
+      $('#apps-tab').tab('show');
 } 
 if (window.location.href.indexOf("explorer") > -1) {
-      document.getElementById('explorer-tab').classList.add('active');
-      document.getElementById('explorer').classList.add('active');
+      $('#explorer-tab').tab('show');
 } 
 if (window.location.href.indexOf("communities") > -1) {
-      document.getElementById('communities-tab').classList.add('active');
-      document.getElementById('communities').classList.add('active');
+      $('#communities-tab').tab('show');
+}
+if (window.location.href.indexOf("videos") > -1) {
+      $('#videos-tab').tab('show');
 }
 
 
