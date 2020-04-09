@@ -115,6 +115,10 @@ body {
     margin-top: 0px;
 }
 
+.mini-card .user-pic img {
+    margin-top: 20px;
+}
+
 .mini-card .badge-secondary {
     top: 22px;
     right: 8px;
