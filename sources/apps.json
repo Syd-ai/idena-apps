@@ -1,0 +1,76 @@
+{
+	"entries":[
+	{
+		"type": "app",
+		"url": "https://idena.org/?view=download#",
+		"image_url": "./images/listing/mac.png",
+		"official": "yes",
+		"short_description": "Latest Idena Client to run on macOS",
+		"created_by": "Idena Core",
+		"github": "https://github.com/idena-network/idena-desktop/releases/latest"
+	},
+	{
+		"type": "app",
+		"url": "https://idena.org/?view=download#",
+		"image_url": "./images/listing/linux.png",
+		"official": "yes",
+		"short_description": "Latest Idena Client to run on Linux",
+		"created_by": "Idena Core",
+		"github": "https://github.com/idena-network/idena-desktop/releases/latest"
+	},
+	{
+		"type": "app",
+		"url": "https://idena.org/?view=download#",
+		"image_url": "./images/listing/windows.png",
+		"official": "yes",
+		"short_description": "Latest Idena Client to run on Windows",
+		"created_by": "Idena Core",
+		"github": "https://github.com/idena-network/idena-desktop/releases/latest"
+	},
+	{
+		"type": "app",
+		"url": "https://idena.today",
+		"image_url": "./images/listing/platform.png",
+		"official": "no",
+		"short_description": "Idena Analytics to check the blockchain and node statistics",
+		"created_by": "Endogen",
+		"github": ""
+	},
+	{
+		"type": "app",
+		"url": "http://www.rioda.org/idena/",
+		"image_url": "./images/listing/rioda.png",
+		"official": "no",
+		"short_description": "Idena Node status watcher (email based), FAQ, tutorials and more",
+		"created_by": "Rioda",
+		"github": ""
+	},
+	{
+		"type": "app",
+		"url": "https://angainordev.github.io/DnaMask/doc/",
+		"image_url": "./images/listing/walletpaper.png",
+		"official": "no",
+		"short_description": "Paper wallet for DNA crypto currency",
+		"created_by": "AngainorDev",
+		"github": "https://github.com/AngainorDev/DnaMask"
+	},
+	{
+		"type": "app",
+		"url": "https://angainordev.github.io/DnaMask/doc/",
+		"image_url": "./images/listing/walletpaper.png",
+		"official": "no",
+		"short_description": "Paper wallet for DNA crypto currency",
+		"created_by": "AngainorDev",
+		"github": "https://github.com/AngainorDev/DnaMask"
+	},
+	{
+		"type": "app",
+		"url": "https://angainordev.github.io/DnaMask/doc/",
+		"image_url": "./images/listing/walletpaper.png",
+		"official": "no",
+		"short_description": "Idena ($DNA) Price Bot for telegram channels",
+		"created_by": "Endogen",
+		"github": "https://github.com/Endogen/idena-tg-bot"
+	}
+]
+}
