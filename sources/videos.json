@@ -3,27 +3,27 @@
 	{
 		"type": "video",
 		"url": "https://youtu.be/QXE6rKkGm1A",
-		"image-url": "https://img.youtube.com/vi/QXE6rKkGm1A/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/QXE6rKkGm1A/sddefault.jpg",
 		"official": "no",
-		"short-description": "Community made explainer video in Korean - 한국어",
+		"short_description": "Community made explainer video in Korean - 한국어",
 		"created_by": "Sd Zerge",
 		"github": ""
 	},
 	{
 		"type": "video",
 		"url": "https://youtu.be/Wxp6Kb3iVD0",
-		"image-url": "https://img.youtube.com/vi/Wxp6Kb3iVD0/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/Wxp6Kb3iVD0/sddefault.jpg",
 		"official": "no",
-		"short-description": "Community made explainer video in French",
+		"short_description": "Community made explainer video in French",
 		"created_by": "Sd Zerge",
 		"github": ""
 	},
 	{
 		"type": "video",
 		"url": "https://youtu.be/_gjlen39Dk0",
-		"image-url": "https://img.youtube.com/vi/_gjlen39Dk0/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/_gjlen39Dk0/sddefault.jpg",
 		"official": "no",
-		"short-description": "Community made explainer video in Chinese",
+		"short_description": "Community made explainer video in Chinese",
 		"created_by": "kiki liu",
 		"github": ""
 	}

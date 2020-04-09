@@ -18,15 +18,31 @@ function ajax_get(url, callback) {
 }
 
 
+var parent3 = document.getElementById("videos-list");
+var videocontent = '';
+
 
 window.onload = (function(){
 
-  ajax_get('./sources/videos.json', function(data) {
+  ajax_get('http://idena-apps.org/sources/videos.json', function(data) {
     //console.log(data);
 
-    for(item in data['entries']){
-    	console.log(item);
-    }
+    data["entries"].forEach(function(obj) { 
+    	videocontent = videocontent + '<div class="col-12 col-sm-3 entry">'
+                          +'<div class="mini-card">'
+                          +'<div class="thumbnail" style="background-image: url('+obj.image_url+');"></div>'
+                          +'<p class="desc">'
+                           +obj.short_description
+                            +'<span class="badge badge-secondary">Official</span>'
+                          +'</p>'
+                          +'<a class="btn btn-secondary btn-small" href="'+obj.url+'">'
+                            +'<span>Watch Video</span>'
+                            +'<i class="icon icon--thin_arrow_right"></i>'
+                          +'</a>'
+                          +'</div>'
+                        +'</div>'; 
+    });
+
       
   });
 
