@@ -37,7 +37,7 @@ window.onload = (function(){
     data["entries"].forEach(function(obj) { 
 
     	if(obj.official=="no") {
-    		console.log(obj.official);
+    		//console.log(obj.official);
     		official = '<span class="badge badge-secondary hide">Official</span>';
     	} else {
     		official = '<span class="badge badge-secondary">Official</span>';
@@ -73,7 +73,7 @@ window.onload = (function(){
     data["entries"].forEach(function(obj) { 
 
     	if(obj.official=="no") {
-    		console.log(obj.official);
+    		//console.log(obj.official);
     		official = '<span class="badge badge-secondary hide">Official</span>';
     	} else {
     		official = '<span class="badge badge-secondary">Official</span>';
@@ -110,7 +110,7 @@ window.onload = (function(){
     data["entries"].forEach(function(obj) { 
 
     	if(obj.official=="no") {
-    		console.log(obj.official);
+    		//console.log(obj.official);
     		official = '<span class="badge badge-secondary hide">Official</span>';
     	} else {
     		official = '<span class="badge badge-secondary">Official</span>';
