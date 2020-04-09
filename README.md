@@ -46,3 +46,12 @@ Idena Apps is currently being maintained by [@bingbinglee](https://github.com/bi
 If you like the directory then consider making a donation to 
 
 ```0x140d5add76f3e4cc4538b9809601383bd74689df```
+
+
+### What is on the roadmap?
+- More category types
+- Search Functionality
+- Pagination
+- Sort By New
+- Sort By popular
+
