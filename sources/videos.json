@@ -29,6 +29,24 @@
 	},
 	{
 		"type": "video",
+		"url": "https://www.youtube.com/watch?v=yUcfEWTdcdg&feature=youtu.be",
+		"image_url": "https://img.youtube.com/vi/yUcfEWTdcdg/sddefault.jpg",
+		"official": "no",
+		"short_description": "Community made explainer video in Indonesian 🇮🇩",
+		"created_by": "LetsTalkCrypto",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://youtu.be/8nsDJJzyth4",
+		"image_url": "https://img.youtube.com/vi/8nsDJJzyth4/sddefault.jpg",
+		"official": "no",
+		"short_description": "How To Create Good Flips",
+		"created_by": "Fomonaut",
+		"github": ""
+	},
+	{
+		"type": "video",
 		"url": "https://www.youtube.com/watch?v=aNZfc15h43o&feature=youtu.be",
 		"image_url": "https://img.youtube.com/vi/aNZfc15h43o/sddefault.jpg",
 		"official": "no",
@@ -38,8 +56,8 @@
 	},
 	{
 		"type": "video",
-		"url": "https://youtu.be/fJ0kSXBi_FQ",
-		"image_url": "https://img.youtube.com/vi/fJ0kSXBi_FQ/sddefault.jpg",
+		"url": "https://www.youtube.com/watch?v=UYEc3Ku3AC0",
+		"image_url": "https://img.youtube.com/vi/UYEc3Ku3AC0/sddefault.jpg",
 		"official": "no",
 		"short_description": "Validation on a rc0.2.0 client on Mac",
 		"created_by": "Blindcrake",
@@ -50,8 +68,53 @@
 		"url": "https://www.youtube.com/watch?v=yUcfEWTdcdg&feature=youtu.be",
 		"image_url": "https://img.youtube.com/vi/yUcfEWTdcdg/sddefault.jpg",
 		"official": "no",
-		"short_description": "Community made explainer video in Indonesian 🇮🇩",
-		"created_by": "LetsTalkCrypto",
+		"short_description": "Validation on a rc0.2.0 client on Mac",
+		"created_by": "Blindcrake",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=0cRmmkKJhV4",
+		"image_url": "https://img.youtube.com/vi/0cRmmkKJhV4/sddefault.jpg",
+		"official": "no",
+		"short_description": "Installing Idena on a Windows PC - Backup private key, node log, restart node, node location",
+		"created_by": "Rioda",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=-VvOnYemA3w",
+		"image_url": "https://img.youtube.com/vi/VvOnYemA3w/sddefault.jpg",
+		"official": "no",
+		"short_description": "Installing Idena on a Linux PC - Backup private key, node log, restart node, node location",
+		"created_by": "Rioda",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=aXzweeyCaQ0",
+		"image_url": "https://img.youtube.com/vi/aXzweeyCaQ0/sddefault.jpg",
+		"official": "no",
+		"short_description": "Run Idena node as a background task on Windows (much more stable than running built-in node)",
+		"created_by": "Rioda",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=BmsthbY3EF4",
+		"image_url": "https://img.youtube.com/vi/BmsthbY3EF4/sddefault.jpg",
+		"official": "no",
+		"short_description": "How to backup private key on MacOS?",
+		"created_by": "Rioda",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=bQ2qi8MbR3I",
+		"image_url": "https://www.youtube.com/watch?v=bQ2qi8MbR3I",
+		"official": "no",
+		"short_description": "Barebone temp version. Running Idena node using bat, setting lowpower, profile=server, running 2 nodes on one PC",
+		"created_by": "Rioda",
 		"github": ""
 	}
 ]
