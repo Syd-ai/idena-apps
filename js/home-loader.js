@@ -24,7 +24,9 @@ window.onload = (function(){
   ajax_get('./sources/videos.json', function(data) {
     //console.log(data);
 
-    console.log(data['entries'][0]);
+    for(item in data['entries']){
+    	console.log(item);
+    }
       
   });
 
