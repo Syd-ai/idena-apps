@@ -46,6 +46,15 @@
 		"github": ""
 	},
 	{
+		"type": "Blog",
+		"url": "https://steemit.com/blockchain/@condra/idena-network-how-to-make-a-good-flip",
+		"image_url": "https://steemitimages.com/p/EEEoA8oLaAxsTkPYAARp78o5cJA1o6Chv9x98TzCFT6v5GtEA34znBwqFDxkjnY898RyokNsBb9f1x6fBSWmXL8hiWo1cnqLHS6RPxjbmAwtCfd5JTw5UqTum93h1vfkVzUs1Zr7e8RmvAvgvckii?format=match&mode=fit&width=1280",
+		"official": "no",
+		"short_description": "Idena Network - How To Make A Good Flip",
+		"created_by": "Condra",
+		"github": ""
+	},
+	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=aNZfc15h43o&feature=youtu.be",
 		"image_url": "https://img.youtube.com/vi/aNZfc15h43o/hqdefault.jpg",
@@ -124,6 +133,15 @@
 		"official": "no",
 		"short_description": "Under The Radar Episode 1: IDENA (DNA) - the first Proof of Human blockchain",
 		"created_by": "CryptoMonopoly",
+		"github": ""
+	},
+	{
+		"type": "Blog",
+		"url": "https://medium.com/@EarthlingDavey/living-from-idena-rewards-75a72cb494fc",
+		"image_url": "https://miro.medium.com/fit/c/1400/420/1*o9DeLiFgYQT2cuqZnhKarA.jpeg",
+		"official": "no",
+		"short_description": "Living from Idena rewards",
+		"created_by": "Davey",
 		"github": ""
 	}
 ]

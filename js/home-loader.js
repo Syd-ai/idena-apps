@@ -26,6 +26,7 @@ var videocontent = '';
 var excontent = '';
 var official = '';
 var git = '';
+var caption = '';
 
 
 window.onload = (function(){
@@ -42,6 +43,11 @@ window.onload = (function(){
     	} else {
     		official = '<span class="badge badge-secondary">Official</span>';
     	}
+      if(obj.type=="video") {
+        caption = 'Watch Video';
+      } else {
+        caption = 'Read Post';
+      }
     	videocontent = videocontent + '<div class="col-12 col-sm-3 entry">'
                           +'<div class="mini-card">'
                           +'<div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+'</div>'
@@ -50,7 +56,7 @@ window.onload = (function(){
                           +'</p>'
                           +'<p class="control">Made By '+obj.created_by+'</p>'
                           +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
-                            +'<span>Watch Video</span>'
+                            +'<span>'+caption+'</span>'
                             +'<i class="icon icon--thin_arrow_right"></i>'
                           +'</a>'
                           +'</div>'
