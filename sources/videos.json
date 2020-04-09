@@ -3,7 +3,7 @@
 	{
 		"type": "video",
 		"url": "https://youtu.be/QXE6rKkGm1A",
-		"image_url": "https://img.youtube.com/vi/QXE6rKkGm1A/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/QXE6rKkGm1A/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Community made explainer video in Korean 🇰🇷",
 		"created_by": "Sd Zerge",
@@ -12,7 +12,7 @@
 	{
 		"type": "video",
 		"url": "https://youtu.be/Wxp6Kb3iVD0",
-		"image_url": "https://img.youtube.com/vi/Wxp6Kb3iVD0/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/Wxp6Kb3iVD0/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Community made explainer video in French 🇫🇷",
 		"created_by": "Sd Zerge",
@@ -21,7 +21,7 @@
 	{
 		"type": "video",
 		"url": "https://youtu.be/_gjlen39Dk0",
-		"image_url": "https://img.youtube.com/vi/_gjlen39Dk0/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/_gjlen39Dk0/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Community made explainer video in Chinese 🇨🇳",
 		"created_by": "kiki liu",
@@ -30,7 +30,7 @@
 	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=yUcfEWTdcdg&feature=youtu.be",
-		"image_url": "https://img.youtube.com/vi/yUcfEWTdcdg/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/yUcfEWTdcdg/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Community made explainer video in Indonesian 🇮🇩",
 		"created_by": "LetsTalkCrypto",
@@ -39,7 +39,7 @@
 	{
 		"type": "video",
 		"url": "https://youtu.be/8nsDJJzyth4",
-		"image_url": "https://img.youtube.com/vi/8nsDJJzyth4/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/8nsDJJzyth4/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Idena Network - How To Create Good Flips To Earn Rewards!",
 		"created_by": "Fomonaut",
@@ -48,7 +48,7 @@
 	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=aNZfc15h43o&feature=youtu.be",
-		"image_url": "https://img.youtube.com/vi/aNZfc15h43o/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/aNZfc15h43o/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Validation session recording on windows",
 		"created_by": "Jilani",
@@ -57,7 +57,7 @@
 	{
 		"type": "video",
 		"url": "https://youtu.be/fJ0kSXBi_FQ",
-		"image_url": "https://img.youtube.com/vi/fJ0kSXBi_FQ/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/fJ0kSXBi_FQ/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Validation on a rc0.2.0 client on Mac",
 		"created_by": "Blindcrake",
@@ -66,7 +66,7 @@
 	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=UYEc3Ku3AC0",
-		"image_url": "https://img.youtube.com/vi/UYEc3Ku3AC0/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/UYEc3Ku3AC0/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Validation on a rc0.4.0 client on Mac",
 		"created_by": "Blindcrake",
@@ -75,7 +75,7 @@
 	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=0cRmmkKJhV4",
-		"image_url": "https://img.youtube.com/vi/0cRmmkKJhV4/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/0cRmmkKJhV4/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Installing Idena on a Windows PC - Backup private key, node log, restart node, node location",
 		"created_by": "Rioda",
@@ -84,7 +84,7 @@
 	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=-VvOnYemA3w",
-		"image_url": "https://img.youtube.com/vi/VvOnYemA3w/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/-VvOnYemA3w/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Installing Idena on a Linux PC - Backup private key, node log, restart node, node location",
 		"created_by": "Rioda",
@@ -93,7 +93,7 @@
 	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=aXzweeyCaQ0",
-		"image_url": "https://img.youtube.com/vi/aXzweeyCaQ0/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/aXzweeyCaQ0/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Run Idena node as a background task on Windows (much more stable than running built-in node)",
 		"created_by": "Rioda",
@@ -102,7 +102,7 @@
 	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=BmsthbY3EF4",
-		"image_url": "https://img.youtube.com/vi/BmsthbY3EF4/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/BmsthbY3EF4/hqdefault.jpg",
 		"official": "no",
 		"short_description": "How to backup private key on MacOS?",
 		"created_by": "Rioda",
@@ -111,10 +111,19 @@
 	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=bQ2qi8MbR3I",
-		"image_url": "https://img.youtube.com/vi/bQ2qi8MbR3I/sddefault.jpg",
+		"image_url": "https://img.youtube.com/vi/bQ2qi8MbR3I/hqdefault.jpg",
 		"official": "no",
 		"short_description": "Barebone temp version. Running Idena node using bat, setting lowpower, profile=server, running 2 nodes on one PC",
 		"created_by": "Rioda",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=l5eEQ2C4_QU",
+		"image_url": "https://img.youtube.com/vi/l5eEQ2C4_QU/hqdefault.jpg",
+		"official": "no",
+		"short_description": "Under The Radar Episode 1: IDENA (DNA) - the first Proof of Human blockchain",
+		"created_by": "CryptoMonopoly",
 		"github": ""
 	}
 ]
