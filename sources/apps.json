@@ -5,7 +5,7 @@
 		"url": "https://idena.org/?view=download#",
 		"image_url": "./images/listing/mac.png",
 		"official": "yes",
-		"short_description": "Latest Idena Client to run on macOS",
+		"short_description": "(Alt link) Latest Idena Client to run on macOS",
 		"created_by": "Idena Core",
 		"github": "https://github.com/idena-network/idena-desktop/releases/latest"
 	},
@@ -14,7 +14,7 @@
 		"url": "https://idena.org/?view=download#",
 		"image_url": "./images/listing/linux.png",
 		"official": "yes",
-		"short_description": "Latest Idena Client to run on Linux",
+		"short_description": "(Alt link) Latest Idena Client to run on Linux",
 		"created_by": "Idena Core",
 		"github": "https://github.com/idena-network/idena-desktop/releases/latest"
 	},
@@ -23,7 +23,7 @@
 		"url": "https://idena.org/?view=download#",
 		"image_url": "./images/listing/windows.png",
 		"official": "yes",
-		"short_description": "Latest Idena Client to run on Windows",
+		"short_description": "(Alt link) Latest Idena Client to run on Windows",
 		"created_by": "Idena Core",
 		"github": "https://github.com/idena-network/idena-desktop/releases/latest"
 	},
