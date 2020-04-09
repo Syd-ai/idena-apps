@@ -143,6 +143,15 @@
 		"short_description": "Living from Idena rewards",
 		"created_by": "Davey",
 		"github": ""
+	},
+	{
+		"type": "Blog",
+		"url": "https://myaltcoins.info/idena-review/",
+		"image_url": "https://myaltcoins.info/wp-content/uploads/2020/02/Idena-Review-Cover.jpg",
+		"official": "no",
+		"short_description": "Idena Review – Unique Human Centric Blockchain",
+		"created_by": "myaltcoins",
+		"github": ""
 	}
 ]
 }
