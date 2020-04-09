@@ -71,6 +71,15 @@
 		"short_description": "Telegram all-in-one bot for Idena project",
 		"created_by": "ProjXDev",
 		"github": ""
+	},
+	{
+		"type": "app",
+		"url": "http://idena.top/",
+		"image_url": "./images/listing/top-cn.png",
+		"official": "no",
+		"short_description": "Chinese Forum and announcements website for Idena",
+		"created_by": "Unknown",
+		"github": ""
 	}
 ]
 }
