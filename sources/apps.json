@@ -59,7 +59,7 @@
 		"url": "https://t.me/idenarobot",
 		"image_url": "./images/listing/idenarobot.png",
 		"official": "no",
-		"short_description": "Telegram price bot for idena project",
+		"short_description": "Telegram price and charts bot for idena project",
 		"created_by": "Endogen",
 		"github": "https://github.com/Endogen/idena-tg-bot"
 	},
