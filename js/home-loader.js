@@ -46,7 +46,7 @@ window.onload = (function(){
                            +obj.short_description
                             +official
                           +'</p>'
-                          +'<a class="btn btn-secondary btn-small" href="'+obj.url+'">'
+                          +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
                             +'<span>Watch Video</span>'
                             +'<i class="icon icon--thin_arrow_right"></i>'
                           +'</a>'
@@ -82,7 +82,7 @@ window.onload = (function(){
                     +obj.short_description
                             +official
                     +'</p>'
-                    +'<a class="btn btn-secondary btn-small" href="'+obj.url+'">'
+                    +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
                       +'<span>Join Community</span>'
                       +'<i class="icon icon--thin_arrow_right"></i>'
                     +'</a>'
