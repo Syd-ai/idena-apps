@@ -45,10 +45,11 @@ window.onload = (function(){
     	videocontent = videocontent + '<div class="col-12 col-sm-3 entry">'
                           +'<div class="mini-card">'
                           +'<div class="thumbnail" style="background-image: url('+obj.image_url+');"></div>'
-                          +'<p class="desc">'
+                          +'<p class="desc" style="padding-bottom: 0px;">'
                            +obj.short_description
                             +official
                           +'</p>'
+                          +'<p class="control">Made By '+obj.created_by+'</p>'
                           +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
                             +'<span>Watch Video</span>'
                             +'<i class="icon icon--thin_arrow_right"></i>'
@@ -84,7 +85,7 @@ window.onload = (function(){
                     +'<p class="desc">'
                     +obj.short_description
                             +official
-                    +'</p>'
+                    +'</p>'                  
                     +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
                       +'<span>Join Community</span>'
                       +'<i class="icon icon--thin_arrow_right"></i>'
@@ -123,10 +124,11 @@ window.onload = (function(){
     	excontent = excontent + '<div class="col-12 col-sm-3 entry">'
                           +'<div class="mini-card">'
                           +'<div class="thumbnail" style="background-image: url('+obj.image_url+');"></div>'
-                          +'<p class="desc">'
+                          +'<p class="desc" style="padding-bottom: 0px;">'
                            +obj.short_description
                             +official
                           +'</p>'
+                          +'<p class="control"> Made By'+obj.created_by+'</p>'
                           +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
                             +'<span>Visit Website</span>'
                             +'<i class="icon icon--thin_arrow_right"></i>'

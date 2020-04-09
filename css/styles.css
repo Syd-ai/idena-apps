@@ -144,6 +144,18 @@ p.desc {
     margin-bottom: 0px;
 }
 
+.mini-card p.control {
+    padding-bottom: 25px;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    width: 100%;
+    font-weight: 500;
+    color: #96999e;
+    padding-left: 15px;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
 .badge {
     padding: 0.225rem 0.76rem 0.2875rem !important;
     margin: 0px 1rem 0 1rem !important;
