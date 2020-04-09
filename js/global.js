@@ -54,6 +54,18 @@ if (mode =='dark') {
 } 
 
 
+
+if (window.location.href.indexOf("videos") > -1) {
+      document.getElementById('videos-tab').classList.add('active');
+} else if (window.location.href.indexOf("apps") > -1) {
+      document.getElementById('apps-tab').classList.add('active');
+} else if (window.location.href.indexOf("explorer") > -1) {
+      document.getElementById('explorer-tab').classList.add('active');
+} else if (window.location.href.indexOf("communities") > -1) {
+      document.getElementById('communities-tab').classList.add('active');
+} else {}
+
+
 var sticky = document.getElementsByClassName('header')[0].offsetTop;
 
 window.onscroll = function() {shadowFunction()};
