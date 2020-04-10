@@ -22,10 +22,12 @@ var videolist = document.getElementById("videos-list");
 var comlist = document.getElementById("communities-list");
 var exlist = document.getElementById("explorer-list");
 var appslist = document.getElementById("apps-list");
+var linkslist = document.getElementById("links-list");
 var comcontent = '';
 var videocontent = '';
 var excontent = '';
 var appscontent = '';
+var linkscontent = '';
 var official = '';
 var git = '';
 var caption = '';
@@ -150,6 +152,43 @@ window.onload = (function(){
     comlist.innerHTML = comcontent;
       
   }); //fetching all the communities listed
+
+
+
+
+
+  //load all links
+  ajax_get('https://idena-apps.org/sources/links.json', function(data) {
+    //console.log(data);
+
+    data["entries"].forEach(function(obj) { 
+
+      if(obj.official=="no") {
+        //console.log(obj.official);
+        official = '<span class="badge badge-secondary hide">Official</span>';
+      } else {
+        official = '<span class="badge badge-secondary">Official</span>';
+      }
+      linkscontent = linkscontent + '<div class="col-12 col-sm-3 entry">'
+                  +'<div class="mini-card">'
+                    +'<center>'
+                    +'<div class="user-pic"><img src="'+obj.image_url+'" width="80"></div>'
+                    +'<p class="desc">'
+                    +obj.short_description
+                            +official
+                    +'</p>'                  
+                    +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
+                      +'<span>Visit Site</span>'
+                      +'<i class="icon icon--thin_arrow_right"></i>'
+                    +'</a>'
+                    +'</center>'
+                  +'</div>'
+                +'</div>'; 
+    });
+
+    linkslist.innerHTML = linkscontent;
+      
+  }); //fetching all the links listed
 
 
 
