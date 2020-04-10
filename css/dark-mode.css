@@ -8,6 +8,10 @@
     color: #efefef !important;
 }
 
+.darkmode .thumbnail {
+    border-bottom: 1px solid #222 !important;
+}
+
 .darkmode .donate {
     font-weight: 500;
     color: #eee;
