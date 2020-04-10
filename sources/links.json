@@ -3,21 +3,21 @@
 	{
 		"type": "link",
 		"url": "https://www.coingecko.com/en/coins/idena",
-		"image_url": "",
+		"image_url": "https://i.imgur.com/ivmBx6z.png",
 		"official": "yes",
 		"short_description": "Coingecko Statistics for Idena"
 	},
 	{
 		"type": "link",
 		"url": "https://coinmarketcal.com/en/coin/idena",
-		"image_url": "",
+		"image_url": "https://i.imgur.com/ghwNfdU.png",
 		"official": "yes",
 		"short_description": "Coinmarketcal crypto calendar for Idena"
 	},
 	{
 		"type": "link",
 		"url": "https://bitcointalk.org/index.php?topic=5194871",
-		"image_url": "",
+		"image_url": "https://i.imgur.com/tq9NQNH.png",
 		"official": "yes",
 		"short_description": "Main Bitcointalk thread started by core dev"
 	}
