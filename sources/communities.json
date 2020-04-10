@@ -44,6 +44,13 @@
 	},
 	{
 		"type": "community",
+		"url": "https://t.me/idenanederlandbelgie",
+		"image_url": "https://i.imgur.com/edJ0pzJ.jpg",
+		"official": "no",
+		"short_description": "Idena Netherlands and Belgium Telegram"
+	},
+	{
+		"type": "community",
 		"url": "https://t.me/idenainviterequests",
 		"image_url": "https://i.imgur.com/nGeV4lO.jpg",
 		"official": "no",
