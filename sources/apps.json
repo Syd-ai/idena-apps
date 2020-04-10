@@ -98,6 +98,15 @@
 		"short_description": "Idena auto-update for windows with powershell (script)",
 		"created_by": "codev911",
 		"github": "https://github.com/codev911/idena-autoupdate-windows"
+	},
+	{
+		"type": "app",
+		"url": "https://chrome.google.com/webstore/detail/kjofkncddljaibaboapilmhoanacaoil/",
+		"image_url": "https://lh3.googleusercontent.com/7Siv9OimIP2-jj_jXDA1JRTC7Ygk8uWVHoiZBt2Of70P1j8o34abGyu0vGVROWB_MCXa4_IouA=w640-h400-e365",
+		"official": "no",
+		"short_description": "Unofficial chrome extension which adds extra information to official explorer",
+		"created_by": "bingbinglee",
+		"github": "https://github.com/bingbinglee/idena-chrome-extension"
 	}
 ]
 }
