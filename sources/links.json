@@ -1,0 +1,25 @@
+{
+	"entries":[
+	{
+		"type": "link",
+		"url": "https://www.coingecko.com/en/coins/idena",
+		"image_url": "",
+		"official": "yes",
+		"short_description": "Coingecko Statistics for Idena"
+	},
+	{
+		"type": "link",
+		"url": "https://coinmarketcal.com/en/coin/idena",
+		"image_url": "",
+		"official": "yes",
+		"short_description": "Coinmarketcal crypto calendar for Idena"
+	},
+	{
+		"type": "link",
+		"url": "https://bitcointalk.org/index.php?topic=5194871",
+		"image_url": "",
+		"official": "yes",
+		"short_description": "Main Bitcointalk thread started by core dev"
+	}
+]
+}
