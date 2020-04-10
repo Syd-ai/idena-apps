@@ -89,6 +89,15 @@
 		"short_description": "Tool used for easier installation, maintenance and update of idena nodes",
 		"created_by": "crackowich",
 		"github": "https://gitlab.com/crackowich/idena-manager"
+	},
+	{
+		"type": "app",
+		"url": "https://github.com/codev911/idena-autoupdate-windows",
+		"image_url": "./images/listing/default.png",
+		"official": "no",
+		"short_description": "Idena auto-update for windows with powershell (script)",
+		"created_by": "codev911",
+		"github": "https://github.com/codev911/idena-autoupdate-windows"
 	}
 ]
 }
