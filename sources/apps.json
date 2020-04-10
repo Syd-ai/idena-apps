@@ -107,6 +107,15 @@
 		"short_description": "Unofficial chrome extension which adds extra information to official explorer",
 		"created_by": "bingbinglee",
 		"github": "https://github.com/bingbinglee/idena-chrome-extension"
+	},
+	{
+		"type": "app",
+		"url": "https://github.com/Endogen/idena-api",
+		"image_url": "./images/listing/default.png",
+		"official": "no",
+		"short_description": "Python wrapper for IDENA RPC interface",
+		"created_by": "Endogen",
+		"github": "https://github.com/Endogen/idena-api"
 	}
 ]
 }
