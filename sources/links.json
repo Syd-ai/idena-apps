@@ -20,6 +20,27 @@
 		"image_url": "https://i.imgur.com/tq9NQNH.png",
 		"official": "yes",
 		"short_description": "Main Bitcointalk thread started by core dev"
-	}
+	},
+	{
+		"type": "link",
+		"url": "https://www.livecoinwatch.com/price/Idena-_DNA",
+		"image_url": "https://i.imgur.com/Bufq699.png",
+		"official": "yes",
+		"short_description": "Livecoinwatch Market statistics for Idena"
+	},
+	{
+		"type": "link",
+		"url": "https://coinstats.app/en/coins/idena",
+		"image_url": "https://i.imgur.com/k88adnt.jpg",
+		"official": "yes",
+		"short_description": "Coinstats Market statistics for Idena"
+	},
+	{
+		"type": "link",
+		"url": "https://nomics.com/assets/dna2-idena",
+		"image_url": "https://i.imgur.com/Nukvf2Y.png",
+		"official": "yes",
+		"short_description": "Nomics Market statistics for Idena"
+	}	
 ]
 }
