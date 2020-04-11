@@ -48,6 +48,13 @@
 		"image_url": "https://i.imgur.com/vbai7m1.png",
 		"official": "yes",
 		"short_description": "Coinpaprika Market statistics for Idena"
+	},
+	{
+		"type": "link",
+		"url": "https://qtrade.io/market/DNA_BTC",
+		"image_url": "https://i.imgur.com/ykBUI9g.png",
+		"official": "yes",
+		"short_description": "First exchange to List Idena"
 	}
 ]
 }
