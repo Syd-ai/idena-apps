@@ -41,6 +41,13 @@
 		"image_url": "https://i.imgur.com/Nukvf2Y.png",
 		"official": "yes",
 		"short_description": "Nomics Market statistics for Idena"
-	}	
+	},
+	{
+		"type": "link",
+		"url": "https://coinpaprika.com/coin/dna-idena/",
+		"image_url": "https://i.imgur.com/vbai7m1.png",
+		"official": "yes",
+		"short_description": "Coinpaprika Market statistics for Idena"
+	}
 ]
 }
