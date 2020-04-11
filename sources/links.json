@@ -55,6 +55,13 @@
 		"image_url": "https://i.imgur.com/ykBUI9g.png",
 		"official": "yes",
 		"short_description": "First exchange to List Idena"
+	},
+	{
+		"type": "link",
+		"url": "https://delta.app/en/crypto/dna/idena",
+		"image_url": "https://i.imgur.com/ifQ6Ggo.jpg",
+		"official": "yes",
+		"short_description": "Delta app statistics tracker for Idena"
 	}
 ]
 }
