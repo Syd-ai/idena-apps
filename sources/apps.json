@@ -70,7 +70,7 @@
 		"official": "no",
 		"short_description": "Telegram all-in-one bot for Idena project",
 		"created_by": "ProjXDev",
-		"github": ""
+		"github": "https://github.com/ProjXDev/IdenaAIOBot"
 	},
 	{
 		"type": "app",
