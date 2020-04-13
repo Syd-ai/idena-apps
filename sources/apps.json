@@ -73,6 +73,15 @@
 		"github": "https://github.com/ProjXDev/IdenaAIOBot"
 	},
 	{
+		"type": "bot",
+		"url": "https://t.me/idenafhbot",
+		"image_url": "./images/listing/default.png",
+		"official": "no",
+		"short_description": "Telegram Flip words helper bot",
+		"created_by": "ProjXDev",
+		"github": "https://github.com/ProjXDev/IdenaFlipsHelper"
+	},
+	{
 		"type": "app",
 		"url": "http://idena.top/",
 		"image_url": "./images/listing/top-cn.png",
