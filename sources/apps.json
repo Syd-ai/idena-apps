@@ -38,6 +38,15 @@
 	},
 	{
 		"type": "app",
+		"url": "https://idena.today",
+		"image_url": "./images/listing/idenadev.png",
+		"official": "no",
+		"short_description": "Lightweight JS library to access node & RPC methods",
+		"created_by": "idena-dev",
+		"github": "https://github.com/idena-dev"
+	},
+	{
+		"type": "app",
 		"url": "http://www.rioda.org/idena/",
 		"image_url": "./images/listing/rioda.png",
 		"official": "no",
