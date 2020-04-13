@@ -38,21 +38,21 @@
 	},
 	{
 		"type": "app",
-		"url": "https://idena.today",
+		"url": "https://www.idena.dev/idena-js/quick-start",
 		"image_url": "./images/listing/idenadev.png",
 		"official": "no",
 		"short_description": "Lightweight JS library to access node & RPC methods",
-		"created_by": "idena-dev",
-		"github": "https://github.com/idena-dev"
+		"created_by": "menxit",
+		"github": "https://github.com/idena-dev/idena-js"
 	},
 	{
 		"type": "app",
-		"url": "http://www.rioda.org/idena/",
-		"image_url": "./images/listing/rioda.png",
+		"url": "https://github.com/idena-dev/idena-pocket",
+		"image_url": "./images/listing/pocket.png",
 		"official": "no",
-		"short_description": "Idena Node status watcher (email based), FAQ, tutorials and more",
-		"created_by": "Rioda",
-		"github": ""
+		"short_description": "A Lightweight web wallet for Idena",
+		"created_by": "menxit",
+		"github": "https://github.com/idena-dev/idena-pocket"
 	},
 	{
 		"type": "app",
