@@ -76,6 +76,13 @@
 		"image_url": "https://i.imgur.com/AkFSqdb.png",
 		"official": "no",
 		"short_description": "Idena Wechat Chinese"
+	},
+	{
+		"type": "community",
+		"url": "https://t.me/idena_cn",
+		"image_url": "https://i.imgur.com/lZZmcP9.jpg",
+		"official": "no",
+		"short_description": "Idena Chinese Telegram"
 	}
 	
 ]
