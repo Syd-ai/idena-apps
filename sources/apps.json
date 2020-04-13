@@ -47,7 +47,7 @@
 	},
 	{
 		"type": "app",
-		"url": "https://github.com/idena-dev/idena-pocket",
+		"url": "https://pocket.idena.dev/#/",
 		"image_url": "./images/listing/pocket.png",
 		"official": "no",
 		"short_description": "A Lightweight web wallet for Idena",
