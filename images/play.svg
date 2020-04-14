@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="318px" height="350px" viewBox="0 0 318 350" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>play</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M279.84,146.049 L23.84,2.049 C18.88,-0.735 12.832,-0.671 7.936,2.177 C3.008,5.057 0,10.305 0,16.001 L0,304.001 C0,309.697 3.008,314.945 7.936,317.825 C10.432,319.265 13.216,320.001 16,320.001 C18.688,320.001 21.408,319.329 23.84,317.953 L279.84,173.953 C284.864,171.105 288,165.793 288,160.001 C288,154.209 284.864,148.897 279.84,146.049 Z" id="path-1"></path>
+        <filter x="-9.5%" y="-5.5%" width="119.1%" height="117.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="10" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="play" transform="translate(15.000000, 5.000000)" fill-rule="nonzero">
+            <g id="Path">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#FFFFFF" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>
