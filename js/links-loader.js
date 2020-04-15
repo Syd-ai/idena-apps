@@ -18,7 +18,6 @@ function ajax_get(url, callback) {
 }
 
 
-var videolist = document.getElementById("videos-list");
 var linkslist = document.getElementById("links-list");
 var linkscontent = '';
 var official = '';
