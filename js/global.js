@@ -54,21 +54,14 @@ if (mode =='dark') {
 } 
 
 
+var disclaimer = document.getElementById("disclaimer");
+disclaimer.innerHTML = '* DISCLAIMER: Idena community makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses or inaccuracies of the listed apps. There are inherent dangers in the use of any software, and you are solely responsible for determining whether listed apps are compatible with your equipment and other software installed on your equipment. Furthermore, users commit themselves to a legally appropriate use of the listed apps according to the respective national as well as international law.'
+          +'You are also solely responsible for the protection of your equipment and backup of your data, and the app maker will not be liable for any damages or loss of DNA you may suffer in connection with using, modifying, or distributing the open-source listed apps.';
 
 
-if (window.location.href.indexOf("apps") > -1) {
-      $('#apps-tab').tab('show');
-} 
-if (window.location.href.indexOf("explorer") > -1) {
-      $('#explorer-tab').tab('show');
-} 
-if (window.location.href.indexOf("communities") > -1) {
-      $('#communities-tab').tab('show');
-}
-if (window.location.href.indexOf("videos") > -1) {
-      $('#videos-tab').tab('show');
-}
-
+var donation = document.getElementById("donation");
+donation.innerHTML = '<p class="desc" style="line-height: 2em;">Idena Apps is maintained by community member <a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a> Please support by donating to <a href="https://scan.idena.io/address?address=0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">'
+                +'<span class="donate">0x140d5add76f3e4cc4538b9809601383bd74689df</span></a></p>';
 
 var sticky = document.getElementsByClassName('header')[0].offsetTop;
 

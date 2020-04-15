@@ -182,9 +182,14 @@
 }
 
 /** for button on address page **/
-.darkmode .main .btn-secondary {
+.darkmode .main .btn-nav, .darkmode .main .btn-secondary {
     background-color: #33373a !important;
     color: #50b6ff !important;
+}
+
+.darkmode .main .btn-nav:hover, .darkmode .main .btn-nav:active {
+    color: #50b6ff !important;
+    background-color: #191c1e !important;
 }
 
 .darkmode .main .btn-secondary:hover, .darkmode .main .btn-secondary:active {

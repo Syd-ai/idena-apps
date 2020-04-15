@@ -434,7 +434,18 @@ h1, .h1 {
     z-index: 4;
 }
 
-/** for button on address page **/
+/** for button on apps page **/
+.main .btn-nav {
+    background: #ffffff !important;
+}
+
+.main .btn-nav:hover, .main .btn-nav:active {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    color: #578fff !important;
+    background: #fff !important;
+}
+
 .main .btn-secondary {
     background: #f3f4f5 !important;
 }
