@@ -134,6 +134,35 @@ body {
     margin-top: 15px !important;
 }
 
+
+.mini-card .row {
+    margin: 0px !important;
+}
+
+.full-width {
+    width: 100%;
+}
+.mini-card .row .col-4 {
+    padding-left: 0px !important;
+    background-position: center;
+    background-size: cover;
+}
+
+.mini-card .row .col-8 {
+    padding-left: 25px !important;
+}
+
+.mini-card .row .col-8 h4 {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.mini-card .row .col-8 .btn {
+    margin-left: 0px !important;
+    margin-bottom: 1.8em;
+}
+
+
 .thumbnail {
     background: #efefef;
     background-size: cover;

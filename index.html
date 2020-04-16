@@ -50,12 +50,6 @@
 
 
       <div class="col-auto">
-<!--
-        <button type="button" class="btn btn-icon">
-          <i class="icon icon--settings"></i>
-        </button>
-
--->
       </div>
 
     </div>
@@ -110,132 +104,90 @@
     
     
       <section class="section section_tabs">
-        <div class="tabs">
-          <div class="section__header">
-            <div class="row align-items-center justify-content-between">
+        
+          <div class="row">
               <div class="col">
-                <ul class="nav nav-tabs" role="tablist">
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      id="apps-tab"
-                      data-toggle="tab"
-                      href="#apps"
-                      role="tab"
-                      aria-controls="apps"   
-                      aria-selected="false"              
-                    >
-                      <h3>Apps</h3>
-                    </a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      id="communities-tab"
-                      data-toggle="tab"
-                      href="#communities"
-                      role="tab"
-                      aria-controls="communities"
-                      aria-selected="false"
-                    >
-                      <h3>Communities</h3>
-                    </a>
-                  </li>
-
-
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      id="videos-tab"
-                      data-toggle="tab"
-                      href="#videos"
-                      role="tab"
-                      aria-controls="videos"  
-                      aria-selected="false"                  
-                    >
-                      <h3>Videos & Blogs</h3>
-                    </a>
-                  </li>
-
-
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      id="explorer-tab"
-                      data-toggle="tab"
-                      href="#explorer"
-                      role="tab"
-                      aria-controls="explorer" 
-                      aria-selected="false"                    
-                    >
-                      <h3>Explorer</h3>
-                    </a>
-                  </li>
-
-
-                  <li class="nav-item">
-                    <a
-                      class="nav-link"
-                      id="links-tab"
-                      data-toggle="tab"
-                      href="#links"
-                      role="tab"
-                      aria-controls="links"
-                      aria-selected="false"
-                    >
-                      <h3>Links</h3>
-                    </a>
-                  </li>
-
-
-                </ul>
+                <h3 style="margin-bottom: 10px;">All Categories</h3>
               </div>
             </div>
+
+          <div class="row row-fluid">
+            
+            <div class="col-12 col-sm-4 entry">
+              <div class="mini-card full-width">
+                <div class="row">
+                  <div class="col-4" style="background-image: url('./images/apps.svg');">                     
+                  </div>
+                  <div class="col-8">
+                    <h4>Apps</h4>
+                    <a class="btn btn-secondary btn-small" href="./apps.html"><span>View All</span><i class="icon icon--thin_arrow_right"></i></a>
+                  </div>
+                </div>            
+              </div>
+            </div> <!-- apps -->
+
+
+
+            <div class="col-12 col-sm-4 entry">
+              <div class="mini-card full-width">
+                <div class="row">
+                  <div class="col-4" style="background-image: url('./images/people.svg');">                     
+                  </div>
+                  <div class="col-8">
+                    <h4>Communities</h4>
+                    <a class="btn btn-secondary btn-small" href="./communities.html"><span>View All</span><i class="icon icon--thin_arrow_right"></i></a>
+                  </div>
+                </div>            
+              </div>
+            </div> <!-- communities -->
+
+
+            <div class="col-12 col-sm-4 entry">
+              <div class="mini-card full-width">
+                <div class="row">
+                  <div class="col-4" style="background-image: url('./images/videos.svg');">                     
+                  </div>
+                  <div class="col-8">
+                    <h4>Videos & Blogs</h4>
+                    <a class="btn btn-secondary btn-small" href="./videos-and-blogs.html"><span>View All</span><i class="icon icon--thin_arrow_right"></i></a>
+                  </div>
+                </div>            
+              </div>
+            </div> <!-- videos and blogs -->
+
+
+            <div class="col-12 col-sm-4 entry">
+              <div class="mini-card full-width">
+                <div class="row">
+                  <div class="col-4" style="background-image: url('./images/explo.svg');">                     
+                  </div>
+                  <div class="col-8">
+                    <h4>Explorers</h4>
+                    <a class="btn btn-secondary btn-small" href="./explorer.html"><span>View All</span><i class="icon icon--thin_arrow_right"></i></a>
+                  </div>
+                </div>            
+              </div>
+            </div> <!-- explorers -->
+
+
+            <div class="col-12 col-sm-4 entry">
+              <div class="mini-card full-width">
+                <div class="row">
+                  <div class="col-4" style="background-image: url('./images/links.svg');">                     
+                  </div>
+                  <div class="col-8">
+                    <h4>Links</h4>
+                    <a class="btn btn-secondary btn-small" href="./links.html"><span>View All</span><i class="icon icon--thin_arrow_right"></i></a>
+                  </div>
+                </div>            
+              </div>
+            </div> <!-- links -->
+
+
+
+
           </div>
 
-          <div class="tab-content">
-
-            <div class="tab-pane" id="apps" role="tabpanel" aria-labelledby="apps-tab">
-                <div class="row row-fluid" id="apps-list">
-                        
-                
-              </div>
-            </div>
-
-
-            <div class="tab-pane" id="explorer" role="tabpanel" aria-labelledby="explorer-tab">
-              <div class="row row-fluid" id="explorer-list">
-                
-              </div>
-            </div>
-
-
-
-            <div class="tab-pane" id="communities" role="tabpanel" aria-labelledby="communities-tab">
-              <div class="row row-fluid" id="communities-list">
-                
-              </div>
-            </div>
-
-
-
-            <div class="tab-pane" id="videos" role="tabpanel" aria-labelledby="videos-tab">
-              <div class="row row-fluid" id="videos-list">
-                
-              </div>
-            </div>
-
-
-            <div class="tab-pane" id="links" role="tabpanel" aria-labelledby="links-tab">
-              <div class="row row-fluid" id="links-list">
-                
-              </div>
-            </div>
-
-            
-
-        </div>
       </section>
 
 
@@ -245,19 +197,16 @@
           <div class="col-md-8 col-lg-7">
             <br/>
             <br/>
-            <p class="desc" style="font-size: small">
-          * DISCLAIMER: Idena community makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses or inaccuracies of the listed apps. There are inherent dangers in the use of any software, and you are solely responsible for determining whether listed apps are compatible with your equipment and other software installed on your equipment. Furthermore, users commit themselves to a legally appropriate use of the listed apps according to the respective national as well as international law.
-          You are also solely responsible for the protection of your equipment and backup of your data, and the app maker will not be liable for any damages or loss of DNA you may suffer in connection with using, modifying, or distributing the open-source listed apps.
-        </p>
+            <p class="desc" id="disclaimer" style="font-size: small"></p>
         <br/>
         <br/>
-            <div class="copy">
-              <p class="desc" style="line-height: 2em;">Idena Apps is maintained by community member <a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a> Please support by donating to <a href="https://scan.idena.io/address?address=0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">
-                <span class="donate">0x140d5add76f3e4cc4538b9809601383bd74689df</span></a></p>
+            <div class="copy" id="donation">
             </div>
           </div>
         </div>
       </section>
+
+
 
   
     </div>
