@@ -161,6 +161,15 @@
 		"short_description": "Idena Review – Unique Human Centric Blockchain",
 		"created_by": "myaltcoins",
 		"github": ""
+	},
+	{
+		"type": "Blog",
+		"url": "https://hive.blog/hive-122108/@condra/can-ai-defeat-image-obfuscation",
+		"image_url": "https://images.hive.blog/p/2923mN3pnd7PiNwC4SZeLS8gsPqbAhHKzXBuEw8k2kD448jcWcBBYmBbnyPirctgxU9aE8JtReo3CABRBJuv8zkpqh1bXz2GaTdrQZgwihTvk6?format=match&mode=fit&width=1280",
+		"official": "no",
+		"short_description": "Can AI Defeat Image Obfuscation?",
+		"created_by": "Condra",
+		"github": ""
 	}
 ]
 }
