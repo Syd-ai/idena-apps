@@ -65,6 +65,15 @@
 	},
 	{
 		"type": "video",
+		"url": "https://www.youtube.com/watch?v=vrQeMq2uBiY",
+		"image_url": "https://img.youtube.com/vi/vrQeMq2uBiY/hqdefault.jpg",
+		"official": "no",
+		"short_description": "[CN]How to install and synchronize idena on Linux server",
+		"created_by": "efens foreign ex...",
+		"github": ""
+	},
+	{
+		"type": "video",
 		"url": "https://youtu.be/fJ0kSXBi_FQ",
 		"image_url": "https://img.youtube.com/vi/fJ0kSXBi_FQ/hqdefault.jpg",
 		"official": "no",
