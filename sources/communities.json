@@ -87,9 +87,16 @@
 	{
 		"type": "community",
 		"url": "https://jq.qq.com/?_wv=1027&k=5VED6dS",
-		"image_url": "https://i.imgur.com/AkFSqdb.png",
+		"image_url": "https://i.imgur.com/yKKWldm.png",
 		"official": "no",
 		"short_description": "Idena QQ group"
+	},
+	{
+		"type": "community",
+		"url": "https://weixin.qq.com/r/0Tn95RnEUUQurV2G92zD",
+		"image_url": "https://i.imgur.com/IKl5bIB.png",
+		"official": "no",
+		"short_description": "Idena Wechat Chinese"
 	},
 	{
 		"type": "community",
