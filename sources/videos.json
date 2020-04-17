@@ -55,6 +55,15 @@
 		"github": ""
 	},
 	{
+		"type": "Blog",
+		"url": "https://medium.com/idena/idena-who-we-are-and-what-we-believe-in-e1678726be7f",
+		"image_url": "https://miro.medium.com/max/1400/1*bRnIqyFxgGt1l1ZgtruYkA.png",
+		"official": "yes",
+		"short_description": "Idena Network - How To Make A Good Flip",
+		"created_by": "Idena Core",
+		"github": ""
+	},
+	{
 		"type": "video",
 		"url": "https://www.youtube.com/watch?v=aNZfc15h43o&feature=youtu.be",
 		"image_url": "https://img.youtube.com/vi/aNZfc15h43o/hqdefault.jpg",
