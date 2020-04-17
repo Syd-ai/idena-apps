@@ -1,4 +1,4 @@
-# What is Idena Apps?
+# Idena Apps
 > This is a community curated list of everything useful in the Idena ecosystem. Here you will find all the community built apps, How-to videos & Tutorials. The information on this page is provided by the community. Idena foundation does not officially endorse these resources unless released by the foundation.
 
 
