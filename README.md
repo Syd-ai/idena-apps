@@ -2,10 +2,10 @@
 > This is a community curated list of everything useful in the Idena ecosystem. Here you will find all the community built apps, How-to videos & Tutorials. The information on this page is provided by the community. Idena foundation does not officially endorse these resources unless released by the foundation.
 
 
-### What is currently part of Idena Apps?
+### What is currently part of Idena Apps? 🔍
 We currently have 4 categories - Community built apps, Managed communities, Community built videos & Explorer. It contains both community initiatives as well as the official apps and websites
 
-### My app / resource is not listed on Idena Apps. What should I do?
+### My app / resource is not listed on Idena Apps. What should I do? 🤔
 Glad that you asked. Please go through the following steps:
 
 1. Go to https://github.com/bingbinglee/idena-apps/issues
@@ -41,14 +41,14 @@ For e.g.
 6. Project curators review the resource, add it to the directory and then close the issue. If a problem is found, a comment will be added to your issue and issue will be left open till its resolved.
 
 
-### Who maintains Idena Apps today? 
+### Who maintains Idena Apps today? 🙏🏼
 Idena Apps is currently being maintained by [@bingbinglee](https://github.com/bingbinglee/). It is open-source so feel free to contribute to the project. PRs are welcome. 
 If you like the directory then consider making a donation to 
 
 ```0x140d5add76f3e4cc4538b9809601383bd74689df```
 
 
-### What is on the roadmap?
+### What is on the roadmap? 📍
 - More category types
 - Search Functionality
 - Pagination
