@@ -7,6 +7,7 @@ var parent = document.querySelector(".header_logo");
 parent.querySelector("a img").src = imgURL;
 var mode = localStorage.getItem('mode') || '';
 
+var lang = localStorage.getItem('lang') || 'en';
 
 
 var parent2 = document.querySelector(".justify-content-between");
