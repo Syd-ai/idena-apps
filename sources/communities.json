@@ -33,42 +33,56 @@
 		"url": "https://t.me/idena_indonesia",
 		"image_url": "https://i.imgur.com/Hs7viS3.jpg",
 		"official": "no",
-		"short_description": "Idena Indonesian Telegram"
+		"short_description": "Idena Indonesian Telegram 🇮🇩"
 	},
 	{
 		"type": "community",
 		"url": "https://t.me/Idena_RU",
 		"image_url": "https://i.imgur.com/uOee4CZ.jpg",
 		"official": "no",
-		"short_description": "Idena Russian Telegram"
+		"short_description": "Idena Russian Telegram 🇷🇺"
+	},
+	{
+		"type": "community",
+		"url": "https://t.me/idenaturkiye",
+		"image_url": "https://i.imgur.com/czUJ0Sf.jpg",
+		"official": "no",
+		"short_description": "Idena Turkish Telegram 🇹🇷"
+	},
+	{
+		"type": "community",
+		"url": "https://t.me/idena_ukraine",
+		"image_url": "https://i.imgur.com/4lQFjoM.jpg",
+		"official": "no",
+		"short_description": "Idena Ukrainian Telegram 🇺🇦"
 	},
 	{
 		"type": "community",
 		"url": "https://t.me/Idena_FR",
 		"image_url": "https://i.imgur.com/mkxn1Yo.jpg",
 		"official": "no",
-		"short_description": "Idena French Telegram"
+		"short_description": "Idena French Telegram 🇫🇷"
 	},
 	{
 		"type": "community",
 		"url": "https://t.me/idena_india",
 		"image_url": "https://i.imgur.com/3USj3xc.jpg",
 		"official": "no",
-		"short_description": "Idena Indian Telegram"
+		"short_description": "Idena Indian Telegram 🇮🇳"
 	},
 	{
 		"type": "community",
 		"url": "https://t.me/idenanederlandbelgie",
 		"image_url": "https://i.imgur.com/edJ0pzJ.jpg",
 		"official": "no",
-		"short_description": "Idena Netherlands and Belgium Telegram"
+		"short_description": "Idena Netherlands and Belgium Telegram 🇳🇱"
 	},
 	{
 		"type": "community",
-		"url": "https://t.me/idenainviterequests",
+		"url": "https://t.me/idenaflipschool",
 		"image_url": "https://i.imgur.com/nGeV4lO.jpg",
 		"official": "no",
-		"short_description": "Idena Invite Requests Telegram"
+		"short_description": "Idena Flip School Telegram"
 	},
 	{
 		"type": "community",
@@ -82,28 +96,28 @@
 		"url": "https://t.me/IdenaArabic",
 		"image_url": "https://i.imgur.com/lZZmcP9.jpg",
 		"official": "no",
-		"short_description": "Idena Arabic Telegram"
+		"short_description": "Idena Arabic Telegram 🇦🇪"
 	},
 	{
 		"type": "community",
 		"url": "https://jq.qq.com/?_wv=1027&k=5VED6dS",
 		"image_url": "https://i.imgur.com/yKKWldm.png",
 		"official": "no",
-		"short_description": "Idena QQ group"
+		"short_description": "Idena QQ group 🇨🇳"
 	},
 	{
 		"type": "community",
 		"url": "https://weixin.qq.com/r/0Tn95RnEUUQurV2G92zD",
 		"image_url": "https://i.imgur.com/IKl5bIB.png",
 		"official": "no",
-		"short_description": "Idena Wechat Chinese"
+		"short_description": "Idena Wechat Chinese 🇨🇳"
 	},
 	{
 		"type": "community",
 		"url": "https://t.me/idena_cn",
 		"image_url": "https://i.imgur.com/lZZmcP9.jpg",
 		"official": "no",
-		"short_description": "Idena Chinese Telegram"
+		"short_description": "Idena Chinese Telegram 🇨🇳"
 	}
 	
 ]

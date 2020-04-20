@@ -188,6 +188,15 @@
 		"short_description": "Can AI Defeat Image Obfuscation?",
 		"created_by": "Condra",
 		"github": ""
+	},
+	{
+		"type": "Blog",
+		"url": "https://hive.blog/hive-122108/@condra/ai-decentralization-and-the-captcha-arms-race",
+		"image_url": "https://images.hive.blog/p/QVdSJhgNm7s1isdYsJFBD6SAUScSpW1XkijW3pgGr8ATWKyN9mysAVuVhYLBryrf2jmoRqiB3VDZwULjKtQpR5wnQoGCE4KcaeCFfFearRZHjpPNp6HRcks78shJuw31rqhGznTzw5HmhoP2yvQ87sg7usvTToyh5LytWDP9Zh9fHnz5KQkcLpE?format=match&mode=fit&width=1280",
+		"official": "no",
+		"short_description": "AI, Decentralization And The Captcha Arms Race",
+		"created_by": "Condra",
+		"github": ""
 	}
 ]
 }

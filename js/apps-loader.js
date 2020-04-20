@@ -1,3 +1,5 @@
+var lang = localStorage.getItem('lang') || 'en';
+
 function ajax_get(url, callback) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -32,40 +34,57 @@ window.onload = (function(){
   ajax_get('https://idena-apps.org/sources/apps.json', function(data) {
     //console.log(data);
 
-    data["entries"].forEach(function(obj) { 
 
-      if(obj.official=="no") {
-        //console.log(obj.official);
-        official = '<span class="badge badge-secondary hide">Official</span>';
-      } else {
-        official = '<span class="badge badge-secondary">Official</span>';
-      }
-      if(obj.github!=""){
-        git = '<a class="btn btn-secondary btn-small" href="'+obj.github+'" target="_blank">'
-                            +'<span>Github Project Page</span>'
-                            +'<i class="icon icon--thin_arrow_right"></i>'
-                          +'</a>';
-      } else { git = '<a class="btn btn-secondary btn-small" href="'+obj.github+'" disabled>'
-                            +'<span>Github Unavailable</span>'
+        ajax_get('https://idena-apps.org/locale/'+lang+'.json', function(data2) {
+
+                //load all page lang
+
+                document.getElementById("back").innerHTML = data2["back"];
+                document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["apps"];
+                document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
+                document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
+                +'<a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a> '+data2["donate_posttext"]+' <a href="https://scan.idena.io/address?address=0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">'
+                +'<span class="donate">0x140d5add76f3e4cc4538b9809601383bd74689df</span></a></p>';
+
+                //page lang load ends
+
+
+                data["entries"].forEach(function(obj) { 
+
+                  if(obj.official=="no") {
+                    //console.log(obj.official);
+                    official = '<span class="badge badge-secondary hide">'+data2["official"]+'</span>';
+                  } else {
+                    official = '<span class="badge badge-secondary">'+data2["official"]+'</span>';
+                  }
+                  if(obj.github!=""){
+                        git = '<a class="btn btn-secondary btn-small" href="'+obj.github+'" target="_blank">'
+                                        +'<span>'+data2["github"]+'</span>'
+                                        +'<i class="icon icon--thin_arrow_right"></i>'
+                                      +'</a>';
+                    } else { git = '<a class="btn btn-secondary btn-small" href="'+obj.github+'" disabled>'
+                            +'<span>'+data2["github"]+'</span>'
                             +'<i class="icon icon--thin_arrow_right"></i>'
                           +'</a>'; }
-      appscontent = appscontent + '<div class="col-12 col-sm-3 entry">'
-                          +'<div class="mini-card">'
-                          +'<a href="'+obj.url+'" target="_blank"><div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+'</div></a>'
-                          +'<p class="desc" style="padding-bottom: 0px;">'
-                           +obj.short_description
-                          +'</p>'
-                          +'<p class="control">By '+obj.created_by+'</p>'
-                          +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
-                            +'<span>App Details</span>'
-                            +'<i class="icon icon--thin_arrow_right"></i>'
-                          +'</a>'
-                          +git
-                          +'</div>'
-                        +'</div>'; 
-    });
+                  appscontent = appscontent + '<div class="col-12 col-sm-3 entry">'
+                                      +'<div class="mini-card">'
+                                      +'<a href="'+obj.url+'" target="_blank"><div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+'</div></a>'
+                                      +'<p class="desc" style="padding-bottom: 0px;">'
+                                       +obj.short_description
+                                      +'</p>'
+                                      +'<p class="control">By '+obj.created_by+'</p>'
+                                      +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
+                                        +'<span>'+data2["app_details"]+'</span>'
+                                        +'<i class="icon icon--thin_arrow_right"></i>'
+                                      +'</a>'
+                                      +git
+                                      +'</div>'
+                                    +'</div>'; 
+                });
 
-    appslist.innerHTML = appscontent;
+                appslist.innerHTML = appscontent;
+
+        });
       
   }); //fetching all the apps listed
 
