@@ -1,3 +1,6 @@
+var lang = localStorage.getItem('lang') || 'en';
+
+
 function ajax_get(url, callback) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -33,39 +36,55 @@ window.onload = (function(){
   ajax_get('https://idena-apps.org/sources/videos.json', function(data) {
     //console.log(data);
 
-    data["entries"].forEach(function(obj) { 
+        ajax_get('https://idena-apps.org/locale/'+lang+'.json', function(data2) {
 
-    	if(obj.official=="no") {
-    		//console.log(obj.official);
-    		official = '<span class="badge badge-secondary hide">Official</span>';
-    	} else {
-    		official = '<span class="badge badge-secondary">Official</span>';
-    	}
-      if(obj.type=="video") {
-        caption = 'Watch Video';
-        play = '<img src="./images/play.svg" width="36px" height="36px" style="opacity: 1;position: absolute;top: 23%;left: 43%;right: 0;bottom: 0;">';
-      } else {
-        caption = 'Read Post';
-        play = '';
-      }
-    	videocontent = videocontent + '<div class="col-12 col-sm-3 entry">'
-                          +'<div class="mini-card">'
-                          +'<a href="'+obj.url+'" target="_blank"><div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+play+'</div></a>'
-                          +'<p class="desc" style="padding-bottom: 0px;">'
-                           +obj.short_description                          
-                          +'</p>'
-                          +'<p class="control">By '+obj.created_by+'</p>'
-                          +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
-                            +'<span>'+caption+'</span>'
-                            +'<i class="icon icon--thin_arrow_right"></i>'
-                          +'</a>'
-                          +'</div>'
-                        +'</div>'; 
-    });
+                //load all page lang
 
-    videolist.innerHTML = videocontent;
-      
-  }); //fetching all the videos listed
+                document.getElementById("back").innerHTML = data2["back"];
+                document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["videos_blogs"];
+                document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
+                document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
+                +'<a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a>'+data2["donate_posttext"]+'<a href="https://scan.idena.io/address?address=0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">'
+                +'<span class="donate">0x140d5add76f3e4cc4538b9809601383bd74689df</span></a></p>';
+
+                //page lang load ends
+
+                data["entries"].forEach(function(obj) { 
+
+                	if(obj.official=="no") {
+                		//console.log(obj.official);
+                		official = '<span class="badge badge-secondary hide">'+data2["official"]+'</span>';
+                	} else {
+                		official = '<span class="badge badge-secondary">'+data2["official"]+'</span>';
+                	}
+                  if(obj.type=="video") {
+                    caption = data2["watch"];
+                    play = '<img src="./images/play.svg" width="36px" height="36px" style="opacity: 1;position: absolute;top: 23%;left: 43%;right: 0;bottom: 0;">';
+                  } else {
+                    caption = data2["read"];
+                    play = '';
+                  }
+                	videocontent = videocontent + '<div class="col-12 col-sm-3 entry">'
+                                      +'<div class="mini-card">'
+                                      +'<a href="'+obj.url+'" target="_blank"><div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+play+'</div></a>'
+                                      +'<p class="desc" style="padding-bottom: 0px;">'
+                                       +obj.short_description                          
+                                      +'</p>'
+                                      +'<p class="control">By '+obj.created_by+'</p>'
+                                      +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
+                                        +'<span>'+caption+'</span>'
+                                        +'<i class="icon icon--thin_arrow_right"></i>'
+                                      +'</a>'
+                                      +'</div>'
+                                    +'</div>'; 
+                });
+
+                videolist.innerHTML = videocontent;
+                  
+              }); //fetching all the videos listed
+
+
+      });
 
 
 
