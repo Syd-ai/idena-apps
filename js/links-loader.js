@@ -1,3 +1,5 @@
+var lang = localStorage.getItem('lang') || 'en';
+
 function ajax_get(url, callback) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -32,32 +34,46 @@ window.onload = (function(){
   ajax_get('https://idena-apps.org/sources/links.json', function(data) {
     //console.log(data);
 
-    data["entries"].forEach(function(obj) { 
+     ajax_get('https://idena-apps.org/locale/'+lang+'.json', function(data2) {
 
-      if(obj.official=="no") {
-        //console.log(obj.official);
-        official = '<span class="badge badge-secondary hide">Official</span>';
-      } else {
-        official = '<span class="badge badge-secondary">Official</span>';
-      }
-      linkscontent = linkscontent + '<div class="col-12 col-sm-3 entry">'
-                  +'<div class="mini-card">'
-                    +'<center>'
-                    +'<a href="'+obj.url+'" target="_blank"><div class="user-pic"><img src="'+obj.image_url+'" width="80"></div></a>'
-                    +'<p class="desc">'
-                    +obj.short_description
-                            +official
-                    +'</p>'                  
-                    +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
-                      +'<span>Visit Site</span>'
-                      +'<i class="icon icon--thin_arrow_right"></i>'
-                    +'</a>'
-                    +'</center>'
-                  +'</div>'
-                +'</div>'; 
-    });
+                //load all page lang
+                document.getElementById("back").innerHTML = data2["back"];
+                document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["links"];
+                document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
+                document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
+                +'<a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a> '+data2["donate_posttext"]+' <a href="https://scan.idena.io/address?address=0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">'
+                +'<span class="donate">0x140d5add76f3e4cc4538b9809601383bd74689df</span></a></p>';
 
-    linkslist.innerHTML = linkscontent;
+                //page lang load ends
+
+                data["entries"].forEach(function(obj) { 
+
+                  if(obj.official=="no") {
+                    //console.log(obj.official);
+                    official = '<span class="badge badge-secondary hide">'+data2["official"]+'</span>';
+                  } else {
+                    official = '<span class="badge badge-secondary">'+data2["official"]+'</span>';
+                  }
+                  linkscontent = linkscontent + '<div class="col-12 col-sm-3 entry">'
+                              +'<div class="mini-card">'
+                                +'<center>'
+                                +'<a href="'+obj.url+'" target="_blank"><div class="user-pic"><img src="'+obj.image_url+'" width="80"></div></a>'
+                                +'<p class="desc">'
+                                +obj.short_description
+                                        +official
+                                +'</p>'                  
+                                +'<a class="btn btn-secondary btn-small" href="'+obj.url+'" target="_blank">'
+                                  +'<span>'+data2["visit"]+'</span>'
+                                  +'<i class="icon icon--thin_arrow_right"></i>'
+                                +'</a>'
+                                +'</center>'
+                              +'</div>'
+                            +'</div>'; 
+                });
+
+                linkslist.innerHTML = linkscontent;
+
+        });
       
   }); //fetching all the links listed
 
