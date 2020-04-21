@@ -118,6 +118,13 @@
 		"image_url": "https://i.imgur.com/lZZmcP9.jpg",
 		"official": "no",
 		"short_description": "Idena Chinese Telegram 🇨🇳"
+	},
+	{
+		"type": "community",
+		"url": "https://www.facebook.com/groups/idena/",
+		"image_url": "https://i.imgur.com/FcCHq0G.jpg",
+		"official": "no",
+		"short_description": "Idena Unofficial facebook group"
 	}
 	
 ]
