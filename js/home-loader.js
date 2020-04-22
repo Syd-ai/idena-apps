@@ -1,4 +1,8 @@
 var lang = localStorage.getItem('lang') || 'en';
+var dayl = 'days';
+var secl = 'seconds';
+var hourl = 'hours';
+var minl = 'minutes';
 
 function ajax_get(url, callback) {
     var xmlhttp = new XMLHttpRequest();
@@ -38,19 +42,19 @@ function timemagic(){
   // Output the result in an element with id="demo"
   document.getElementById("counter").innerHTML = '<div class="col-auto">'
                     +'<span class="days">'+days+'</span>'
-                    +'<span class="_smalltext"> days</span>'
+                    +'<span class="_smalltext"> '+dayl+'</span>'
                   +'</div>'
                   +'<div class="col-auto">'
                     +'<span class="hours">'+hours+'</span>'
-                    +'<span class="_smalltext"> hours</span>'
+                    +'<span class="_smalltext"> '+hourl+'</span>'
                   +'</div>'
                   +'<div class="col-auto">'
                     +'<span class="minutes">'+minutes+'</span>'
-                    +'<span class="_smalltext"> min</span>'
+                    +'<span class="_smalltext"> '+minl+'</span>'
                   +'</div>'
                   +'<div class="col-auto">'
                     +'<span class="seconds">'+seconds+'</span>'
-                    +'<span class="_smalltext"> seconds</span>'
+                    +'<span class="_smalltext"> '+secl+'</span>'
                   +'</div>';
   document.getElementById("NextValidationDateTime").innerHTML = validTime;
     
@@ -134,6 +138,7 @@ window.onload = (function(){
                 document.getElementById("hero_title").innerHTML = data2["hero_title"];
                 document.getElementById("hero_description").innerHTML = data2["hero_description"];
                 document.getElementById("contribute").innerHTML = data2["contribute"];
+                document.getElementById("submit").innerHTML = data2["submit"];
                 document.getElementById("contribute_statement").innerHTML = data2["contribute_statement"];
                 document.getElementById("app_all").innerHTML = data2["view_all"];
                 document.getElementById("community_all").innerHTML = data2["view_all"];
@@ -148,10 +153,10 @@ window.onload = (function(){
                 document.getElementById("explorers").innerHTML = data2["explorers"];
 
                 document.getElementById("all_categories").innerHTML = data2["all_categories"];
-                document.getElementById("days").innerHTML = data2["days"];
-                document.getElementById("minutes").innerHTML = data2["minutes"];
-                document.getElementById("hours").innerHTML = data2["hours"];
-                document.getElementById("seconds").innerHTML = data2["seconds"];
+                dayl = data2["days"];
+                minl = data2["minutes"];
+                hourl = data2["hours"];
+                secl = data2["seconds"];
                 document.getElementById("validation_sub").innerHTML = data2["validation_sub"];
                 document.getElementById("online").innerHTML = data2["online_total"];
 
