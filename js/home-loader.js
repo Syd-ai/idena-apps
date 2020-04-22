@@ -1,3 +1,5 @@
+var lang = localStorage.getItem('lang') || 'en';
+
 function ajax_get(url, callback) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.onreadystatechange = function() {
@@ -69,7 +71,7 @@ var onlineid = '<div class="col-12 col-sm-3">'
              +'<div class="row">'
               +'<div class="col-12 col-sm-12 bordered-col">'
                     +'<h3 class="info_block__accent"><span id="OnlineMinersTotal">--</span> / <span id="ValidatedTotal">--</span></h3>'
-                    +'<div class="control-label" data-toggle="tooltip" title="" data-original-title="Online miners / Total validated identities">Online / Total</div>'
+                    +'<div class="control-label" data-toggle="tooltip" title="" data-original-title="Online miners / Total validated identities" id="online">Online / Total</div>'
                   +'</div>'
               +'</div>'
               +'</div>'
@@ -86,23 +88,23 @@ var onlineid = '<div class="col-12 col-sm-3">'
                 +'<div id="counter" class="_value row justify-content-center">'
                   +'<div class="col-auto">'
                     +'<span class="days">--</span>'
-                    +'<span class="_smalltext"> days</span>'
+                    +'<span class="_smalltext" id="days"> days</span>'
                   +'</div>'
                   +'<div class="col-auto">'
                     +'<span class="hours">--</span>'
-                    +'<span class="_smalltext"> hours</span>'
+                    +'<span class="_smalltext" id="hours"> hours</span>'
                   +'</div>'
                   +'<div class="col-auto">'
                     +'<span class="minutes">--</span>'
-                    +'<span class="_smalltext"> min</span>'
+                    +'<span class="_smalltext" id="minutes"> min</span>'
                   +'</div>'
                   +'<div class="col-auto">'
                     +'<span class="seconds">--</span>'
-                    +'<span class="_smalltext"> seconds</span>'
+                    +'<span class="_smalltext" id="seconds"> seconds</span>'
                   +'</div>'
                 +'</div>'
                 +'<div class="control-label" data-toggle="tooltip">'
-                  +'Validation time:&nbsp;&nbsp;<span id="NextValidationDateTime">--</span>'
+                  +'<span id="validation_sub">Validation time:</span>&nbsp;&nbsp;<span id="NextValidationDateTime">--</span>'
                 +'</div>'
               +'</div>'
               +'</div>'
@@ -123,18 +125,18 @@ window.onload = (function(){
       var d = new Date(data['result']['validationTime']);
       validTime = d.toLocaleDateString() + ' ' + d.toLocaleTimeString();
       timemagic();
-      });
+  });
 
   ajax_get('https://api.idena.org/api/OnlineIdentities/Count', function(data) {
       var countnum = data['result'];
       document.getElementById("ValidatedTotal").innerHTML = countnum;
-      });
+  });
 
 
   ajax_get('https://api.idena.org/api/OnlineMiners/Count', function(data) {
       var countnum = data['result'];
       document.getElementById("OnlineMinersTotal").innerHTML = countnum;
-      });
+  });
 
 
 

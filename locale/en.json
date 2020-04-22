@@ -1,4 +1,5 @@
 {
+	"homepage_t": "Idena Apps - Community driven directory of all Idena resources",
 	"hero_title": "Idena Apps & Resources",
 	"hero_description": "This is a community curated list of everything useful in the Idena ecosystem. Here you will find all the community built apps, How-to videos & Tutorials. The information on this page is provided by the community. Idena foundation does not officially endorse these resources unless released by the foundation.",
 	"contribute": "Contribute",
@@ -6,6 +7,7 @@
 	"submit": "Submit Resource",
 	"all_categories": "All Categories",
 	"view_all": "View All",
+	"online": "Online / Total",
 	"apps": "Apps",
 	"communities": "Communities",
 	"videos_blogs": "Videos & Blogs",
