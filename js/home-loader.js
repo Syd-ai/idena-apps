@@ -125,6 +125,46 @@ window.onload = (function(){
       var d = new Date(data['result']['validationTime']);
       validTime = d.toLocaleDateString() + ' ' + d.toLocaleTimeString();
       timemagic();
+
+      ajax_get('https://idena-apps.org/locale/'+lang+'.json', function(data2) {
+
+                //load all page lang
+
+                document.getElementById("title").innerHTML = data2["homepage_t"];
+                document.getElementById("hero_title").innerHTML = data2["hero_title"];
+                document.getElementById("hero_description").innerHTML = data2["hero_description"];
+                document.getElementById("contribute").innerHTML = data2["contribute"];
+                document.getElementById("contribute_statement").innerHTML = data2["contribute_statement"];
+                document.getElementById("app_all").innerHTML = data2["view_all"];
+                document.getElementById("community_all").innerHTML = data2["view_all"];
+                document.getElementById("video_all").innerHTML = data2["view_all"];
+                document.getElementById("link_all").innerHTML = data2["view_all"];
+                document.getElementById("explorer_all").innerHTML = data2["view_all"];
+
+                document.getElementById("apps").innerHTML = data2["apps"];
+                document.getElementById("communities").innerHTML = data2["communities"];
+                document.getElementById("videos_blogs").innerHTML = data2["videos_blogs"];
+                document.getElementById("links").innerHTML = data2["links"];
+                document.getElementById("explorers").innerHTML = data2["explorers"];
+
+                document.getElementById("all_categories").innerHTML = data2["all_categories"];
+                document.getElementById("days").innerHTML = data2["days"];
+                document.getElementById("minutes").innerHTML = data2["minutes"];
+                document.getElementById("hours").innerHTML = data2["hours"];
+                document.getElementById("seconds").innerHTML = data2["seconds"];
+                document.getElementById("validation_sub").innerHTML = data2["validation_sub"];
+                document.getElementById("online").innerHTML = data2["online_total"];
+
+                document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
+                document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
+                +'<a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a>'+data2["donate_posttext"]+'<a href="https://scan.idena.io/address?address=0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">'
+                +'<span class="donate">0x140d5add76f3e4cc4538b9809601383bd74689df</span></a></p>';
+
+                //page lang load ends
+
+      });
+
+
   });
 
   ajax_get('https://api.idena.org/api/OnlineIdentities/Count', function(data) {

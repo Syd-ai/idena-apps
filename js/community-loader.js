@@ -38,6 +38,7 @@ window.onload = (function(){
 
                 //load all page lang
                 document.getElementById("back").innerHTML = data2["back"];
+                document.getElementById("title").innerHTML = data2["communities_t"];
                 document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["communities"];
                 document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
                 document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 

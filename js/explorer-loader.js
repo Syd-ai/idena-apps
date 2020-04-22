@@ -38,6 +38,7 @@ window.onload = (function(){
 
                 //load all page lang
 
+                document.getElementById("title").innerHTML = data2["explorers_t"];
                 document.getElementById("back").innerHTML = data2["back"];
                 document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["explorers"];
                 document.getElementById("disclaimer").innerHTML = data2["disclaimer"];

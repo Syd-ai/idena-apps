@@ -41,6 +41,7 @@ window.onload = (function(){
                 //load all page lang
 
                 document.getElementById("back").innerHTML = data2["back"];
+                document.getElementById("title").innerHTML = data2["videos_t"];
                 document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["videos_blogs"];
                 document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
                 document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
