@@ -119,6 +119,15 @@
 	},
 	{
 		"type": "video",
+		"url": "https://www.youtube.com/watch?v=7e9pYtI7nm8",
+		"image_url": "https://img.youtube.com/vi/7e9pYtI7nm8/hqdefault.jpg",
+		"official": "no",
+		"short_description": "Idena - How to get your images from flips.json",
+		"created_by": "Rioda",
+		"github": ""
+	},
+	{
+		"type": "video",
 		"url": "https://www.youtube.com/watch?v=-VvOnYemA3w",
 		"image_url": "https://img.youtube.com/vi/-VvOnYemA3w/hqdefault.jpg",
 		"official": "no",
