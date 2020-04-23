@@ -206,6 +206,15 @@
 		"short_description": "AI, Decentralization And The Captcha Arms Race",
 		"created_by": "Condra",
 		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=4XnKefnOx88&feature=youtu.be",
+		"image_url": "https://img.youtube.com/vi/4XnKefnOx88/hqdefault.jpg",
+		"official": "no",
+		"short_description": "Tutorial Install Node IDENA di VPS Vultr 🇮🇩",
+		"created_by": "My Channel",
+		"github": ""
 	}
 ]
 }
