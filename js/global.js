@@ -46,11 +46,11 @@ var htmcontent = '<button type="button" id="moon" class="rem btn btn-icon"'
 modechange.innerHTML = htmcontent;
 
 var langcontent = '<select id="langSelect" onchange="langchange()">'
-+'<option id="lang_en" value="en">English - EN</option>'
-+'<option id="lang_fr" value="fr">French - FR</option>'
-+'<option id="lang_sr" value="sr">Serbian - SR</option>'
-+'<option id="lang_hi" value="hi">Hindi - HI</option>'
-+'<option id="lang_id" value="id">Indonesian - ID</option>'
++'<option id="lang_en" value="en">🇺🇸English - EN</option>'
++'<option id="lang_fr" value="fr">🇫🇷French - FR</option>'
++'<option id="lang_sr" value="sr">🇷🇸Serbian - SR</option>'
++'<option id="lang_hi" value="hi">🇮🇳Hindi - HI</option>'
++'<option id="lang_id" value="id">🇮🇩Indonesian - ID</option>'
 +'</select>';
 
 lang_select.innerHTML = langcontent;
