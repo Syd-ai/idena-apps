@@ -39,6 +39,13 @@ body {
     }
 }
 
+@media (max-width: 767px) {
+.copy {
+    font-size: 10px;
+    line-height: 24px;
+    overflow-x: auto;
+}
+}
 
 @media (min-width: 768px) {
     .container {
@@ -236,9 +243,9 @@ p{
 
 #scrollTop {
     position: fixed;
-    bottom: 2.5rem;
-    right: 2.5rem;
-    padding: 1.3rem 1.1rem;
+    bottom: 2.1rem;
+    right: 2.1rem;
+    padding: 1.2rem 1.2rem;
     margin-top: -10px;
     vertical-align: middle;
     background: #fff;

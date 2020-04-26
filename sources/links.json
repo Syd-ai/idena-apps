@@ -2,6 +2,27 @@
 	"entries":[
 	{
 		"type": "link",
+		"url": "https://idena.io/IdenaConceptPaper.pdf",
+		"image_url": "https://styles.redditmedia.com/t5_1afb2h/styles/communityIcon_pyfektycoau31.png",
+		"official": "yes",
+		"short_description": "Idena Concept Paper"
+	},
+	{
+		"type": "link",
+		"url": "https://idena.io/IdenaPitchDeck.pdf",
+		"image_url": "https://styles.redditmedia.com/t5_1afb2h/styles/communityIcon_pyfektycoau31.png",
+		"official": "yes",
+		"short_description": "Idena Pitch Deck"
+	},
+	{
+		"type": "link",
+		"url": "https://idena.io/IdenaOnePager.pdf",
+		"image_url": "https://styles.redditmedia.com/t5_1afb2h/styles/communityIcon_pyfektycoau31.png",
+		"official": "yes",
+		"short_description": "Idena One Pager"
+	},
+	{
+		"type": "link",
 		"url": "https://www.coingecko.com/en/coins/idena",
 		"image_url": "https://i.imgur.com/ivmBx6z.png",
 		"official": "yes",
@@ -69,6 +90,13 @@
 		"image_url": "https://i.imgur.com/JLUoRcc.png",
 		"official": "yes",
 		"short_description": "Delta app statistics tracker for Idena"
+	},
+	{
+		"type": "link",
+		"url": "http://niubiquan.com/coin/idena-dna/",
+		"image_url": "https://i.imgur.com/crKfYjJ.png",
+		"official": "no",
+		"short_description": "niubiquan.com - Idena 🇨🇳"
 	}
 ]
 }

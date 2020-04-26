@@ -1,6 +1,24 @@
 {
 	"entries":[
 	{
+		"type": "blog",
+		"url": "https://medium.com/idena/idena-community-report-current-state-and-next-steps-dce97a0e3034",
+		"image_url": "https://miro.medium.com/fit/c/1234/370/0*dT-8uhftpSNcLHjN",
+		"official": "yes",
+		"short_description": "Idena community report: Current state and next steps",
+		"created_by": "Idena Core",
+		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://medium.com/idena/community-based-co-funding-b6b4fc79ddff",
+		"image_url": "https://miro.medium.com/fit/c/1400/420/1*bRnIqyFxgGt1l1ZgtruYkA.png",
+		"official": "yes",
+		"short_description": "Community-based co-funding",
+		"created_by": "Idena Core",
+		"github": ""
+	},
+	{
 		"type": "video",
 		"url": "https://youtu.be/QXE6rKkGm1A",
 		"image_url": "https://img.youtube.com/vi/QXE6rKkGm1A/hqdefault.jpg",
