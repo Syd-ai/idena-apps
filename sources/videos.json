@@ -260,6 +260,24 @@
 		"short_description": "Tutorial Install Node IDENA di VPS Vultr 🇮🇩",
 		"created_by": "My Channel",
 		"github": ""
+	},
+	{
+		"type": "Blog",
+		"url": "https://golos.in/ru--blokcheijn/@everythink/1-chelovek-1-golos-perspektivnaya-moneta",
+		"image_url": "https://steemitimages.com/p/5i2yA5ubhzU8DkMUpK9WmagHKqamxbLDQFRqAf6FZ8RJbZpo1GDAmKr6ckVpq4HRdJUBQ9n5sMXjdEGEkKmf1oWVxYGY6NEnxrTgFLzV8i3SYTHAGAAYqRvKjojnw6fFyFiSeqqa86uXdKuvWfFuNEeZ1USBbwBu45wyaiTh52qe9xP89RUgUGZP8BbqmiqEoZUkktxKiHs5fqjbU3Vj9eCqRMTdyfk?format=match&mode=fit",
+		"official": "no",
+		"short_description": "1 человек = 1 голос, перспективная монета (in RU)",
+		"created_by": "Everythink",
+		"github": ""
+	},
+	{
+		"type": "Blog",
+		"url": "https://golos.in/ru--blokcheijn/@everythink/intervyu-komandy-idena",
+		"image_url": "https://steemitimages.com/p/5i2yA5ubhzU8DkMUpK9WmagHKqamxbLDQFRqAf6FZ8RJbZpo1GDAmKr6ckVpq4HRdJUBQ9n5sMXjdEGEkKmf1oWVxYGY6NEnxrTgFLzV8i3SYTHAGAAYqRvKjojnw6fFyFiSeqqa86uXdKuvWfFuNEeZ1USBbwBu45wyaiTh52qe9xP89RUgUGZP8BbqmiqEoZUkktxKiHs5fqjbU3Vj9eCqRMTdyfk?format=match&mode=fit",
+		"official": "no",
+		"short_description": "1 человек = 1 голос, часть 2 (in RU)",
+		"created_by": "Everythink",
+		"github": ""
 	}
 ]
 }
