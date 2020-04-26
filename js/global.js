@@ -47,6 +47,7 @@ modechange.innerHTML = htmcontent;
 
 var langcontent = '<select id="langSelect" onchange="langchange()">'
 +'<option id="lang_en" value="en">English - EN</option>'
++'<option id="lang_fr" value="en">French - FR</option>'
 +'<option id="lang_hi" value="hi">Hindi - HI</option>'
 +'<option id="lang_id" value="id">Indonesian - ID</option>'
 +'</select>';
