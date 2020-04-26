@@ -83,6 +83,15 @@
 	},
 	{
 		"type": "Blog",
+		"url": "https://docs.google.com/document/d/11rnVz8G27z0BCJ3KWKOcLRfKCAvEIYoBzODIr_IyCq8/edit?usp=sharing",
+		"image_url": "https://i.imgur.com/QPVPnli.png",
+		"official": "no",
+		"short_description": "Idena Getting Started Guide (In French 🇫🇷)",
+		"created_by": "Corentin",
+		"github": ""
+	},
+	{
+		"type": "Blog",
 		"url": "https://medium.com/idena/idena-who-we-are-and-what-we-believe-in-e1678726be7f",
 		"image_url": "https://miro.medium.com/max/1400/1*bRnIqyFxgGt1l1ZgtruYkA.png",
 		"official": "yes",
