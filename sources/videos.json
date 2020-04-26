@@ -2,6 +2,15 @@
 	"entries":[
 	{
 		"type": "blog",
+		"url": "https://medium.com/idena/april-22-2020-idena-ama-transcript-cbdfc33fbbdb",
+		"image_url": "https://miro.medium.com/max/1400/1*0eo41vLZF6naM2CxKeANgg.png",
+		"official": "yes",
+		"short_description": "April 22, 2020. Idena First-ever AMA transcript",
+		"created_by": "Idena Core",
+		"github": ""
+	},
+	{
+		"type": "blog",
 		"url": "https://medium.com/idena/idena-community-report-current-state-and-next-steps-dce97a0e3034",
 		"image_url": "https://miro.medium.com/fit/c/1234/370/0*dT-8uhftpSNcLHjN",
 		"official": "yes",
