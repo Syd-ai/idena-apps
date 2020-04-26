@@ -101,6 +101,15 @@
 	},
 	{
 		"type": "Blog",
+		"url": "https://drive.google.com/file/d/1V5GsZvPqLkXsM5DivAWdKNP3_n6WfGwA/view",
+		"image_url": "https://i.imgur.com/QEFM41j.png",
+		"official": "no",
+		"short_description": "Idena Concept paper Unofficial translation (In Turkish 🇹🇷)",
+		"created_by": "TyfrTR",
+		"github": ""
+	},
+	{
+		"type": "Blog",
 		"url": "https://medium.com/idena/idena-who-we-are-and-what-we-believe-in-e1678726be7f",
 		"image_url": "https://miro.medium.com/max/1400/1*bRnIqyFxgGt1l1ZgtruYkA.png",
 		"official": "yes",
