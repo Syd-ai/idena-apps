@@ -85,6 +85,18 @@ body {
     }
 }
 
+select {
+    word-wrap: normal;
+    font-size: 0.9rem;
+    width: 80%;
+    margin: auto;
+    color: #333;
+    height: 2.2rem;
+    display: block;
+    background: #fff;
+    padding: 0.4rem 0.5rem;
+    border: 1px solid #dfdfdf;
+}
 
 
 .hide {

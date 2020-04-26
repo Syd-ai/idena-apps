@@ -11,6 +11,7 @@ var lang = localStorage.getItem('lang') || 'en';
 
 
 var parent2 = document.querySelector(".justify-content-between");
+var lang_select = parent2.querySelector(".col-5");
 var modechange = parent2.querySelector(".col-auto:last-child");
 
 
@@ -43,6 +44,23 @@ var htmcontent = '<button type="button" id="moon" class="rem btn btn-icon"'
 						+'style="opacity: 0.8;"/></button>'; 
 
 modechange.innerHTML = htmcontent;
+
+var langcontent = '<select id="langSelect" onchange="langchange()">'
++'<option id="lang_en" value="en">English - EN</option>'
++'<option id="lang_hi" value="hi">Hindi - HI</option>'
++'<option id="lang_id" value="id">Indonesian - ID</option>'
++'</select>';
+
+lang_select.innerHTML = langcontent;
+
+document.getElementById("lang_"+lang.toString()).setAttribute("selected", "true");
+
+function langchange()
+{
+  var x = document.getElementById("langSelect").value;
+  localStorage.setItem('lang', x);
+  location.reload();
+}
 
 
 if (mode =='dark') {

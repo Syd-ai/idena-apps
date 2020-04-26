@@ -69,7 +69,7 @@ function timemagic(){
 
 
 var onlineid = '<div class="col-12 col-sm-3">'
-            +'<h1>Identities</h1>'
+            +'<h1 id="identities">Identities</h1>'
             +'<div class="card">'
             +'<div class="info_block">'
              +'<div class="row">'
@@ -84,7 +84,7 @@ var onlineid = '<div class="col-12 col-sm-3">'
   var timewidget = '<div class="row">'
             +onlineid
             +'<div class="col-12 col-sm-9">'
-            +'<h1>Next Validation In</h1>'
+            +'<h1 id="validation_title">Next Validation In</h1>'
             +'<div class="card">'
             +'<div class="info_block">'
             +'<div class="row">'
@@ -153,6 +153,9 @@ window.onload = (function(){
                 document.getElementById("explorers").innerHTML = data2["explorers"];
 
                 document.getElementById("all_categories").innerHTML = data2["all_categories"];
+                document.getElementById("identities").innerHTML = data2["identities"];
+                document.getElementById("validation_title").innerHTML = data2["validation_title"];
+                
                 dayl = data2["days"];
                 minl = data2["minutes"];
                 hourl = data2["hours"];
