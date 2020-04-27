@@ -207,6 +207,9 @@ window.onload = (function(){
                 document.getElementById("all_categories").innerHTML = data2["all_categories"];
                 document.getElementById("identities").innerHTML = data2["identities"];
                 document.getElementById("validation_title").innerHTML = data2["validation_title"];
+
+                document.getElementById("network_growth_title").innerHTML = data2["network_growth_title"];
+                document.getElementById("since_last_epoch").innerHTML = data2["since_last_epoch"];
                 
                 dayl = data2["days"];
                 minl = data2["minutes"];
