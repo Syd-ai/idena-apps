@@ -44,6 +44,20 @@
 	},
 	{
 		"type": "community",
+		"url": "https://t.me/Idena_FR",
+		"image_url": "https://i.imgur.com/mkxn1Yo.jpg",
+		"official": "no",
+		"short_description": "Idena French Telegram 🇫🇷"
+	},
+	{
+		"type": "community",
+		"url": "https://t.me/idena_cn",
+		"image_url": "https://i.imgur.com/MXnaroi.jpg",
+		"official": "no",
+		"short_description": "Idena Chinese Telegram 🇨🇳"
+	},
+	{
+		"type": "community",
 		"url": "https://t.me/Idena_RU",
 		"image_url": "https://i.imgur.com/Jy3hGTf.jpg",
 		"official": "no",
@@ -65,10 +79,17 @@
 	},
 	{
 		"type": "community",
-		"url": "https://t.me/Idena_FR",
-		"image_url": "https://i.imgur.com/mkxn1Yo.jpg",
+		"url": "https://t.me/idenaespaniol",
+		"image_url": "https://i.imgur.com/ShNBNLH.png",
 		"official": "no",
-		"short_description": "Idena French Telegram 🇫🇷"
+		"short_description": "Idena Spanish Telegram 🇪🇸"
+	},
+	{
+		"type": "community",
+		"url": "https://t.me/IdenaArabic",
+		"image_url": "https://i.imgur.com/1tzbhva.jpg",
+		"official": "no",
+		"short_description": "Idena Arabic Telegram 🇪🇬"
 	},
 	{
 		"type": "community",
@@ -100,13 +121,6 @@
 	},
 	{
 		"type": "community",
-		"url": "https://t.me/IdenaArabic",
-		"image_url": "https://i.imgur.com/1tzbhva.jpg",
-		"official": "no",
-		"short_description": "Idena Arabic Telegram 🇪🇬"
-	},
-	{
-		"type": "community",
 		"url": "https://jq.qq.com/?_wv=1027&k=5VED6dS",
 		"image_url": "https://i.imgur.com/yKKWldm.png",
 		"official": "no",
@@ -118,13 +132,6 @@
 		"image_url": "https://i.imgur.com/IKl5bIB.png",
 		"official": "no",
 		"short_description": "Idena Wechat Chinese 🇨🇳"
-	},
-	{
-		"type": "community",
-		"url": "https://t.me/idena_cn",
-		"image_url": "https://i.imgur.com/MXnaroi.jpg",
-		"official": "no",
-		"short_description": "Idena Chinese Telegram 🇨🇳"
 	},
 	{
 		"type": "community",
