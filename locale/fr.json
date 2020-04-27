@@ -39,5 +39,7 @@
 	"join_community": "Rejoindre la communauté",
 	"read": "Lire l'article",
 	"watch": "Regarder la vidéo",
-	"visit": "Visiter le site"
+	"visit": "Visiter le site",
+	"network_growth_title": "Croissance du réseau",
+	"since_last_epoch": "croissance depuis la dernière époque"
 }

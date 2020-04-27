@@ -39,5 +39,7 @@
 	"join_community": "Join Community",
 	"read": "Read Post",
 	"watch": "Watch Video",
-	"visit": "Visit Website"
+	"visit": "Visit Website",
+	"network_growth_title": "Network Growth",
+	"since_last_epoch": "Growth since last epoch"
 }
