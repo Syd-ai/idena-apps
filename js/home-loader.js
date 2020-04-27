@@ -3,6 +3,13 @@ var dayl = 'days';
 var secl = 'seconds';
 var hourl = 'hours';
 var minl = 'minutes';
+var current = '';
+var genesis = 60;
+var previous = '';
+var epoch = '';
+var epochlink = '';
+var epoch1 = '';
+var growth_last = '--';
 
 function ajax_get(url, callback) {
     var xmlhttp = new XMLHttpRequest();
@@ -21,6 +28,19 @@ function ajax_get(url, callback) {
  
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
+}
+
+
+function precise2(x) {
+  return x.toLocaleString(undefined, {maximumFractionDigits:2});
+}
+
+function color(x) {
+  if(x<0) {
+     return '<span class="red">'+x+'% &#x2193;</span>';
+  } else {
+    return '<span class="green">+'+x+'% &#x2191;</span>';
+  }
 }
 
 
@@ -81,9 +101,23 @@ var onlineid = '<div class="col-12 col-sm-3">'
               +'</div>'
               +'</div></div>';
 
-  var timewidget = '<div class="row">'
+var growthwidget = '<div class="col-12 col-sm-3">'
+            +'<h1 id="network_growth_title">Network Growth</h1>'
+            +'<div class="card">'
+            +'<div class="info_block">'
+             +'<div class="row">'
+              +'<div class="col-12 col-sm-12 bordered-col">'
+                    +'<div class="col-auto"><h3 class="info_block__accent" id="NetworkGrowth"> '+growth_last+'</h3></div>'
+                    +'<div class="control-label" id="since_last_epoch" title="Network growth since last epoch">Growth since last epoch</div>'
+              +'</div>'
+              +'</div>'
+              +'</div>'
+              +'</div></div>';
+
+
+var timewidget = '<div class="row">'
             +onlineid
-            +'<div class="col-12 col-sm-9">'
+            +'<div class="col-12 col-sm-6">'
             +'<h1 id="validation_title">Next Validation In</h1>'
             +'<div class="card">'
             +'<div class="info_block">'
@@ -115,7 +149,7 @@ var onlineid = '<div class="col-12 col-sm-3">'
               +'</div>'
               +'</div>'              
               +'</div>'
-              
+              +growthwidget
             +'</div>';
 
 
@@ -125,10 +159,28 @@ window.onload = (function(){
   document.getElementById("time_and_identity").innerHTML = timewidget;
 
   ajax_get('https://api.idena.io/api/epoch/last', function(data) {
+      epochlink = data['result']['epoch'];
+      epoch = data['result']['epoch']-2;
+      epoch1 = data['result']['epoch'];
       countDownDate = new Date(data['result']['validationTime']).getTime();
       var d = new Date(data['result']['validationTime']);
       validTime = d.toLocaleDateString() + ' ' + d.toLocaleTimeString();
       timemagic();
+
+      ajax_get('https://api.idena.org/api/Epoch/'+epoch1+'/Identities/Count?states[]=Newbie,Verified,Human', function(data) {
+
+          current = data["result"];
+
+          ajax_get('https://api.idena.org/api/Epoch/'+epoch+'/Identities/Count?states[]=Newbie,Verified,Human', function(data) {  
+
+            previous = data["result"];
+            growth_last = color(precise2((current-previous)/previous*100));
+
+            document.getElementById("NetworkGrowth").innerHTML = growth_last;
+
+          });
+
+      });
 
       ajax_get('https://idena-apps.org/locale/'+lang+'.json', function(data2) {
 
@@ -176,13 +228,13 @@ window.onload = (function(){
   });
 
   ajax_get('https://api.idena.org/api/OnlineIdentities/Count', function(data) {
-      var countnum = data['result'];
+      var countnum = precise2(data['result']);
       document.getElementById("ValidatedTotal").innerHTML = countnum;
   });
 
 
   ajax_get('https://api.idena.org/api/OnlineMiners/Count', function(data) {
-      var countnum = data['result'];
+      var countnum = precise2(data['result']);
       document.getElementById("OnlineMinersTotal").innerHTML = countnum;
   });
 
