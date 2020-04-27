@@ -42,7 +42,7 @@ window.onload = (function(){
 
                 document.getElementById("back").innerHTML = data2["back"];
                 document.getElementById("title").innerHTML = data2["videos_t"];
-                document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["videos_blogs"];
+                document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["videos_blogs"]+' ('+data["entries"].length+')';
                 document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
                 document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
                 +'<a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a>'+data2["donate_posttext"]+'<a href="https://scan.idena.io/address?address=0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">'
