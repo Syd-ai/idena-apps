@@ -91,7 +91,10 @@ select {
     width: 80%;
     margin: auto;
     color: #333;
-    height: 2.2rem;
+    vertical-align: middle;
+    align-items: center;
+    height: 2.4rem;
+    line-height: 2.2rem;
     display: block;
     background: #fff;
     padding: 0.4rem 0.5rem;
