@@ -278,6 +278,15 @@
 		"short_description": "1 человек = 1 голос, часть 2 (in RU)",
 		"created_by": "Everythink",
 		"github": ""
+	},
+	{
+		"type": "Blog",
+		"url": "http://niubiquan.com/article/3284",
+		"image_url": "https://i.imgur.com/JiA376j.png",
+		"official": "no",
+		"short_description": "4 月 24 号 Idena 开发团队 AMA",
+		"created_by": "alicehuca",
+		"github": ""
 	}
 ]
 }
