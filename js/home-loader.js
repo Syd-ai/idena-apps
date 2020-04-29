@@ -37,9 +37,9 @@ function precise2(x) {
 
 function color(x) {
   if(x<0) {
-     return '<span class="red">'+x+'% &#x2193;</span>';
+     return '<span class="red">'+precise2(x)+'% &#x2193;</span>';
   } else {
-    return '<span class="green">+'+x+'% &#x2191;</span>';
+    return '<span class="green">+'+precise2(x)+'% &#x2191;</span>';
   }
 }
 
@@ -174,7 +174,7 @@ window.onload = (function(){
           ajax_get('https://api.idena.org/api/Epoch/'+epoch+'/Identities/Count?states[]=Newbie,Verified,Human', function(data) {  
 
             previous = data["result"];
-            growth_last = color(precise2((current-previous)/previous*100));
+            growth_last = color((current-previous)/previous*100);
 
             document.getElementById("NetworkGrowth").innerHTML = growth_last;
 
