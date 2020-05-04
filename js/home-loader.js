@@ -164,7 +164,7 @@ window.onload = (function(){
       epoch1 = data['result']['epoch'];
       countDownDate = new Date(data['result']['validationTime']).getTime();
       var d = new Date(data['result']['validationTime']);
-      validTime = d.toLocaleDateString() + ' ' + d.toLocaleTimeString();
+      validTime = d.toDateString() + ' ' + d.toLocaleTimeString();
       timemagic();
 
       ajax_get('https://api.idena.org/api/Epoch/'+epoch1+'/Identities/Count?states[]=Newbie,Verified,Human', function(data) {
