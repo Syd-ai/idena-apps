@@ -7,7 +7,8 @@
 		"official": "yes",
 		"short_description": "(Alt link) Latest Idena Client to run on macOS",
 		"created_by": "Idena Core",
-		"github": "https://github.com/idena-network/idena-desktop/releases/latest"
+		"github": "https://github.com/idena-network/idena-desktop/releases/latest",
+		"category": "app"
 	},
 	{
 		"type": "app",
@@ -16,7 +17,8 @@
 		"official": "yes",
 		"short_description": "(Alt link) Latest Idena Client to run on Linux",
 		"created_by": "Idena Core",
-		"github": "https://github.com/idena-network/idena-desktop/releases/latest"
+		"github": "https://github.com/idena-network/idena-desktop/releases/latest",
+		"category": "app"
 	},
 	{
 		"type": "app",
@@ -25,7 +27,8 @@
 		"official": "yes",
 		"short_description": "(Alt link) Latest Idena Client to run on Windows",
 		"created_by": "Idena Core",
-		"github": "https://github.com/idena-network/idena-desktop/releases/latest"
+		"github": "https://github.com/idena-network/idena-desktop/releases/latest",
+		"category": "app"
 	},
 	{
 		"type": "app",
@@ -34,7 +37,8 @@
 		"official": "no",
 		"short_description": "Idena Analytics to check the blockchain and node statistics",
 		"created_by": "IdenaToday Team",
-		"github": ""
+		"github": "",
+		"category": "other"
 	},
 	{
 		"type": "app",
@@ -42,8 +46,9 @@
 		"image_url": "./images/listing/idenadev.png",
 		"official": "no",
 		"short_description": "Lightweight JS library to access node & RPC methods",
-		"created_by": "menxit",
-		"github": "https://github.com/idena-dev/idena-js"
+		"created_by": "Idena-dev",
+		"github": "https://github.com/idena-dev/idena-js",
+		"category": "library"
 	},
 	{
 		"type": "app",
@@ -51,8 +56,19 @@
 		"image_url": "./images/listing/pocket.png",
 		"official": "no",
 		"short_description": "A Lightweight web wallet for Idena",
-		"created_by": "menxit",
-		"github": "https://github.com/idena-dev/idena-pocket"
+		"created_by": "Idena-dev",
+		"github": "https://github.com/idena-dev/idena-pocket",
+		"category": "wallet"
+	},
+	{
+		"type": "app",
+		"url": "#",
+		"image_url": "./images/listing/default.png",
+		"official": "no",
+		"short_description": "Idena wallet application framework for Nano S and Nano X",
+		"created_by": "Idena-dev",
+		"github": "https://github.com/idena-dev/idena-ledger",
+		"category": "app"
 	},
 	{
 		"type": "app",
@@ -61,7 +77,8 @@
 		"official": "no",
 		"short_description": "Paper wallet for DNA crypto currency",
 		"created_by": "AngainorDev",
-		"github": "https://github.com/AngainorDev/DnaMask"
+		"github": "https://github.com/AngainorDev/DnaMask",
+		"category": "wallet"
 	},
 	{
 		"type": "bot",
@@ -70,7 +87,8 @@
 		"official": "no",
 		"short_description": "Telegram price, charts and whalewatcher bot for idena project",
 		"created_by": "Endogen",
-		"github": "https://github.com/Endogen/idena-tg-bot"
+		"github": "https://github.com/Endogen/idena-tg-bot",
+		"category": "bot"
 	},
 	{
 		"type": "bot",
@@ -79,7 +97,18 @@
 		"official": "no",
 		"short_description": "Telegram all-in-one bot for Idena project",
 		"created_by": "ProjXDev",
-		"github": "https://github.com/ProjXDev/IdenaAIOBot"
+		"github": "https://github.com/ProjXDev/IdenaAIOBot",
+		"category": "bot"
+	},
+	{
+		"type": "bot",
+		"url": "https://t.me/IdenaVotingBot",
+		"image_url": "./images/listing/default.png",
+		"official": "no",
+		"short_description": "Telegram Idena Voting bot",
+		"created_by": "Endogen",
+		"github": "https://github.com/Endogen/idena-voting",
+		"category": "bot"
 	},
 	{
 		"type": "bot",
@@ -88,7 +117,18 @@
 		"official": "no",
 		"short_description": "Telegram Flip words helper bot",
 		"created_by": "ProjXDev",
-		"github": "https://github.com/ProjXDev/IdenaFlipsHelper"
+		"github": "https://github.com/ProjXDev/IdenaFlipsHelper",
+		"category": "bot"
+	},
+	{
+		"type": "app",
+		"url": "https://github.com/idena-network/idena-auth",
+		"image_url": "./images/listing/default.png",
+		"official": "yes",
+		"short_description": "Golang example implementation for Idena Auth",
+		"created_by": "Idena Core",
+		"github": "https://github.com/idena-network/idena-auth",
+		"category": "other"
 	},
 	{
 		"type": "app",
@@ -97,7 +137,8 @@
 		"official": "no",
 		"short_description": "Chinese Forum and announcements website for Idena",
 		"created_by": "Unknown",
-		"github": ""
+		"github": "",
+		"category": "other"
 	},
 	{
 		"type": "app",
@@ -106,7 +147,8 @@
 		"official": "no",
 		"short_description": "Tool used for easier installation, maintenance and update of idena nodes",
 		"created_by": "crackowich",
-		"github": "https://gitlab.com/crackowich/idena-manager"
+		"github": "https://gitlab.com/crackowich/idena-manager",
+		"category": "app"
 	},
 	{
 		"type": "app",
@@ -115,7 +157,8 @@
 		"official": "no",
 		"short_description": "Idena auto-update for windows with powershell (script)",
 		"created_by": "codev911",
-		"github": "https://github.com/codev911/idena-autoupdate-windows"
+		"github": "https://github.com/codev911/idena-autoupdate-windows",
+		"category": "other"
 	},
 	{
 		"type": "app",
@@ -124,7 +167,8 @@
 		"official": "no",
 		"short_description": "Unofficial chrome extension which adds extra information to official explorer",
 		"created_by": "bingbinglee",
-		"github": "https://github.com/bingbinglee/idena-chrome-extension"
+		"github": "https://github.com/bingbinglee/idena-chrome-extension",
+		"category": "app"
 	},
 	{
 		"type": "app",
@@ -133,7 +177,8 @@
 		"official": "no",
 		"short_description": "Python wrapper for IDENA RPC interface",
 		"created_by": "Endogen",
-		"github": "https://github.com/Endogen/idena-api"
+		"github": "https://github.com/Endogen/idena-api",
+		"category": "library"
 	}
 ]
 }
