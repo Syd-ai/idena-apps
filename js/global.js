@@ -47,13 +47,14 @@ modechange.innerHTML = htmcontent;
 
 var langcontent = '<select id="langSelect" onchange="langchange()">'
 +'<option id="lang_en" value="en">🇺🇸English - EN</option>'
-+'<option id="lang_en" value="cn">🇨🇳Chinese - CN</option>'
-+'<option id="lang_fr" value="fr">🇫🇷French - FR</option>'
-+'<option id="lang_hi" value="hi">🇮🇳Hindi - HI</option>'
-+'<option id="lang_id" value="id">🇮🇩Indonesian - ID</option>'
-+'<option id="lang_ru" value="ru">🇷🇺Russian - RU</option>'
-+'<option id="lang_sr" value="sr">🇷🇸Serbian - SR</option>'
-+'<option id="lang_es" value="es">🇪🇸Spanish - ES</option>'
++'<option id="lang_cn" value="cn">🇨🇳中文 - CN</option>'
++'<option id="lang_fr" value="fr">🇫🇷Française - FR</option>'
++'<option id="lang_hi" value="hi">🇮🇳हिन्दी - HI</option>'
++'<option id="lang_id" value="id">🇮🇩Bahasa Indonesia - ID</option>'
++'<option id="lang_ru" value="ru">🇷🇺русский - RU</option>'
++'<option id="lang_sr" value="sr">🇷🇸Српски - SR</option>'
++'<option id="lang_es" value="es">🇪🇸Español - ES</option>'
++'<option id="lang_uk" value="uk">🇺🇦українська - UK</option>'
 +'</select>';
 
 lang_select.innerHTML = langcontent;
