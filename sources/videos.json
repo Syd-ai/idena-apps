@@ -217,6 +217,15 @@
 		"github": ""
 	},
 	{
+		"type": "video",
+		"url": "https://youtu.be/2Zt-RALyTzU",
+		"image_url": "https://img.youtube.com/vi/2Zt-RALyTzU/hqdefault.jpg",
+		"official": "no",
+		"short_description": "IDENA - блокчейн личностей",
+		"created_by": "Биткоин в минуту",
+		"github": ""
+	},
+	{
 		"type": "Blog",
 		"url": "https://medium.com/@EarthlingDavey/living-from-idena-rewards-75a72cb494fc",
 		"image_url": "https://miro.medium.com/fit/c/1400/420/1*o9DeLiFgYQT2cuqZnhKarA.jpeg",
