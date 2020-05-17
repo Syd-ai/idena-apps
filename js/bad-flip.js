@@ -44,8 +44,7 @@ window.onload = (function(){
                 document.getElementById("bad_flip_4").innerHTML = data2["bad_flip_4"];
                 document.getElementById("bad_flip_5").innerHTML = data2["bad_flip_5"];
                 document.getElementById("bad_flip_6").innerHTML = data2["bad_flip_6"];
-                document.getElementById("bad_flip_7").innerHTML = data2["bad_flip_7"];
-                document.getElementById("bad_flip_8").innerHTML = data2["bad_flip_8"];
+
 
                 document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
                 document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
