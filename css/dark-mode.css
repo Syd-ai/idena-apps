@@ -20,6 +20,15 @@
     background: #2a2c2e !important;
 }
 
+.darkmode .glider-dot:hover,
+.darkmode .glider-dot:focus,
+.darkmode .glider-dot.active {
+  background: #eee !important;
+}
+
+.glider-dot {
+  background: #666 !important;
+}
 
 .darkmode .thumbnail {
     border-bottom: 1px solid #222 !important;

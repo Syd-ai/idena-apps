@@ -76,6 +76,11 @@
 .glider-next:focus {
   color: #a89cc8;
 }
+
+.glider-next:focus, .glider-prev:focus {
+  outline: none;
+}
+
 .glider-next {
   right: -20px;
   left: auto;
@@ -101,7 +106,6 @@
   padding: 0;
 }
 .glider-dot {
-  background: none;
   border: 0;
   padding: 0;
   user-select: none;
@@ -118,8 +122,13 @@
 .glider-dot:hover,
 .glider-dot:focus,
 .glider-dot.active {
-  background: #a89cc8;
+  background: #333;
 }
+
+.glider-dot:focus {
+  outline: none;
+}
+
 @media(max-width: 36em){
   .glider::-webkit-scrollbar {
     opacity: 1;
