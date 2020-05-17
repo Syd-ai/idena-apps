@@ -198,6 +198,12 @@ window.onload = (function(){
                 document.getElementById("link_all").innerHTML = data2["view_all"];
                 document.getElementById("explorer_all").innerHTML = data2["view_all"];
 
+                document.getElementById("validation_basics").innerHTML = data2["validation_basics"];
+                document.getElementById("good_flip_view").innerHTML = data2["learn_more"];
+                document.getElementById("bad_flip_view").innerHTML = data2["learn_more"];
+                document.getElementById("good_flip_title").innerHTML = data2["good_flip_title"];
+                document.getElementById("bad_flip_title").innerHTML = data2["bad_flip_title"];
+
                 document.getElementById("apps").innerHTML = data2["apps"];
                 document.getElementById("communities").innerHTML = data2["communities"];
                 document.getElementById("videos_blogs").innerHTML = data2["videos_blogs"];
