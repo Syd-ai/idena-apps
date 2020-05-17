@@ -36,7 +36,7 @@ window.onload = (function(){
                 document.getElementById("back").innerHTML = data2["back"];
                 document.getElementById("title").innerHTML = data2["bad_flip_t"];
                 document.getElementById("page-title").innerHTML = data2["bad_flip_title"];
-                document.getElementById("page_subtext").innerHTML = data2["bad_flip_subtext"];
+                document.getElementById("page-subtext").innerHTML = data2["bad_flip_subtext"];
 
                 document.getElementById("bad_flip_1").innerHTML = data2["bad_flip_1"];
                 document.getElementById("bad_flip_2").innerHTML = data2["bad_flip_2"];
