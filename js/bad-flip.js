@@ -44,6 +44,7 @@ window.onload = (function(){
                 document.getElementById("bad_flip_4").innerHTML = data2["bad_flip_4"];
                 document.getElementById("bad_flip_5").innerHTML = data2["bad_flip_5"];
                 document.getElementById("bad_flip_6").innerHTML = data2["bad_flip_6"];
+                document.getElementById("warning").innerHTML = data2["warning"];
 
 
                 document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
