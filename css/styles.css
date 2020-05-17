@@ -369,6 +369,15 @@ h1, .h1 {
     transition: 0.3s ease;
 }
 
+.warning {
+    font-size: 0.75em;
+    padding: 1em;
+    line-height: 1.8em;
+    background: rgba(255, 135, 135, 0.2);
+    color: #b52525;
+    border-radius: 8px;
+}
+
 .flipkeywordsframe .flipkeywords {
     border-radius: 12px !important;
     padding: 1.4375rem 2.5rem !important;
