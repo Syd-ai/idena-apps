@@ -15,6 +15,12 @@
     color: #efefef !important;
 }
 
+.darkmode .glider-prev,.darkmode .glider-next {
+    color: #fff !important;
+    background: #2a2c2e !important;
+}
+
+
 .darkmode .thumbnail {
     border-bottom: 1px solid #222 !important;
 }
