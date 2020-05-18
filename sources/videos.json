@@ -82,7 +82,7 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "https://steemit.com/blockchain/@condra/idena-network-how-to-make-a-good-flip",
 		"image_url": "https://steemitimages.com/p/EEEoA8oLaAxsTkPYAARp78o5cJA1o6Chv9x98TzCFT6v5GtEA34znBwqFDxkjnY898RyokNsBb9f1x6fBSWmXL8hiWo1cnqLHS6RPxjbmAwtCfd5JTw5UqTum93h1vfkVzUs1Zr7e8RmvAvgvckii?format=match&mode=fit&width=1280",
 		"official": "no",
@@ -91,7 +91,7 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "https://docs.google.com/document/d/11rnVz8G27z0BCJ3KWKOcLRfKCAvEIYoBzODIr_IyCq8/edit?usp=sharing",
 		"image_url": "https://i.imgur.com/QPVPnli.png",
 		"official": "no",
@@ -100,7 +100,7 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "https://drive.google.com/file/d/1V5GsZvPqLkXsM5DivAWdKNP3_n6WfGwA/view",
 		"image_url": "https://i.imgur.com/QEFM41j.png",
 		"official": "no",
@@ -109,7 +109,7 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "https://medium.com/idena/idena-who-we-are-and-what-we-believe-in-e1678726be7f",
 		"image_url": "https://miro.medium.com/max/1400/1*bRnIqyFxgGt1l1ZgtruYkA.png",
 		"official": "yes",
@@ -226,7 +226,7 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "https://medium.com/@EarthlingDavey/living-from-idena-rewards-75a72cb494fc",
 		"image_url": "https://miro.medium.com/fit/c/1400/420/1*o9DeLiFgYQT2cuqZnhKarA.jpeg",
 		"official": "no",
@@ -235,7 +235,7 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "https://myaltcoins.info/idena-review/",
 		"image_url": "https://myaltcoins.info/wp-content/uploads/2020/02/Idena-Review-Cover.jpg",
 		"official": "no",
@@ -244,7 +244,7 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "https://hive.blog/hive-122108/@condra/can-ai-defeat-image-obfuscation",
 		"image_url": "https://images.hive.blog/p/2923mN3pnd7PiNwC4SZeLS8gsPqbAhHKzXBuEw8k2kD448jcWcBBYmBbnyPirctgxU9aE8JtReo3CABRBJuv8zkpqh1bXz2GaTdrQZgwihTvk6?format=match&mode=fit&width=1280",
 		"official": "no",
@@ -253,7 +253,7 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "https://hive.blog/hive-122108/@condra/ai-decentralization-and-the-captcha-arms-race",
 		"image_url": "https://images.hive.blog/p/QVdSJhgNm7s1isdYsJFBD6SAUScSpW1XkijW3pgGr8ATWKyN9mysAVuVhYLBryrf2jmoRqiB3VDZwULjKtQpR5wnQoGCE4KcaeCFfFearRZHjpPNp6HRcks78shJuw31rqhGznTzw5HmhoP2yvQ87sg7usvTToyh5LytWDP9Zh9fHnz5KQkcLpE?format=match&mode=fit&width=1280",
 		"official": "no",
@@ -271,7 +271,7 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "https://golos.in/ru--blokcheijn/@everythink/1-chelovek-1-golos-perspektivnaya-moneta",
 		"image_url": "https://steemitimages.com/p/5i2yA5ubhzU8DkMUpK9WmagHKqamxbLDQFRqAf6FZ8RJbZpo1GDAmKr6ckVpq4HRdJUBQ9n5sMXjdEGEkKmf1oWVxYGY6NEnxrTgFLzV8i3SYTHAGAAYqRvKjojnw6fFyFiSeqqa86uXdKuvWfFuNEeZ1USBbwBu45wyaiTh52qe9xP89RUgUGZP8BbqmiqEoZUkktxKiHs5fqjbU3Vj9eCqRMTdyfk?format=match&mode=fit",
 		"official": "no",
@@ -280,7 +280,7 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "https://golos.in/ru--blokcheijn/@everythink/intervyu-komandy-idena",
 		"image_url": "https://steemitimages.com/p/5i2yA5ubhzU8DkMUpK9WmagHKqamxbLDQFRqAf6FZ8RJbZpo1GDAmKr6ckVpq4HRdJUBQ9n5sMXjdEGEkKmf1oWVxYGY6NEnxrTgFLzV8i3SYTHAGAAYqRvKjojnw6fFyFiSeqqa86uXdKuvWfFuNEeZ1USBbwBu45wyaiTh52qe9xP89RUgUGZP8BbqmiqEoZUkktxKiHs5fqjbU3Vj9eCqRMTdyfk?format=match&mode=fit",
 		"official": "no",
@@ -289,12 +289,21 @@
 		"github": ""
 	},
 	{
-		"type": "Blog",
+		"type": "blog",
 		"url": "http://niubiquan.com/article/3284",
 		"image_url": "https://i.imgur.com/JiA376j.png",
 		"official": "no",
 		"short_description": "4 月 24 号 Idena 开发团队 AMA",
 		"created_by": "alicehuca",
+		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://www.publish0x.com/palebluedot/7-reasons-to-like-idena-xjjjenz",
+		"image_url": "https://i.imgur.com/q8f6Up4.jpg",
+		"official": "no",
+		"short_description": "Seven reasons to like Idena",
+		"created_by": "PaleBlueDot",
 		"github": ""
 	}
 ]
