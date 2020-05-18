@@ -305,6 +305,15 @@
 		"short_description": "Seven reasons to like Idena",
 		"created_by": "PaleBlueDot",
 		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://golos.in/ru--blokcheijn/@everythink/perevod-faq-po-idena",
+		"image_url": "https://i.imgur.com/VLt6i4J.png",
+		"official": "no",
+		"short_description": "Перевод FAQ по Idena",
+		"created_by": "Everythink",
+		"github": ""
 	}
 ]
 }
