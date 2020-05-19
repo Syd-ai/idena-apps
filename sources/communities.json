@@ -106,6 +106,14 @@
 	},
 	{
 		"type": "community",
+		"url": "https://t.me/idenagermany",
+		"image_url": "https://i.imgur.com/N8trYpw.png",
+		"official": "no",
+		"short_description": "Idena German Telegram 🇪🇬",
+		"category": "telegram"
+	}
+	{
+		"type": "community",
 		"url": "https://t.me/idena_india",
 		"image_url": "https://i.imgur.com/lmxAh9p.jpg",
 		"official": "no",
