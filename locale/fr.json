@@ -59,7 +59,7 @@
 	"bad_flip_1": "Un mauvais flip ne contient PAS d'histoire logique, même s'il utilise les deux mots-clés.",
 	"bad_flip_2": "Un mauvais flip contient des nombres ou des lettres sur les images.",
 	"bad_flip_3": "Un mauvais flip est compliqué à comprendre.",
-	"bad_flip_4": "Un mauvais flip contient des propos haineux, inappropriés ou "NSFW" ("Not safe for work", c'est-à-dire des images qu'on ne pourrait pas regarder au travail, notamment pornographique ou gore).",
+	"bad_flip_4": "Un mauvais flip contient des propos haineux, inappropriés ou NSFW (-Not safe for work-, c'est-à-dire des images qu'on ne pourrait pas regarder au travail, notamment pornographique ou gore).",
 	"bad_flip_5": "Un mauvais flip n'utilise pas LES DEUX mots-clés dans son histoire.",
 	"bad_flip_6": "Un mauvais flip utilise des objets séquencés en images (1-2-3-4).",
 	"validation_basics": "Les fondamentaux de la Validation",
