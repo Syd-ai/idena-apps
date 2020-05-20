@@ -256,19 +256,28 @@ p{
     padding-top: 8rem;
 }
 
-#scrollTop {
-    position: fixed;
-    bottom: 2.1rem;
-    right: 2.1rem;
-    padding: 1.2rem 1.2rem;
-    margin-top: -10px;
-    vertical-align: middle;
-    background: #fff;
-    font-weight: 500;
-    font-size: 1.65rem;
-    border-radius: 100rem;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 15px !important;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 15px !important;
+#scrollTop, .theme {
+    position: fixed !important;
+    bottom: 7.0rem !important;
+    right: 2.5rem !important;
+    padding: 1.3rem 1.1rem !important;
+    margin-top: -10px !important;
+    vertical-align: middle !important;
+    background: #fff !important;
+    font-weight: 500 !important;
+    font-size: 1.65rem !important;
+    border-radius: 100rem !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px !important;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px !important;
+}
+
+.theme {
+    bottom: 2.5rem !important;
+}
+
+#sun, #moon {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px !important;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px !important;
 }
 
 

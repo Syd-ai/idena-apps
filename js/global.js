@@ -19,31 +19,50 @@ document.getElementsByClassName('header')[0].classList.add('fixed-header');
 document.getElementsByClassName('main')[0].classList.add('extra-main-padding');
 
 
-var scrolltop = '<button type="button" class="btn btn-icon hide" id="scrollTop" onclick="window.scrollTo({ top: 0, behavior: \'smooth\' });">'
-				+'<i class="icon icon--thin_arrow_up"></i></button>';
+scrolltop = document.createElement("button");
+  scrolltop.classList.add("btn");
+  scrolltop.classList.add("btn-icon");
+  scrolltop.classList.add("hide");
+  scrolltop.setAttribute("id","scrollTop");
+  scrolltop.setAttribute("onclick","window.scrollTo({ top: 0, behavior: \'smooth\' });");
+  scrolltop.innerHTML = '<i class="icon icon--thin_arrow_up"></i>';
 
-document.querySelector(".section:last-child").innerHTML = document.querySelector(".section:last-child").innerHTML + scrolltop;
+  themetop = document.createElement("span");
+  themetop.setAttribute("id","themeTop");
+  //themetop.classList.add("hide");
+  themetop.innerHTML = '<button type="button" id="moon" class="rem btn btn-icon theme"'
+              +' onclick="localStorage.setItem(\'mode\', \'dark\');'
+              +'document.querySelector(\'.header_logo a img\').setAttribute(\'src\',\'./images/idena-logo-dark.svg\');'
+              +'document.getElementsByTagName(\'html\')[0].classList.add(\'darkmode\');'
+              +'document.getElementById(\'moon\').classList.add(\'rem\');'
+              +'document.getElementById(\'sun\').classList.remove(\'rem\');'
+              +'" id="moon">'
+              +'<img src="./images/moon.svg" width="18px" height="18px"' 
+              +'style="opacity: 0.8;"/></button>'
+        +'<button type="button" id="sun" class="rem btn btn-icon theme"'
+              +' onclick="localStorage.setItem(\'mode\', \'light\'); document.getElementsByTagName(\'html\')[0].classList.remove(\'darkmode\');'
+              +'document.querySelector(\'.header_logo a img\').setAttribute(\'src\',\'./images/idena-logo.svg\');'
+              +'document.getElementById(\'moon\').classList.remove(\'rem\');'
+              +'document.getElementById(\'sun\').classList.add(\'rem\');'
+              +'" id="sun">'
+              +'<img src="./images/sun.svg" width="18px" height="18px"' 
+              +'style="opacity: 0.8;"/></button>'
 
 
-var htmcontent = '<button type="button" id="moon" class="rem btn btn-icon"'
-						+' onclick="localStorage.setItem(\'mode\', \'dark\');'
-            +'document.querySelector(\'.header_logo a img\').setAttribute(\'src\',\''+imgURL+'\');'
-            +'document.getElementsByTagName(\'html\')[0].classList.add(\'darkmode\');'
-            +'document.getElementById(\'moon\').classList.add(\'rem\');'
-            +'document.getElementById(\'sun\').classList.remove(\'rem\');'
-						+'" id="moon">'
-						+'<img src="'+moonURL+'" width="18px" height="18px"' 
-						+'style="opacity: 0.8;"/></button>'
-            +'<button type="button" id="sun" class="rem btn btn-icon"'
-						+' onclick="localStorage.setItem(\'mode\', \'light\'); document.getElementsByTagName(\'html\')[0].classList.remove(\'darkmode\');'
-            +'document.querySelector(\'.header_logo a img\').setAttribute(\'src\',\'./images/idena-logo.svg\');'
-            +'document.getElementById(\'moon\').classList.remove(\'rem\');'
-            +'document.getElementById(\'sun\').classList.add(\'rem\');'
-						+'" id="sun">'
-						+'<img src="'+sunURL+'" width="18px" height="18px"' 
-						+'style="opacity: 0.8;"/></button>'; 
+  document.getElementsByTagName('body')[0].append(scrolltop);
+  document.getElementsByTagName('body')[0].append(themetop);
 
-modechange.innerHTML = htmcontent;
+  if (mode == 'dark') {
+    parent.querySelector("a img").src = imgURL;
+    document.getElementById('sun').classList.remove('rem');
+    document.getElementById('moon').classList.add('rem');
+
+  } else {
+    parent.querySelector("a img").src = './images/idena-logo.svg';
+    document.getElementById('moon').classList.remove('rem');
+    document.getElementById('sun').classList.add('rem');
+  } 
+
 
 var langcontent = '<select id="langSelect" onchange="langchange()">'
 +'<option id="lang_en" value="en">🇺🇸English - EN</option>'
