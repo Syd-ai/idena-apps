@@ -81,6 +81,16 @@
 		"category": "wallet"
 	},
 	{
+		"type": "app",
+		"url": "https://idenavoice.com/",
+		"image_url": "https://i.imgur.com/cXmzMOs.png",
+		"official": "no",
+		"short_description": "Voting app which uses on-chain transactions to cast votes",
+		"created_by": "Davey",
+		"github": "",
+		"category": "wallet"
+	},
+	{
 		"type": "bot",
 		"url": "https://t.me/idenarobot",
 		"image_url": "./images/listing/idenarobot.png",
