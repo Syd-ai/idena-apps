@@ -65,7 +65,7 @@
 		"url": "#",
 		"image_url": "./images/listing/default.png",
 		"official": "no",
-		"short_description": "Idena wallet application framework for Nano S and Nano X",
+		"short_description": "[WIP] Idena wallet application framework for Ledger Nano S and Nano X",
 		"created_by": "Idena-dev",
 		"github": "https://github.com/idena-dev/idena-ledger",
 		"category": "app"
@@ -88,7 +88,7 @@
 		"short_description": "Voting app which uses on-chain transactions to cast votes",
 		"created_by": "Davey",
 		"github": "",
-		"category": "wallet"
+		"category": "app"
 	},
 	{
 		"type": "bot",
