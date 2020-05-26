@@ -323,6 +323,15 @@
 		"short_description": "VG’s Brief Overview — Idena — Proof-of-Person Blockchain",
 		"created_by": "virtugrana",
 		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://youtu.be/a5fYrTDqCcA",
+		"image_url": "https://img.youtube.com/vi/a5fYrTDqCcA/hqdefault.jpg",
+		"official": "no",
+		"short_description": "092. Analiza projektu Idena #001",
+		"created_by": "CryptoDev",
+		"github": ""
 	}
 ]
 }
