@@ -314,6 +314,15 @@
 		"short_description": "Перевод FAQ по Idena",
 		"created_by": "Everythink",
 		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://www.publish0x.com/virtugrana/vg-s-brief-overview-idena-proof-of-person-blockchain-xjjmrvn",
+		"image_url": "https://cdn-images-1.medium.com/max/800/1*w5tTgKUAJK4qgu8gzE6bFw.png",
+		"official": "no",
+		"short_description": "VG’s Brief Overview — Idena — Proof-of-Person Blockchain",
+		"created_by": "virtugrana",
+		"github": ""
 	}
 ]
 }
