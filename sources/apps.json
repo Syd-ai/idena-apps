@@ -42,6 +42,16 @@
 	},
 	{
 		"type": "app",
+		"url": "https://idena.site/",
+		"image_url": "https://i.imgur.com/N7mhZvA.png",
+		"official": "no",
+		"short_description": "Unofficial portal for idena node watching, FAQ and helpful information",
+		"created_by": "Rioda",
+		"github": "",
+		"category": "app"
+	},
+	{
+		"type": "app",
 		"url": "https://www.idena.dev/idena-js/quick-start",
 		"image_url": "./images/listing/idenadev.png",
 		"official": "no",
