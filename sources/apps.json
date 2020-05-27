@@ -42,6 +42,16 @@
 	},
 	{
 		"type": "app",
+		"url": "https://idena.site/",
+		"image_url": "./images/listing/N7mhZvA.png",
+		"official": "no",
+		"short_description": "Unofficial portal for idena node watching, FAQ and helpful information",
+		"created_by": "Rioda",
+		"github": "",
+		"category": "app"
+	},
+	{
+		"type": "app",
 		"url": "https://www.idena.dev/idena-js/quick-start",
 		"image_url": "./images/listing/idenadev.png",
 		"official": "no",
@@ -65,7 +75,7 @@
 		"url": "#",
 		"image_url": "./images/listing/default.png",
 		"official": "no",
-		"short_description": "Idena wallet application framework for Nano S and Nano X",
+		"short_description": "[WIP] Idena wallet application framework for Ledger Nano S and Nano X",
 		"created_by": "Idena-dev",
 		"github": "https://github.com/idena-dev/idena-ledger",
 		"category": "app"
@@ -79,6 +89,16 @@
 		"created_by": "AngainorDev",
 		"github": "https://github.com/AngainorDev/DnaMask",
 		"category": "wallet"
+	},
+	{
+		"type": "app",
+		"url": "https://idenavoice.com/",
+		"image_url": "https://i.imgur.com/cXmzMOs.png",
+		"official": "no",
+		"short_description": "Voting app which uses on-chain transactions to cast votes",
+		"created_by": "Davey",
+		"github": "",
+		"category": "app"
 	},
 	{
 		"type": "bot",
@@ -148,6 +168,16 @@
 		"short_description": "Tool used for easier installation, maintenance and update of idena nodes",
 		"created_by": "crackowich",
 		"github": "https://gitlab.com/crackowich/idena-manager",
+		"category": "app"
+	},
+	{
+		"type": "app",
+		"url": "https://hub.docker.com/r/rinzlerfr/idena-node",
+		"image_url": "https://i.imgur.com/Cvl074G.png",
+		"official": "no",
+		"short_description": "A ready to run idena-node public docker image",
+		"created_by": "Rinzler",
+		"github": "https://github.com/Rinzler78/docker.idena-node",
 		"category": "app"
 	},
 	{
