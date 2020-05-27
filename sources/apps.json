@@ -43,7 +43,7 @@
 	{
 		"type": "app",
 		"url": "https://idena.site/",
-		"image_url": "https://i.imgur.com/N7mhZvA.png",
+		"image_url": "./images/listing/N7mhZvA.png",
 		"official": "no",
 		"short_description": "Unofficial portal for idena node watching, FAQ and helpful information",
 		"created_by": "Rioda",
