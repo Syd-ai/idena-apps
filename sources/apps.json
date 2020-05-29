@@ -97,7 +97,7 @@
 		"official": "no",
 		"short_description": "Voting app which uses on-chain transactions to cast votes",
 		"created_by": "Davey",
-		"github": "",
+		"github": "https://github.com/EarthlingDavey/idenavoice",
 		"category": "app"
 	},
 	{
@@ -119,6 +119,16 @@
 		"created_by": "ProjXDev",
 		"github": "https://github.com/ProjXDev/IdenaAIOBot",
 		"category": "bot"
+	},
+	{
+		"type": "app",
+		"url": "http://idena.vote/",
+		"image_url": "https://i.imgur.com/9MTx1ra.png",
+		"official": "no",
+		"short_description": "Idena Sign-in enabled app for voting, flip wars and making proposals",
+		"created_by": "Projxdev",
+		"github": "https://github.com/ProjXDev/Idena-voting",
+		"category": "app"
 	},
 	{
 		"type": "bot",
