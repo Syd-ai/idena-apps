@@ -332,6 +332,15 @@
 		"short_description": "092. Analiza projektu Idena #001",
 		"created_by": "CryptoDev",
 		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=Nk8WcjAN59o",
+		"image_url": "https://img.youtube.com/vi/Nk8WcjAN59o/hqdefault.jpg",
+		"official": "no",
+		"short_description": "Блокчейн IDENA: $250 в месяц за доказательство личности",
+		"created_by": "Биткоины - для умных!",
+		"github": ""
 	}
 ]
 }
