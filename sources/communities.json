@@ -3,7 +3,7 @@
 	{
 		"type": "community",
 		"url": "https://discord.gg/9S4KYwh",
-		"image_url": "https://i.imgur.com/4bIc32l.gif",
+		"image_url": "./images/comm/4bIc32l.gif",
 		"official": "no",
 		"short_description": "Idena Discord Channel",
 		"category": "discord"
@@ -11,7 +11,7 @@
 	{
 		"type": "community",
 		"url": "https://www.reddit.com/r/Idena/",
-		"image_url": "https://styles.redditmedia.com/t5_1afb2h/styles/communityIcon_pyfektycoau31.png",
+		"image_url": "./images/comm/communityIcon_pyfektycoau31.png",
 		"official": "yes",
 		"short_description": "Idena Reddit",
 		"category": "reddit"
@@ -19,7 +19,7 @@
 	{
 		"type": "community",
 		"url": "https://medium.com/idena",
-		"image_url": "https://cdn-images-1.medium.com/fit/c/72/72/2*1P8fWWDgMx3WBgg1PO7K9g.png",
+		"image_url": "./images/comm/2*1P8fWWDgMx3WBgg1PO7K9g.png",
 		"official": "yes",
 		"short_description": "Idena Medium blog",
 		"category": "other"
@@ -27,7 +27,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/IdenaAnnouncements",
-		"image_url": "https://i.imgur.com/FcCHq0G.jpg",
+		"image_url": "./images/comm/FcCHq0G.jpg",
 		"official": "yes",
 		"short_description": "Idena Accouncements Telegram",
 		"category": "telegram"
@@ -35,7 +35,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/Idena_FR",
-		"image_url": "https://i.imgur.com/mkxn1Yo.jpg",
+		"image_url": "./images/comm/mkxn1Yo.jpg",
 		"official": "no",
 		"short_description": "Idena French Telegram 🇫🇷",
 		"category": "telegram"
@@ -43,7 +43,7 @@
 	{
 		"type": "community",
 		"url": "https://www.facebook.com/idenanetwork/",
-		"image_url": "https://i.imgur.com/OdkmI4i.jpg",
+		"image_url": "./images/comm/OdkmI4i.jpg",
 		"official": "no",
 		"short_description": "Idena Facebook page",
 		"category": "facebook"
@@ -51,7 +51,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/idena_indonesia",
-		"image_url": "https://i.imgur.com/Lj9dTQo.jpg",
+		"image_url": "./images/comm/Lj9dTQo.jpg",
 		"official": "no",
 		"short_description": "Idena Indonesian Telegram 🇮🇩",
 		"category": "telegram"
@@ -59,7 +59,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/idena_cn",
-		"image_url": "https://i.imgur.com/MXnaroi.jpg",
+		"image_url": "./images/comm/MXnaroi.jpg",
 		"official": "no",
 		"short_description": "Idena Chinese Telegram 🇨🇳",
 		"category": "telegram"
@@ -67,7 +67,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/Idena_RU",
-		"image_url": "https://i.imgur.com/Jy3hGTf.jpg",
+		"image_url": "./images/comm/Jy3hGTf.jpg",
 		"official": "no",
 		"short_description": "Idena Russian Telegram 🇷🇺",
 		"category": "telegram"
@@ -75,7 +75,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/idenaturk",
-		"image_url": "https://i.imgur.com/qq05ZAT.jpg",
+		"image_url": "./images/comm/qq05ZAT.jpg",
 		"official": "no",
 		"short_description": "Idena Turkish Telegram 🇹🇷",
 		"category": "telegram"
@@ -83,7 +83,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/idena_ukraine",
-		"image_url": "https://i.imgur.com/bZ7C0Rg.jpg",
+		"image_url": "./images/comm/bZ7C0Rg.jpg",
 		"official": "no",
 		"short_description": "Idena Ukrainian Telegram 🇺🇦",
 		"category": "telegram"
@@ -91,7 +91,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/idenaespaniol",
-		"image_url": "https://i.imgur.com/ShNBNLH.png",
+		"image_url": "./images/comm/ShNBNLH.png",
 		"official": "no",
 		"short_description": "Idena Spanish Telegram 🇪🇸",
 		"category": "telegram"
@@ -99,7 +99,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/IdenaArabic",
-		"image_url": "https://i.imgur.com/1tzbhva.jpg",
+		"image_url": "./images/comm/1tzbhva.jpg",
 		"official": "no",
 		"short_description": "Idena Arabic Telegram 🇪🇬",
 		"category": "telegram"
@@ -107,7 +107,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/idenagermany",
-		"image_url": "https://i.imgur.com/N8trYpw.png",
+		"image_url": "./images/comm/N8trYpw.png",
 		"official": "no",
 		"short_description": "Idena German Telegram 🇩🇪",
 		"category": "telegram"
@@ -115,7 +115,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/idena_india",
-		"image_url": "https://i.imgur.com/lmxAh9p.jpg",
+		"image_url": "./images/comm/lmxAh9p.jpg",
 		"official": "no",
 		"short_description": "Idena Indian Telegram 🇮🇳",
 		"category": "telegram"
@@ -123,7 +123,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/idenanederlandbelgie",
-		"image_url": "https://i.imgur.com/3w84RU2.jpg",
+		"image_url": "./images/comm/3w84RU2.jpg",
 		"official": "no",
 		"short_description": "Idena Netherlands and Belgium Telegram 🇳🇱",
 		"category": "telegram"
@@ -131,7 +131,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/idenaflipschool",
-		"image_url": "https://i.imgur.com/ujFaIom.png",
+		"image_url": "./images/comm/ujFaIom.png",
 		"official": "no",
 		"short_description": "Idena Flip School Telegram",
 		"category": "telegram"
@@ -139,7 +139,7 @@
 	{
 		"type": "community",
 		"url": "https://t.me/idena_trading",
-		"image_url": "https://i.imgur.com/3PBGAkd.png",
+		"image_url": "./images/comm/3PBGAkd.png",
 		"official": "no",
 		"short_description": "Idena Price / Trading Telegram",
 		"category": "telegram"
@@ -147,7 +147,7 @@
 	{
 		"type": "community",
 		"url": "https://jq.qq.com/?_wv=1027&k=5VED6dS",
-		"image_url": "https://i.imgur.com/yKKWldm.png",
+		"image_url": "./images/comm/yKKWldm.png",
 		"official": "no",
 		"short_description": "Idena QQ group 🇨🇳",
 		"category": "other"
@@ -155,7 +155,7 @@
 	{
 		"type": "community",
 		"url": "https://weixin.qq.com/r/0Tn95RnEUUQurV2G92zD",
-		"image_url": "https://i.imgur.com/IKl5bIB.png",
+		"image_url": "./images/comm/IKl5bIB.png",
 		"official": "no",
 		"short_description": "Idena Wechat Chinese 🇨🇳",
 		"category": "other"
@@ -163,7 +163,7 @@
 	{
 		"type": "community",
 		"url": "https://www.facebook.com/groups/idena/",
-		"image_url": "https://i.imgur.com/FcCHq0G.jpg",
+		"image_url": "./images/comm/FcCHq0G.jpg",
 		"official": "no",
 		"short_description": "Idena Unofficial facebook group",
 		"category": "facebook"
