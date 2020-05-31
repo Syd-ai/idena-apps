@@ -92,12 +92,16 @@ select {
     margin: auto;
     color: #333;
     vertical-align: middle;
+    text-indent: 1rem;
     align-items: center;
-    height: 2.4rem;
+    height: 2.7rem;
     line-height: 2.2rem;
     display: block;
     background: #fff;
-    padding: 0.4rem 0.5rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 4px;
     border: 1px solid #dfdfdf;
 }
 
@@ -517,6 +521,16 @@ h1, .h1 {
 
 .main .btn-secondary {
     background: #f3f4f5 !important;
+}
+
+.main .btn-group .btn-secondary {
+    background-color: #ececec !important;
+    margin-bottom: 1em;
+}
+
+.main .btn-group .activetab {
+    background-color: #cecece !important;
+    margin-bottom: 1em;
 }
 
 .main .btn-secondary:hover, .main .btn-secondary:active {

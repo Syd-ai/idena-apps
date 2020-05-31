@@ -215,6 +215,11 @@
     color: #50b6ff !important;
 }
 
+.darkmode .main .btn-group .activetab {
+    background-color: #252525 !important;
+    margin-bottom: 1em;
+}
+
 .darkmode .main .btn-nav:hover, .darkmode .main .btn-nav:active {
     color: #50b6ff !important;
     background-color: #191c1e !important;

@@ -11,7 +11,7 @@ var lang = localStorage.getItem('lang') || 'en';
 
 
 var parent2 = document.querySelector(".justify-content-between");
-var lang_select = parent2.querySelector(".col-5");
+var lang_select = parent2.querySelector(".col-sm-5");
 var modechange = parent2.querySelector(".col-auto:last-child");
 
 
@@ -65,15 +65,15 @@ scrolltop = document.createElement("button");
 
 
 var langcontent = '<select id="langSelect" onchange="langchange()">'
-+'<option id="lang_en" value="en">🇺🇸English - EN</option>'
-+'<option id="lang_cn" value="cn">🇨🇳中文 - CN</option>'
-+'<option id="lang_fr" value="fr">🇫🇷Française - FR</option>'
-+'<option id="lang_hi" value="hi">🇮🇳हिन्दी - HI</option>'
-+'<option id="lang_id" value="id">🇮🇩Bahasa Indonesia - ID</option>'
-+'<option id="lang_ru" value="ru">🇷🇺русский - RU</option>'
-+'<option id="lang_sr" value="sr">🇷🇸Српски - SR</option>'
-+'<option id="lang_es" value="es">🇪🇸Español - ES</option>'
-+'<option id="lang_uk" value="uk">🇺🇦українська - UK</option>'
++'<option id="lang_en" value="en">🇺🇸 English - EN</option>'
++'<option id="lang_cn" value="cn">🇨🇳 中文 - CN</option>'
++'<option id="lang_fr" value="fr">🇫🇷 Française - FR</option>'
++'<option id="lang_hi" value="hi">🇮🇳 हिन्दी - HI</option>'
++'<option id="lang_id" value="id">🇮🇩 Bahasa Indonesia - ID</option>'
++'<option id="lang_ru" value="ru">🇷🇺 русский - RU</option>'
++'<option id="lang_sr" value="sr">🇷🇸 Српски - SR</option>'
++'<option id="lang_es" value="es">🇪🇸 Español - ES</option>'
++'<option id="lang_uk" value="uk">🇺🇦 українська - UK</option>'
 +'</select>';
 
 lang_select.innerHTML = langcontent;
