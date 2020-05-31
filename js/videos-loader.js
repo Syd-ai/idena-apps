@@ -21,6 +21,80 @@ function ajax_get(url, callback) {
 }
 
 
+//toggles for only showing videos
+function showVideo()
+{
+    var allblogs = document.getElementsByClassName("blog"); 
+    var allvideos = document.getElementsByClassName("video"); 
+
+    for (var i = 0; i < allblogs.length; i++) {
+            allblogs[i].classList.add('rem');
+            // alert("add blog hide!");
+    }
+    for (var i = 0; i < allvideos.length; i++) {
+        if (allvideos[i].classList.contains('rem')) {
+            allvideos[i].classList.remove('rem');
+            // alert("remove video hide!");
+        }
+    }
+
+    document.getElementById('all-tab').classList.remove('activetab');
+    document.getElementById('all-vid-tab').classList.add('activetab');
+    document.getElementById('all-blog-tab').classList.remove('activetab');
+
+}
+
+
+//toggles for only showing blogs
+function showBlog()
+{
+    var allblogs = document.getElementsByClassName("blog"); 
+    var allvideos = document.getElementsByClassName("video"); 
+
+    for (var i = 0; i < allvideos.length; i++) {
+            allvideos[i].classList.add('rem');
+            // alert("add video hide!");
+    }
+    for (var i = 0; i < allblogs.length; i++) {
+        if (allblogs[i].classList.contains('rem')) {
+            allblogs[i].classList.remove('rem');
+            // alert("remove blog hide!");
+        }
+    }
+
+    document.getElementById('all-tab').classList.remove('activetab');
+    document.getElementById('all-vid-tab').classList.remove('activetab');
+    document.getElementById('all-blog-tab').classList.add('activetab');
+
+}
+
+
+function showAll()
+{
+    document.getElementById('all-tab').classList.add('activetab');
+    document.getElementById('all-vid-tab').classList.remove('activetab');
+    document.getElementById('all-blog-tab').classList.remove('activetab');
+
+    var allblogs = document.getElementsByClassName("blog"); 
+    var allvideos = document.getElementsByClassName("video"); 
+
+    for (var i = 0; i < allvideos.length; i++) {
+            if (allvideos[i].classList.contains('rem')) {
+            allvideos[i].classList.remove('rem');
+            // alert("remove blog hide!");
+        }
+    }
+    for (var i = 0; i < allblogs.length; i++) {
+        if (allblogs[i].classList.contains('rem')) {
+            allblogs[i].classList.remove('rem');
+            // alert("remove blog hide!");
+        }
+    }
+}
+
+
+
+
 var videolist = document.getElementById("videos-list");
 var videocontent = '';
 var official = '';
@@ -42,6 +116,9 @@ window.onload = (function(){
 
                 document.getElementById("back").innerHTML = data2["back"];
                 document.getElementById("title").innerHTML = data2["videos_t"];
+                document.getElementById("all-tab").innerHTML = data2["all"];
+                document.getElementById("all-vid-tab").innerHTML = data2["videos"];
+                document.getElementById("all-blog-tab").innerHTML = data2["blogs"];
                 document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["videos_blogs"]+' ('+data["entries"].length+')';
                 document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
                 document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
@@ -65,7 +142,7 @@ window.onload = (function(){
                     caption = data2["read"];
                     play = '';
                   }
-                	videocontent = videocontent + '<div class="col-12 col-sm-3 entry">'
+                	videocontent = videocontent + '<div class="col-12 col-sm-3 entry '+obj.type+'">'
                                       +'<div class="mini-card">'
                                       +'<a href="'+obj.url+'" target="_blank"><div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+play+'</div></a>'
                                       +'<p class="desc" style="padding-bottom: 0px;">'
