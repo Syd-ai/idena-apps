@@ -102,7 +102,7 @@
 	{
 		"type": "blog",
 		"url": "https://drive.google.com/file/d/1V5GsZvPqLkXsM5DivAWdKNP3_n6WfGwA/view",
-		"image_url": "https://i.imgur.com/QEFM41j.png",
+		"image_url": "./images/vid/QEFM41j.png",
 		"official": "no",
 		"short_description": "Idena Concept paper Unofficial translation (In Turkish 🇹🇷)",
 		"created_by": "TyfrTR",
@@ -291,7 +291,7 @@
 	{
 		"type": "blog",
 		"url": "http://niubiquan.com/article/3284",
-		"image_url": "https://i.imgur.com/JiA376j.png",
+		"image_url": "./images/vid/JiA376j.png",
 		"official": "no",
 		"short_description": "4 月 24 号 Idena 开发团队 AMA",
 		"created_by": "alicehuca",
@@ -300,7 +300,7 @@
 	{
 		"type": "blog",
 		"url": "https://www.publish0x.com/palebluedot/7-reasons-to-like-idena-xjjjenz",
-		"image_url": "https://i.imgur.com/q8f6Up4.jpg",
+		"image_url": "./images/vid/q8f6Up4.jpg",
 		"official": "no",
 		"short_description": "Seven reasons to like Idena",
 		"created_by": "PaleBlueDot",
@@ -309,7 +309,7 @@
 	{
 		"type": "blog",
 		"url": "https://golos.in/ru--blokcheijn/@everythink/perevod-faq-po-idena",
-		"image_url": "https://i.imgur.com/VLt6i4J.png",
+		"image_url": "./images/vid/VLt6i4J.png",
 		"official": "no",
 		"short_description": "Перевод FAQ по Idena",
 		"created_by": "Everythink",
