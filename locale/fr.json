@@ -66,5 +66,10 @@
 	"learn_more": "En savoir plus",
 	"warning": "Si même un seul de vos flips est signalé durant la session de validation, vous perdrez 100% de vos récompenses, y compris les récompenses d'invitation, pour ladite validation",
 	"videos": "Videos",
-	"blogs": "Blogs"
+	"blogs": "Blogs",
+	"wallets": "Wallets",
+	"other": "Others",
+	"bots": "Telegram Bots",
+	"managers": "Node Managers",
+	"analytics": "Analytics"
 }

@@ -66,5 +66,10 @@
 	"learn_more": "学到更多",
 	"warning": "在考试期间，如果你提交的翻转被举报并且判定为不合格翻转，哪怕只有一组，你将得不到任何奖励，连同邀请奖励也会作废。",
 	"videos": "Videos",
-	"blogs": "Blogs"
+	"blogs": "Blogs",
+	"wallets": "Wallets",
+	"other": "Others",
+	"bots": "Telegram Bots",
+	"managers": "Node Managers",
+	"analytics": "Analytics"
 }

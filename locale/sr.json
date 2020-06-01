@@ -66,5 +66,10 @@
 	"learn_more": "Learn More",
 	"warning": "If even one of your submitted flips are reported during validation, you loose 100% of your rewards including invitation rewards for that validation",
 	"videos": "Videos",
-	"blogs": "Blogs"
+	"blogs": "Blogs",
+	"wallets": "Wallets",
+	"other": "Others",
+	"bots": "Telegram Bots",
+	"managers": "Node Managers",
+	"analytics": "Analytics"
 }

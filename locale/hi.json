@@ -66,5 +66,10 @@
 	"learn_more": "और अधिक जानें",
 	"warning": "यदि आपके सबमिट किए गए फ़्लिप में से एक को भी वेलिडेशन के दौरान सूचित किया जाता है, तो आप उस वेलिडेशन के लिए आमंत्रण पुरस्कार सहित अपने पुरस्कारों का 100% कम कर देते हैं",
 	"videos": "Videos",
-	"blogs": "Blogs"
+	"blogs": "Blogs",
+	"wallets": "Wallets",
+	"other": "Others",
+	"bots": "Telegram Bots",
+	"managers": "Node Managers",
+	"analytics": "Analytics"
 }
