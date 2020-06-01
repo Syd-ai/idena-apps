@@ -20,6 +20,194 @@ function ajax_get(url, callback) {
 }
 
 
+function showAll()
+{
+    document.getElementById('all-tab').classList.add('activetab');
+    document.getElementById('all-app-tab').classList.remove('activetab');
+    document.getElementById('all-bot-tab').classList.remove('activetab');
+    document.getElementById('all-wallet-tab').classList.remove('activetab');
+    document.getElementById('all-others-tab').classList.remove('activetab');
+    document.getElementById('all-mgr-tab').classList.remove('activetab');
+    document.getElementById('all-analytics-tab').classList.remove('activetab');
+
+
+    var allentries = document.getElementsByClassName("entry"); 
+
+    for (var i = 0; i < allentries.length; i++) {
+            allentries[i].classList.remove('rem');
+    }
+}
+
+
+
+
+//toggles for only showing apps
+function showApp()
+{
+    var allapps = document.getElementsByClassName("app"); 
+    var allentries = document.getElementsByClassName("entry"); 
+
+    for (var i = 0; i < allentries.length; i++) {
+            allentries[i].classList.add('rem');
+    }
+    for (var i = 0; i < allapps.length; i++) {
+        if (allapps[i].classList.contains('rem')) {
+            allapps[i].classList.remove('rem');
+        }
+    }
+
+    document.getElementById('all-tab').classList.remove('activetab');
+    document.getElementById('all-app-tab').classList.add('activetab');
+    document.getElementById('all-bot-tab').classList.remove('activetab');
+    document.getElementById('all-wallet-tab').classList.remove('activetab');
+    document.getElementById('all-others-tab').classList.remove('activetab');
+    document.getElementById('all-mgr-tab').classList.remove('activetab');
+    document.getElementById('all-analytics-tab').classList.remove('activetab');
+
+}
+
+
+
+
+
+//toggles for only showing wallets
+function showWallet()
+{
+    var allwallet = document.getElementsByClassName("wallet"); 
+    var allentries = document.getElementsByClassName("entry"); 
+
+    for (var i = 0; i < allentries.length; i++) {
+            allentries[i].classList.add('rem');
+    }
+    for (var i = 0; i < allwallet.length; i++) {
+        if (allwallet[i].classList.contains('rem')) {
+            allwallet[i].classList.remove('rem');
+        }
+    }
+
+    document.getElementById('all-tab').classList.remove('activetab');
+    document.getElementById('all-app-tab').classList.remove('activetab');
+    document.getElementById('all-bot-tab').classList.remove('activetab');
+    document.getElementById('all-wallet-tab').classList.add('activetab');
+    document.getElementById('all-others-tab').classList.remove('activetab');
+    document.getElementById('all-mgr-tab').classList.remove('activetab');
+    document.getElementById('all-analytics-tab').classList.remove('activetab');
+
+}
+
+
+
+
+
+//toggles for only showing bots
+function showBot()
+{
+    var allbot = document.getElementsByClassName("bot"); 
+    var allentries = document.getElementsByClassName("entry"); 
+
+    for (var i = 0; i < allentries.length; i++) {
+            allentries[i].classList.add('rem');
+    }
+    for (var i = 0; i < allbot.length; i++) {
+        if (allbot[i].classList.contains('rem')) {
+            allbot[i].classList.remove('rem');
+        }
+    }
+
+    document.getElementById('all-tab').classList.remove('activetab');
+    document.getElementById('all-app-tab').classList.remove('activetab');
+    document.getElementById('all-bot-tab').classList.add('activetab');
+    document.getElementById('all-wallet-tab').classList.remove('activetab');
+    document.getElementById('all-others-tab').classList.remove('activetab');
+    document.getElementById('all-mgr-tab').classList.remove('activetab');
+    document.getElementById('all-analytics-tab').classList.remove('activetab');
+
+}
+
+
+
+//toggles for only showing node manager
+function showMgr()
+{
+    var allbot = document.getElementsByClassName("node-manager"); 
+    var allentries = document.getElementsByClassName("entry"); 
+
+    for (var i = 0; i < allentries.length; i++) {
+            allentries[i].classList.add('rem');
+    }
+    for (var i = 0; i < allbot.length; i++) {
+        if (allbot[i].classList.contains('rem')) {
+            allbot[i].classList.remove('rem');
+        }
+    }
+
+    document.getElementById('all-tab').classList.remove('activetab');
+    document.getElementById('all-app-tab').classList.remove('activetab');
+    document.getElementById('all-bot-tab').classList.remove('activetab');
+    document.getElementById('all-wallet-tab').classList.remove('activetab');
+    document.getElementById('all-others-tab').classList.remove('activetab');
+    document.getElementById('all-mgr-tab').classList.add('activetab');
+    document.getElementById('all-analytics-tab').classList.remove('activetab');
+
+}
+
+
+
+//toggles for only showing analytics
+function showAnalytics()
+{
+    var allbot = document.getElementsByClassName("analytics"); 
+    var allentries = document.getElementsByClassName("entry"); 
+
+    for (var i = 0; i < allentries.length; i++) {
+            allentries[i].classList.add('rem');
+    }
+    for (var i = 0; i < allbot.length; i++) {
+        if (allbot[i].classList.contains('rem')) {
+            allbot[i].classList.remove('rem');
+        }
+    }
+
+    document.getElementById('all-tab').classList.remove('activetab');
+    document.getElementById('all-app-tab').classList.remove('activetab');
+    document.getElementById('all-bot-tab').classList.remove('activetab');
+    document.getElementById('all-wallet-tab').classList.remove('activetab');
+    document.getElementById('all-others-tab').classList.remove('activetab');
+    document.getElementById('all-mgr-tab').classList.remove('activetab');
+    document.getElementById('all-analytics-tab').classList.add('activetab');
+
+}
+
+
+//toggles for only showing others
+function showOther()
+{
+    var allbot = document.getElementsByClassName("other"); 
+    var allentries = document.getElementsByClassName("entry"); 
+
+    for (var i = 0; i < allentries.length; i++) {
+            allentries[i].classList.add('rem');
+    }
+    for (var i = 0; i < allbot.length; i++) {
+        if (allbot[i].classList.contains('rem')) {
+            allbot[i].classList.remove('rem');
+        }
+    }
+
+    document.getElementById('all-tab').classList.remove('activetab');
+    document.getElementById('all-app-tab').classList.remove('activetab');
+    document.getElementById('all-bot-tab').classList.remove('activetab');
+    document.getElementById('all-wallet-tab').classList.remove('activetab');
+    document.getElementById('all-others-tab').classList.add('activetab');
+    document.getElementById('all-mgr-tab').classList.remove('activetab');
+    document.getElementById('all-analytics-tab').classList.remove('activetab');
+
+}
+
+
+
+
+
 var appslist = document.getElementById("apps-list");
 var appscontent = '';
 var official = '';
@@ -40,6 +228,16 @@ window.onload = (function(){
                 //load all page lang
 
                 document.getElementById("back").innerHTML = data2["back"];
+                document.getElementById("title").innerHTML = data2["apps_t"];
+                document.getElementById("all-tab").innerHTML = data2["all"];
+                document.getElementById("all-app-tab").innerHTML = data2["apps"];
+                document.getElementById("all-bot-tab").innerHTML = data2["bots"];
+                document.getElementById("all-wallet-tab").innerHTML = data2["wallets"];
+                document.getElementById("all-mgr-tab").innerHTML = data2["managers"];
+                document.getElementById("all-others-tab").innerHTML = data2["other"];
+                document.getElementById("all-analytics-tab").innerHTML = data2["analytics"];
+
+
                 document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["apps"]+' ('+data["entries"].length+')';
                 document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
                 document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
@@ -66,7 +264,7 @@ window.onload = (function(){
                             +'<span>'+data2["github"]+'</span>'
                             +'<i class="icon icon--thin_arrow_right"></i>'
                           +'</a>'; }
-                  appscontent = appscontent + '<div class="col-12 col-sm-3 entry">'
+                  appscontent = appscontent + '<div class="col-12 col-sm-3 entry '+obj.category+'">'
                                       +'<div class="mini-card">'
                                       +'<a href="'+obj.url+'" target="_blank"><div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+'</div></a>'
                                       +'<p class="desc" style="padding-bottom: 0px;">'
