@@ -38,7 +38,7 @@
 		"short_description": "Idena Analytics to check the blockchain and node statistics",
 		"created_by": "IdenaToday Team",
 		"github": "",
-		"category": "other"
+		"category": "analytics"
 	},
 	{
 		"type": "app",
@@ -48,7 +48,7 @@
 		"short_description": "Unofficial portal for idena node watching, FAQ and helpful information",
 		"created_by": "Rioda",
 		"github": "",
-		"category": "app"
+		"category": "node-manager"
 	},
 	{
 		"type": "app",
@@ -78,7 +78,7 @@
 		"short_description": "[WIP] Idena wallet application framework for Ledger Nano S and Nano X",
 		"created_by": "Idena-dev",
 		"github": "https://github.com/idena-dev/idena-ledger",
-		"category": "app"
+		"category": "wallet"
 	},
 	{
 		"type": "app",
@@ -178,7 +178,7 @@
 		"short_description": "Tool used for easier installation, maintenance and update of idena nodes",
 		"created_by": "crackowich",
 		"github": "https://gitlab.com/crackowich/idena-manager",
-		"category": "app"
+		"category": "node-manager"
 	},
 	{
 		"type": "app",
@@ -188,7 +188,7 @@
 		"short_description": "A ready to run idena-node public docker image",
 		"created_by": "Rinzler",
 		"github": "https://github.com/Rinzler78/docker.idena-node",
-		"category": "app"
+		"category": "node-manager"
 	},
 	{
 		"type": "app",
@@ -198,7 +198,7 @@
 		"short_description": "Idena auto-update for windows with powershell (script)",
 		"created_by": "codev911",
 		"github": "https://github.com/codev911/idena-autoupdate-windows",
-		"category": "other"
+		"category": "node-manager"
 	},
 	{
 		"type": "app",
