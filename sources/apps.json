@@ -111,16 +111,6 @@
 		"category": "bot"
 	},
 	{
-		"type": "bot",
-		"url": "https://t.me/idenaAIObot",
-		"image_url": "./images/listing/idenaAIO.png",
-		"official": "no",
-		"short_description": "Telegram all-in-one bot for Idena project",
-		"created_by": "ProjXDev",
-		"github": "https://github.com/ProjXDev/IdenaAIOBot",
-		"category": "bot"
-	},
-	{
 		"type": "app",
 		"url": "http://idena.vote/",
 		"image_url": "./images/listing/9MTx1ra.png",
