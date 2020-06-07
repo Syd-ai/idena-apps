@@ -270,6 +270,7 @@ window.onload = (function(){
                 document.getElementById("all-mgr-tab").innerHTML = data2["managers"];
                 document.getElementById("all-others-tab").innerHTML = data2["other"];
                 document.getElementById("all-analytics-tab").innerHTML = data2["analytics"];
+                document.getElementById("all-lib-tab").innerHTML = data2["libraries"];
 
 
                 document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["apps"]+' ('+data["entries"].length+')';
