@@ -219,6 +219,16 @@
 		"created_by": "Endogen",
 		"github": "https://github.com/Endogen/idena-api",
 		"category": "library"
+	},
+	{
+		"type": "app",
+		"url": "https://hub.docker.com/repository/docker/idenadev/idena",
+		"image_url": "./images/listing/default.png",
+		"official": "no",
+		"short_description": "Docker image packaging for Idena blockchain",
+		"created_by": "Menxit",
+		"github": "https://github.com/idena-dev/idena-docker",
+		"category": "node-manager"
 	}
 ]
 }
