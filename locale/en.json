@@ -72,5 +72,7 @@
 	"bots": "Telegram Bots",
 	"managers": "Node Managers",
 	"analytics": "Analytics",
-	"libraries": "Libraries"
+	"libraries": "Libraries",
+	"exchange": "Exchange",
+	"coin_stats": "Coin Statistics"
 }
