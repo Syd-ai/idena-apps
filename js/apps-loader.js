@@ -1,4 +1,5 @@
 var lang = localStorage.getItem('lang') || 'en';
+var pgtitle = '';
 
 function ajax_get(url, callback) {
     var xmlhttp = new XMLHttpRequest();
@@ -33,6 +34,7 @@ function showAll()
 
 
     var allentries = document.getElementsByClassName("entry"); 
+    document.getElementById("page-title").innerHTML = pgtitle+' ('+allentries.length+')';
 
     for (var i = 0; i < allentries.length; i++) {
             allentries[i].classList.remove('rem');
@@ -56,6 +58,8 @@ function showApp()
             allapps[i].classList.remove('rem');
         }
     }
+
+        document.getElementById("page-title").innerHTML = pgtitle+' ('+allapps.length+')';
 
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-app-tab').classList.add('activetab');
@@ -87,6 +91,8 @@ function showWallet()
         }
     }
 
+    document.getElementById("page-title").innerHTML = pgtitle+' ('+allwallet.length+')';
+
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-app-tab').classList.remove('activetab');
     document.getElementById('all-bot-tab').classList.remove('activetab');
@@ -117,6 +123,8 @@ function showBot()
         }
     }
 
+        document.getElementById("page-title").innerHTML = pgtitle+' ('+allbot.length+')';
+
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-app-tab').classList.remove('activetab');
     document.getElementById('all-bot-tab').classList.add('activetab');
@@ -144,6 +152,8 @@ function showMgr()
             allbot[i].classList.remove('rem');
         }
     }
+
+        document.getElementById("page-title").innerHTML = pgtitle+' ('+allbot.length+')';
 
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-app-tab').classList.remove('activetab');
@@ -173,6 +183,8 @@ function showAnalytics()
         }
     }
 
+    document.getElementById("page-title").innerHTML = pgtitle+' ('+allbot.length+')';
+
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-app-tab').classList.remove('activetab');
     document.getElementById('all-bot-tab').classList.remove('activetab');
@@ -198,6 +210,8 @@ function showLib()
             lib[i].classList.remove('rem');
         }
     }
+
+        document.getElementById("page-title").innerHTML = pgtitle+' ('+lib.length+')';
 
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-app-tab').classList.remove('activetab');
@@ -226,6 +240,8 @@ function showOther()
             allbot[i].classList.remove('rem');
         }
     }
+
+        document.getElementById("page-title").innerHTML = pgtitle+' ('+allbot.length+')';
 
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-app-tab').classList.remove('activetab');
@@ -273,7 +289,9 @@ window.onload = (function(){
                 document.getElementById("all-lib-tab").innerHTML = data2["libraries"];
 
 
-                document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["apps"]+' ('+data["entries"].length+')';
+                pgtitle = data2["all"]+' '+data2["apps"];
+                document.getElementById("page-title").innerHTML = pgtitle+' ('+data["entries"].length+')';
+
                 document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
                 document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
                 +'<a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a>'+data2["donate_posttext"]+'<a href="https://scan.idena.io/address?address=0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">'
