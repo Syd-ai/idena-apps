@@ -1,5 +1,5 @@
 var lang = localStorage.getItem('lang') || 'en';
-
+var pgtitle = '';
 
 function ajax_get(url, callback) {
     var xmlhttp = new XMLHttpRequest();
@@ -38,6 +38,8 @@ function showVideo()
         }
     }
 
+    document.getElementById("page-title").innerHTML = pgtitle+' ('+allvideos.length+')';
+
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-vid-tab').classList.add('activetab');
     document.getElementById('all-blog-tab').classList.remove('activetab');
@@ -61,6 +63,8 @@ function showBlog()
             // alert("remove blog hide!");
         }
     }
+    document.getElementById("page-title").innerHTML = pgtitle+' ('+allblogs.length+')';
+
 
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-vid-tab').classList.remove('activetab');
@@ -75,20 +79,11 @@ function showAll()
     document.getElementById('all-vid-tab').classList.remove('activetab');
     document.getElementById('all-blog-tab').classList.remove('activetab');
 
-    var allblogs = document.getElementsByClassName("blog"); 
-    var allvideos = document.getElementsByClassName("video"); 
+    var allentries = document.getElementsByClassName("entry"); 
+    document.getElementById("page-title").innerHTML = pgtitle+' ('+allentries.length+')';
 
-    for (var i = 0; i < allvideos.length; i++) {
-            if (allvideos[i].classList.contains('rem')) {
-            allvideos[i].classList.remove('rem');
-            // alert("remove blog hide!");
-        }
-    }
-    for (var i = 0; i < allblogs.length; i++) {
-        if (allblogs[i].classList.contains('rem')) {
-            allblogs[i].classList.remove('rem');
-            // alert("remove blog hide!");
-        }
+    for (var i = 0; i < allentries.length; i++) {
+            allentries[i].classList.remove('rem');
     }
 }
 
@@ -119,7 +114,10 @@ window.onload = (function(){
                 document.getElementById("all-tab").innerHTML = data2["all"];
                 document.getElementById("all-vid-tab").innerHTML = data2["videos"];
                 document.getElementById("all-blog-tab").innerHTML = data2["blogs"];
-                document.getElementById("page-title").innerHTML = data2["all"]+' '+data2["videos_blogs"]+' ('+data["entries"].length+')';
+
+                pgtitle = data2["all"]+' '+data2["videos_blogs"];
+                document.getElementById("page-title").innerHTML = pgtitle+' ('+data["entries"].length+')';
+
                 document.getElementById("disclaimer").innerHTML = data2["disclaimer"];
                 document.getElementById("donation").innerHTML = '<p class="desc" style="line-height: 2em;">'+data2["donate_pretext"] 
                 +'<a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a>'+data2["donate_posttext"]+'<a href="https://scan.idena.io/address?address=0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">'
