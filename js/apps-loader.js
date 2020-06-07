@@ -29,6 +29,7 @@ function showAll()
     document.getElementById('all-others-tab').classList.remove('activetab');
     document.getElementById('all-mgr-tab').classList.remove('activetab');
     document.getElementById('all-analytics-tab').classList.remove('activetab');
+    document.getElementById('all-lib-tab').classList.remove('activetab');
 
 
     var allentries = document.getElementsByClassName("entry"); 
@@ -63,6 +64,7 @@ function showApp()
     document.getElementById('all-others-tab').classList.remove('activetab');
     document.getElementById('all-mgr-tab').classList.remove('activetab');
     document.getElementById('all-analytics-tab').classList.remove('activetab');
+    document.getElementById('all-lib-tab').classList.remove('activetab');
 
 }
 
@@ -92,6 +94,7 @@ function showWallet()
     document.getElementById('all-others-tab').classList.remove('activetab');
     document.getElementById('all-mgr-tab').classList.remove('activetab');
     document.getElementById('all-analytics-tab').classList.remove('activetab');
+    document.getElementById('all-lib-tab').classList.remove('activetab');
 
 }
 
@@ -119,6 +122,7 @@ function showBot()
     document.getElementById('all-bot-tab').classList.add('activetab');
     document.getElementById('all-wallet-tab').classList.remove('activetab');
     document.getElementById('all-others-tab').classList.remove('activetab');
+    document.getElementById('all-lib-tab').classList.remove('activetab');
     document.getElementById('all-mgr-tab').classList.remove('activetab');
     document.getElementById('all-analytics-tab').classList.remove('activetab');
 
@@ -146,6 +150,7 @@ function showMgr()
     document.getElementById('all-bot-tab').classList.remove('activetab');
     document.getElementById('all-wallet-tab').classList.remove('activetab');
     document.getElementById('all-others-tab').classList.remove('activetab');
+    document.getElementById('all-lib-tab').classList.remove('activetab');
     document.getElementById('all-mgr-tab').classList.add('activetab');
     document.getElementById('all-analytics-tab').classList.remove('activetab');
 
@@ -171,10 +176,38 @@ function showAnalytics()
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-app-tab').classList.remove('activetab');
     document.getElementById('all-bot-tab').classList.remove('activetab');
+    document.getElementById('all-lib-tab').classList.remove('activetab');
     document.getElementById('all-wallet-tab').classList.remove('activetab');
     document.getElementById('all-others-tab').classList.remove('activetab');
     document.getElementById('all-mgr-tab').classList.remove('activetab');
     document.getElementById('all-analytics-tab').classList.add('activetab');
+
+}
+
+//toggles for only showing libs
+function showLib()
+{
+    var lib = document.getElementsByClassName("library"); 
+    var allentries = document.getElementsByClassName("entry"); 
+
+    for (var i = 0; i < allentries.length; i++) {
+            allentries[i].classList.add('rem');
+    }
+    for (var i = 0; i < lib.length; i++) {
+        if (lib[i].classList.contains('rem')) {
+            lib[i].classList.remove('rem');
+        }
+    }
+
+    document.getElementById('all-tab').classList.remove('activetab');
+    document.getElementById('all-app-tab').classList.remove('activetab');
+    document.getElementById('all-bot-tab').classList.remove('activetab');
+    document.getElementById('all-lib-tab').classList.remove('activetab');
+    document.getElementById('all-wallet-tab').classList.remove('activetab');
+    document.getElementById('all-others-tab').classList.remove('activetab');
+    document.getElementById('all-lib-tab').classList.add('activetab');    
+    document.getElementById('all-mgr-tab').classList.remove('activetab');
+    document.getElementById('all-analytics-tab').classList.remove('activetab');
 
 }
 
@@ -197,6 +230,7 @@ function showOther()
     document.getElementById('all-tab').classList.remove('activetab');
     document.getElementById('all-app-tab').classList.remove('activetab');
     document.getElementById('all-bot-tab').classList.remove('activetab');
+    document.getElementById('all-lib-tab').classList.remove('activetab');
     document.getElementById('all-wallet-tab').classList.remove('activetab');
     document.getElementById('all-others-tab').classList.add('activetab');
     document.getElementById('all-mgr-tab').classList.remove('activetab');
