@@ -65,14 +65,14 @@
 	"validation_basics": "Les fondamentaux de la Validation",
 	"learn_more": "En savoir plus",
 	"warning": "Si même un seul de vos flips est signalé durant la session de validation, vous perdrez 100% de vos récompenses, y compris les récompenses d'invitation, pour ladite validation",
-	"videos": "Videos",
+	"videos": "Vidéos",
 	"blogs": "Blogs",
 	"wallets": "Wallets",
-	"other": "Others",
-	"bots": "Telegram Bots",
-	"managers": "Node Managers",
-	"analytics": "Analytics",
-	"libraries": "Libraries",
-	"exchange": "Exchange",
-	"coin_stats": "Coin Statistics"
+	"other": "Autres",
+	"bots": "Bots Telegram",
+	"managers": "Manager de Node",
+	"analytics": "Analyses et Data",
+	"libraries": "Librairies",
+	"exchange": "Echanges",
+	"coin_stats": "Statistiques du Coin"
 }
