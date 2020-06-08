@@ -341,6 +341,33 @@
 		"short_description": "Блокчейн IDENA: $250 в месяц за доказательство личности",
 		"created_by": "Биткоины - для умных!",
 		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://www.publish0x.com/palebluedot/proving-human-identity-and-good-actors-over-the-internet-xjngjx?a=ELe3XzMa69&tid=Idena",
+		"image_url": "./images/vid/q8f6Up4.jpg",
+		"official": "no",
+		"short_description": "Proving Human Identity and Good Actors Over the Internet Pt.1",
+		"created_by": "PaleBlueDot",
+		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://www.publish0x.com/palebluedot/proving-human-identity-and-good-actors-over-the-internet-pt-xroldng?a=ELe3XzMa69&tid=Idena",
+		"image_url": "./images/vid/q8f6Up4.jpg",
+		"official": "no",
+		"short_description": "Proving Human Identity and Good Actors Over the Internet Pt.2",
+		"created_by": "PaleBlueDot",
+		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://www.publish0x.com/palebluedot/proving-human-identity-and-good-actors-over-the-internet-pt-xxoyrmd?a=ELe3XzMa69&tid=Idena",
+		"image_url": "./images/vid/q8f6Up4.jpg",
+		"official": "no",
+		"short_description": "Proving Human Identity and Good Actors Over the Internet Pt.3",
+		"created_by": "PaleBlueDot",
+		"github": ""
 	}
 ]
 }
