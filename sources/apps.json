@@ -92,6 +92,16 @@
 	},
 	{
 		"type": "app",
+		"url": "https://idenapoll.com/home",
+		"image_url": "./images/listing/idenapoll.png",
+		"official": "no",
+		"short_description": "Voting app using Idena-SignIn to cast votes",
+		"created_by": "ShakiXBT & Hobbica",
+		"github": "",
+		"category": "app"
+	},
+	{
+		"type": "app",
 		"url": "https://idenavoice.com/",
 		"image_url": "./images/listing/cXmzMOs.png",
 		"official": "no",
