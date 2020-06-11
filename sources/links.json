@@ -90,14 +90,6 @@
 	},
 	{
 		"type": "link",
-		"url": "https://www.qbtc.me/trade?symbol=DNA_USDT",
-		"image_url": "./images/link/4CICXeO.png",
-		"official": "yes",
-		"short_description": "DNA/USDT Qbtc exchange",
-		"category": "exchange"
-	},
-	{
-		"type": "link",
 		"url": "https://delta.app/en/crypto/dna/idena",
 		"image_url": "./images/link/JLUoRcc.png",
 		"official": "yes",
