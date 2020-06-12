@@ -82,6 +82,14 @@
 	},
 	{
 		"type": "community",
+		"url": "https://t.me/idena_balkan",
+		"image_url": "./images/comm/balkan.png",
+		"official": "no",
+		"short_description": "Idena Balkan Telegram",
+		"category": "telegram"
+	},
+	{
+		"type": "community",
 		"url": "https://t.me/idenaturk",
 		"image_url": "./images/comm/qq05ZAT.jpg",
 		"official": "no",
