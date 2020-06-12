@@ -92,6 +92,26 @@
 	},
 	{
 		"type": "app",
+		"url": "https://idenary.com/",
+		"image_url": "./images/listing/idenary.png",
+		"official": "no",
+		"short_description": "Fresh air, a colorful game and art project",
+		"created_by": "Idenary team",
+		"github": "https://github.com/Idenary/idenary.com",
+		"category": "app"
+	},
+	{
+		"type": "app",
+		"url": "https://fairdrop.io/",
+		"image_url": "./images/listing/fairdrop.png",
+		"official": "no",
+		"short_description": "Fair Airdrops in a snap",
+		"created_by": "Fairdrop team",
+		"github": "https://github.com/fairdrop-io/fairdrop-io",
+		"category": "app"
+	},
+	{
+		"type": "app",
 		"url": "https://idenapoll.com/home",
 		"image_url": "./images/listing/idenapoll.png",
 		"official": "no",
