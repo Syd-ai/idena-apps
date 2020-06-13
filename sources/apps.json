@@ -232,16 +232,6 @@
 	},
 	{
 		"type": "app",
-		"url": "https://playidena.com/",
-		"image_url": "./images/listing/6zz9qNQ.png",
-		"official": "no",
-		"short_description": "Playidena / Play games and earn Idena up to 500%",
-		"created_by": "Codev911, alice-node",
-		"github": "",
-		"category": "app"
-	},
-	{
-		"type": "app",
 		"url": "https://github.com/Endogen/idena-api",
 		"image_url": "./images/listing/default.png",
 		"official": "no",
