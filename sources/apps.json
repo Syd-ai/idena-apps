@@ -117,7 +117,7 @@
 		"official": "no",
 		"short_description": "Voting app using Idena-SignIn to cast votes",
 		"created_by": "ShakiXBT & Hobbica",
-		"github": "",
+		"github": "https://github.com/paolofacchinetti/IdenaPoll",
 		"category": "app"
 	},
 	{
@@ -249,6 +249,16 @@
 		"created_by": "Menxit",
 		"github": "https://github.com/idena-dev/idena-docker",
 		"category": "node-manager"
+	},
+	{
+		"type": "app",
+		"url": "https://idena-ar.com/",
+		"image_url": "./images/listing/idena-ar.png",
+		"official": "no",
+		"short_description": "Arabic website about Idena project and resources",
+		"created_by": "majd",
+		"github": "",
+		"category": "app"
 	}
 ]
 }
