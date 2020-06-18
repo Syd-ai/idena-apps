@@ -2,6 +2,33 @@
 	"entries":[
 	{
 		"type": "blog",
+		"url": "https://medium.com/idena/how-not-to-start-a-revolution-in-decentralized-identity-60ca541f6127",
+		"image_url": "https://miro.medium.com/max/1400/1*O4g_h_0hMfLgidPNuRgh8w.jpeg",
+		"official": "yes",
+		"short_description": "How (not) to start a revolution in decentralized identity",
+		"created_by": "Idena Core",
+		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://medium.com/idena/digital-personhood-as-an-alternative-to-digital-identity-stop-sharing-your-personal-data-251384e66342",
+		"image_url": "https://miro.medium.com/max/1400/1*utiRpBi3Vl5bi6ZkPLuvqQ.png",
+		"official": "yes",
+		"short_description": "Cryptoidentity as an alternative to Digital Identity: Stop sharing your personal data",
+		"created_by": "Idena Core",
+		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://medium.com/idena/digital-personhood-vs-digital-identity-c6cb0ee3aa43",
+		"image_url": "https://miro.medium.com/max/1400/1*WJEIui8YR-6a6unJpQsYnw.jpeg",
+		"official": "yes",
+		"short_description": "Cryptoidentity vs Digital Identity",
+		"created_by": "Idena Core",
+		"github": ""
+	},
+	{
+		"type": "blog",
 		"url": "https://medium.com/idena/april-22-2020-idena-ama-transcript-cbdfc33fbbdb",
 		"image_url": "https://miro.medium.com/max/1400/1*0eo41vLZF6naM2CxKeANgg.png",
 		"official": "yes",
