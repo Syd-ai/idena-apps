@@ -258,7 +258,17 @@
 		"short_description": "Arabic website about Idena project and resources",
 		"created_by": "majd",
 		"github": "",
-		"category": "app"
+		"category": "other"
+	},
+	{
+		"type": "app",
+		"url": "https://github.com/idena-lab/eth-relay",
+		"image_url": "./images/listing/default.png",
+		"official": "no",
+		"short_description": "Idena Ethereum Relay Contract",
+		"created_by": "idena-lab",
+		"github": "https://github.com/idena-lab/eth-relay",
+		"category": "other"
 	}
 ]
 }
