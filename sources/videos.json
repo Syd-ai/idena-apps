@@ -209,6 +209,15 @@
 	},
 	{
 		"type": "video",
+		"url": "https://www.youtube.com/watch?v=Sx0GqzNfeFk",
+		"image_url": "https://img.youtube.com/vi/Sx0GqzNfeFk/hqdefault.jpg",
+		"official": "no",
+		"short_description": "50$ MESEČNO ZA REŠAVANJE REBUSA | IDENA COIN",
+		"created_by": "Balkantech crypto",
+		"github": ""
+	},
+	{
+		"type": "video",
 		"url": "https://www.youtube.com/watch?v=l5eEQ2C4_QU",
 		"image_url": "https://img.youtube.com/vi/l5eEQ2C4_QU/hqdefault.jpg",
 		"official": "no",
