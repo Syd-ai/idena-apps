@@ -404,6 +404,24 @@
 		"short_description": "Proving Human Identity and Good Actors Over the Internet Pt.3",
 		"created_by": "PaleBlueDot",
 		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=FN7KbLtGZdk&feature=youtu.be",
+		"image_url": "https://img.youtube.com/vi/FN7KbLtGZdk/hqdefault.jpg",
+		"official": "no",
+		"short_description": "Blockchain IDENA: 250 USD za miesiąc Proof of Person (Polish)",
+		"created_by": "Andrey Sevostyanov",
+		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://pdfhost.io/v/RVMCNkzoy_Idena_Papirpdf.pdf",
+		"image_url": "https://i.imgur.com/5EcDJIw.png",
+		"official": "no",
+		"short_description": "Idena Papir (Serbian translation of concept paper)",
+		"created_by": "nodena",
+		"github": ""
 	}
 ]
 }
