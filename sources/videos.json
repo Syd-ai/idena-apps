@@ -422,6 +422,15 @@
 		"short_description": "Idena Papir (Serbian translation of concept paper)",
 		"created_by": "nodena",
 		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://hive.blog/hive-126009/@mistakili/idena-the-first-ever-proof-of-person-protocol-full-review",
+		"image_url": "https://images.hive.blog/DQmdDvUdt7xaZfYkEENBDF7PJX573ae8s7Py1QCGFWAvaDA/1_WkaQeysTzy_b9wwYkCYAtg.png",
+		"official": "no",
+		"short_description": "Idena - The First Ever Proof Of Person Protocol( Full review)",
+		"created_by": "mistakili",
+		"github": ""
 	}
 ]
 }
