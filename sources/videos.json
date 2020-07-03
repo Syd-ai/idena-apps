@@ -56,6 +56,15 @@
 	},
 	{
 		"type": "video",
+		"url": "https://www.youtube.com/watch?v=BehvA7Pa0RA&feature=youtu.be",
+		"image_url": "https://img.youtube.com/vi/BehvA7Pa0RA/hqdefault.jpg",
+		"official": "yes",
+		"short_description": "Digital Identity: A Look Ahead - Paula Berman, Supriyo Roy, Kaliya Young - RxC 2020",
+		"created_by": "RadicalXChange",
+		"github": ""
+	},
+	{
+		"type": "video",
 		"url": "https://youtu.be/QXE6rKkGm1A",
 		"image_url": "https://img.youtube.com/vi/QXE6rKkGm1A/hqdefault.jpg",
 		"official": "no",
@@ -430,6 +439,24 @@
 		"official": "no",
 		"short_description": "Idena - The First Ever Proof Of Person Protocol( Full review)",
 		"created_by": "mistakili",
+		"github": ""
+	},
+	{
+		"type": "video",
+		"url": "https://www.youtube.com/watch?v=Tqmm3_Jowog",
+		"image_url": "https://img.youtube.com/vi/Tqmm3_Jowog/hqdefault.jpg",
+		"official": "no",
+		"short_description": "the promotional announcement of www.idena-ar.com (english version)",
+		"created_by": "mohammed elleithy",
+		"github": ""
+	},
+	{
+		"type": "blog",
+		"url": "https://www.publish0x.com/boyka/idena-proof-of-person-getting-around-60-dollar-a-month-for-f-xolqrmx",
+		"image_url": "https://cdn.publish0x.com/prod/fs/images/262ef1c827cbed56652335d70c2bf167a9ee7ee54fa2aabd529ce79ee635f5c7.jpeg",
+		"official": "no",
+		"short_description": "Idena - Proof of Person ( Getting Around 60$ a Month For Free)",
+		"created_by": "boyka",
 		"github": ""
 	}
 ]
