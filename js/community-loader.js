@@ -31,7 +31,7 @@ window.onload = (function(){
 
 
 //load all communities
-  ajax_get('https://idena-apps.org/sources/communities.json', function(data) {
+  ajax_get('https://idena-dev.com/source/communities', function(data) {
     
 
     ajax_get('https://idena-apps.org/locale/'+lang+'.json', function(data2) {

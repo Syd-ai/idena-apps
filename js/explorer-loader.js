@@ -30,7 +30,7 @@ window.onload = (function(){
 
 
 //load all explorers
-  ajax_get('https://idena-apps.org/sources/explorer.json', function(data) {
+  ajax_get('https://idena-dev.com/source/explorer', function(data) {
     //console.log(data);
 
 

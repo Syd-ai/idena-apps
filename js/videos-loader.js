@@ -102,7 +102,7 @@ window.onload = (function(){
 
 
   //load all videos
-  ajax_get('https://idena-apps.org/sources/videos.json', function(data) {
+  ajax_get('https://idena-dev.com/source/videos', function(data) {
     //console.log(data);
 
         ajax_get('https://idena-apps.org/locale/'+lang+'.json', function(data2) {
