@@ -163,7 +163,7 @@ window.onload = (function(){
                   } else {
                     official = '<span class="badge badge-secondary">'+data2["official"]+'</span>';
                   }
-                  linkscontent = linkscontent + '<div class="col-12 col-sm-3 entry '+obj.category+'">'
+                  linkscontent = linkscontent + '<div class="col-12 col-sm-4 entry '+obj.category+'">'
                               +'<div class="mini-card">'
                                 +'<center>'
                                 +'<a href="'+obj.url+'" target="_blank"><div class="user-pic"><img src="'+obj.image_url+'" width="80"></div></a>'

@@ -78,21 +78,58 @@
 
     
       <section class="section section_tabs">
-      	<h3 id="page-title" class="info_block__accent">All Links</h3>
+      	<h3 id="page-title" class="info_block__accent">All Links (--)</h3>
 
-        <div class="btn-group" role="group">
-            <button type="button" onclick="showAll();" class="btn btn-secondary activetab" id="all-tab">All</button>
-            <button type="button" onclick="showCoin();" class="btn btn-secondary" id="coin_stats">Coin Statistics</button>
-            <button type="button" onclick="showEx();" class="btn btn-secondary" id="exchange">Exchange</button>
-            <button type="button" onclick="showOther();" class="btn btn-secondary" id="other">Other</button>
-        </div>
+        <div class="row">
+          <div class="col-12 col-md-2 col-sm-2">
+              <div class="btn-group" role="group">
+                  <button type="button" onclick="showAll();" class="btn btn-small btn-secondary activetab" id="all-tab">All</button>
+                  <button type="button" onclick="showCoin();" class="btn btn-small btn-secondary" id="coin_stats">Coin Statistics</button>
+                  <button type="button" onclick="showEx();" class="btn btn-small btn-secondary" id="exchange">Exchange</button>
+                  <button type="button" onclick="showOther();" class="btn btn-small btn-secondary" id="other">Other</button>
+              </div>
+          </div>
 
+          <div id="links" class="col-12 col-sm-10" style="margin-top: -1em;">
+                      <div class="row row-fluid" id="links-list">                     
+                            <div class="col-12 col-sm-4 entry other">
+                              <div class="mini-card">
+                                <center>
+                              <div id="load-pic" class="user-pic"><img src="" width="80"></div>
+                              <div class="loading">
+                                <p style="visibility: hidden;">Idena Loading links here</p>
+                              </div>
+                              <div class="btn btn-secondary btn-small"><span class="loadlink">Adding link here</span></div>
+                              </center>
+                              </div>
+                            </div>
 
-        <div id="links">
-                <div class="row row-fluid" id="links-list">                     
-                
-              	</div>
-        </div> 
+                            <div class="col-12 col-sm-4 entry other">
+                              <div class="mini-card">
+                                <center>
+                              <div id="load-pic" class="user-pic"><img src="" width="80"></div>
+                              <div class="loading">
+                                <p style="visibility: hidden;">Idena Loading links here</p>
+                              </div>
+                              <div class="btn btn-secondary btn-small"><span class="loadlink">Adding link here</span></div>
+                              </center>
+                              </div>
+                            </div>
+
+                            <div class="col-12 col-sm-4 entry other">
+                              <div class="mini-card">
+                                <center>
+                              <div id="load-pic" class="user-pic"><img src="" width="80"></div>
+                              <div class="loading">
+                                <p style="visibility: hidden;">Idena Loading links here</p>
+                              </div>
+                              <div class="btn btn-secondary btn-small"><span class="loadlink">Adding link here</span></div>
+                              </center>
+                              </div>
+                            </div>
+                    	</div>
+          </div> 
+      </div>
       </section>
 
 
