@@ -263,3 +263,12 @@
     color: #50b6ff !important;
     background-color: #191c1e !important;
 }
+
+/** loading cards **/
+.darkmode .loading {
+    opacity: 0.5;
+}
+
+.darkmode #load-pic {
+    opacity: 0.5;
+}
