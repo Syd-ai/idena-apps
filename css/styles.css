@@ -204,12 +204,32 @@ select {
 
 
 .thumbnail {
-    background: #efefef;
     background-size: cover;
     background-position: center center;
     min-height: 200px;
     width: 100%;
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #ddd;
+}
+
+.thumbnail-load {
+    background: #f6f7f8;
+      background-image: linear-gradient(to right, #f6f7f8 0%, #e0e0e0 20%, #f6f7f8 40%, #f6f7f8 100%);
+      background-repeat: no-repeat;
+      background-size: cover; 
+      display: inline-block;
+      position: relative; 
+      
+      -webkit-animation-duration: 1s;
+      -webkit-animation-fill-mode: forwards; 
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-name: placeholderShimmer;
+      -webkit-animation-timing-function: linear;
+
+      min-height: 200px;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+
+
 }
 
 p.desc {
