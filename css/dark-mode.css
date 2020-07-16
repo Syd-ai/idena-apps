@@ -272,3 +272,7 @@
 .darkmode #load-pic {
     opacity: 0.5;
 }
+
+.darkmode .thumbnail-load {
+    opacity: 0.5;
+}
