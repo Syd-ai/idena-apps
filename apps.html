@@ -78,24 +78,31 @@
 
     
       <section class="section section_tabs">
-      	<h3 id="page-title" class="info_block__accent">All Apps</h3>
+      	<h3 id="page-title" class="info_block__accent">All Apps (--)</h3>
 
-        <div class="btn-group" role="group">
-            <button type="button" onclick="showAll();" class="btn btn-secondary activetab" id="all-tab">All</button>
-            <button type="button" onclick="showApp();" class="btn btn-secondary" id="all-app-tab">Apps</button>
-            <button type="button" onclick="showWallet();" class="btn btn-secondary" id="all-wallet-tab">Wallets</button>
-            <button type="button" onclick="showBot();" class="btn btn-secondary" id="all-bot-tab">Telegram Bots</button>
-            <button type="button" onclick="showMgr();" class="btn btn-secondary" id="all-mgr-tab">Node Managers</button>
-            <button type="button" onclick="showLib();" class="btn btn-secondary" id="all-lib-tab">Libraries</button>
-            <button type="button" onclick="showAnalytics();" class="btn btn-secondary" id="all-analytics-tab">Analytics</button>
-            <button type="button" onclick="showOther();" class="btn btn-secondary" id="all-others-tab">Others</button>
+
+        <div class="row">
+          <div class="col-12 col-md-2 col-sm-2">
+              <div class="btn-group" role="group">
+                  <button type="button" onclick="showAll();" class="btn btn-secondary activetab" id="all-tab">All</button>
+                  <button type="button" onclick="showApp();" class="btn btn-secondary" id="all-app-tab">Apps</button>
+                  <button type="button" onclick="showWallet();" class="btn btn-secondary" id="all-wallet-tab">Wallets</button>
+                  <button type="button" onclick="showBot();" class="btn btn-secondary" id="all-bot-tab">Telegram Bots</button>
+                  <button type="button" onclick="showMgr();" class="btn btn-secondary" id="all-mgr-tab">Node Managers</button>
+                  <button type="button" onclick="showLib();" class="btn btn-secondary" id="all-lib-tab">Libraries</button>
+                  <button type="button" onclick="showAnalytics();" class="btn btn-secondary" id="all-analytics-tab">Analytics</button>
+                  <button type="button" onclick="showOther();" class="btn btn-secondary" id="all-others-tab">Others</button>
+              </div>
+            </div>
+
+
+
+        <div id="apps" class="col-12 col-md-10 col-sm-10" style="margin-top: -1em;">
+                <div class="row row-fluid" id="apps-list">                       
+              	</div>
         </div>
 
 
-        <div id="apps">
-                <div class="row row-fluid" id="apps-list">                     
-                
-              	</div>
         </div> 
       </section>
 

@@ -317,7 +317,7 @@ window.onload = (function(){
                             +'<span>'+data2["github"]+'</span>'
                             +'<i class="icon icon--thin_arrow_right"></i>'
                           +'</a>'; }
-                  appscontent = appscontent + '<div class="col-12 col-sm-3 entry '+obj.category+'">'
+                  appscontent = appscontent + '<div class="col-12 col-sm-4 entry '+obj.category+'">'
                                       +'<div class="mini-card">'
                                       +'<a href="'+obj.url+'" target="_blank"><div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+'</div></a>'
                                       +'<p class="desc" style="padding-bottom: 0px;">'

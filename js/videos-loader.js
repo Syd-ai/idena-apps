@@ -140,7 +140,7 @@ window.onload = (function(){
                     caption = data2["read"];
                     play = '';
                   }
-                	videocontent = videocontent + '<div class="col-12 col-sm-3 entry '+obj.type+'">'
+                	videocontent = videocontent + '<div class="col-12 col-sm-4 entry '+obj.type+'">'
                                       +'<div class="mini-card">'
                                       +'<a href="'+obj.url+'" target="_blank"><div class="thumbnail" style="background-image: url('+obj.image_url+');">'+official+play+'</div></a>'
                                       +'<p class="desc" style="padding-bottom: 0px;">'
