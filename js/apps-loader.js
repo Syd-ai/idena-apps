@@ -269,7 +269,7 @@ window.onload = (function(){
 
 
   //load all apps
-  ajax_get('https://idena-dev.com/source/apps', function(data) {
+  ajax_get('https://idena-apps.com/source/apps', function(data) {
     //console.log(data);
 
 
