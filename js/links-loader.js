@@ -132,7 +132,7 @@ window.onload = (function(){
 
 
   //load all links
-  ajax_get('https://idena-dev.com/source/links', function(data) {
+  ajax_get('https://idena-apps.com/source/links', function(data) {
     //console.log(data);
 
      ajax_get('https://idena-apps.org/locale/'+lang+'.json', function(data2) {
