@@ -104,7 +104,7 @@ disclaimer.innerHTML = '* DISCLAIMER: Idena community makes no representations o
 
 
 var donation = document.getElementById("donation");
-donation.innerHTML = '<p class="desc" style="line-height: 2em;">Idena Apps is maintained by community member <a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a> Please support by donating to <a href="https://scan.idena.io/address?address=0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">'
+donation.innerHTML = '<p class="desc" style="line-height: 2em;">Idena Apps is maintained by community member <a href="http://github.com/bingbinglee/" target="_blank">@bingbinglee.</a> Please support by donating to <a href="https://scan.idena.io/address/0x140d5add76f3e4cc4538b9809601383bd74689df" target="_blank">'
                 +'<span class="donate">0x140d5add76f3e4cc4538b9809601383bd74689df</span></a></p>';
 
 var sticky = document.getElementsByClassName('header')[0].offsetTop;
